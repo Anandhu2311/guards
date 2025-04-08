@@ -15,9 +15,10 @@ require_once __DIR__ . '/twilio-php-main/src/Twilio/autoload.php';
 use Twilio\Rest\Client;
 
 // SMS configuration - Twilio credentials
-$twilioAccountSid = 'AC0303d1817540e57d2bf2e7ad730764d5';
-$twilioAuthToken = '0aebd7ab8dd1441cfcbd7ffec24cafe2';
-$twilioPhoneNumber = '+12184605587';
+$twilioConfig = require_once __DIR__ . '/config/twilio_config.php';
+$twilioAccountSid = $twilioConfig['account_sid'];
+$twilioAuthToken = $twilioConfig['auth_token']; 
+$twilioPhoneNumber = $twilioConfig['phone_number'];
 
 // Create detailed debugging function
 function smsLogDebug($message) {
@@ -297,4 +298,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 }
-?> 
+?>

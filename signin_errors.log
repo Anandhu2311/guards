@@ -56118,3 +56118,394 @@
 [08-Apr-2025 09:50:33 Europe/Berlin] Checking supporters table for anandhulalcv000@gmail.com: Not found
 [08-Apr-2025 09:50:33 Europe/Berlin] Checking users table for anandhulalcv000@gmail.com: Found
 [08-Apr-2025 09:50:33 Europe/Berlin] Password verification for users: Valid
+[08-Apr-2025 15:34:07 Europe/Berlin] Database connection check: Connected
+[08-Apr-2025 15:34:07 Europe/Berlin] POST data received: Array
+(
+    [email] => cvanandhulal10@gmail.com
+    [password] => Cvanandhu@123
+)
+
+[08-Apr-2025 15:34:07 Europe/Berlin] Table structure for supporters: Array
+(
+    [0] => Array
+        (
+            [Field] => sup_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => sup_name
+            [Type] => varchar(100)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => sup_email
+            [Type] => varchar(100)
+            [Null] => NO
+            [Key] => UNI
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => sup_password
+            [Type] => varchar(255)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => phone_number
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [5] => Array
+        (
+            [Field] => password_updated
+            [Type] => tinyint(1)
+            [Null] => NO
+            [Key] => 
+            [Default] => 0
+            [Extra] => 
+        )
+
+    [6] => Array
+        (
+            [Field] => role_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => 
+            [Default] => 4
+            [Extra] => 
+        )
+
+    [7] => Array
+        (
+            [Field] => last_login
+            [Type] => timestamp
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [8] => Array
+        (
+            [Field] => created_at
+            [Type] => timestamp
+            [Null] => NO
+            [Key] => 
+            [Default] => current_timestamp()
+            [Extra] => 
+        )
+
+    [9] => Array
+        (
+            [Field] => is_active
+            [Type] => tinyint(1)
+            [Null] => YES
+            [Key] => 
+            [Default] => 1
+            [Extra] => 
+        )
+
+    [10] => Array
+        (
+            [Field] => sup_location
+            [Type] => varchar(255)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [11] => Array
+        (
+            [Field] => sup_specialization
+            [Type] => varchar(255)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[08-Apr-2025 15:34:07 Europe/Berlin] Table structure for counselors: Array
+(
+    [0] => Array
+        (
+            [Field] => coun_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => coun_name
+            [Type] => varchar(100)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => coun_email
+            [Type] => varchar(100)
+            [Null] => NO
+            [Key] => UNI
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => coun_password
+            [Type] => varchar(255)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => phone_number
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [5] => Array
+        (
+            [Field] => password_updated
+            [Type] => tinyint(1)
+            [Null] => NO
+            [Key] => 
+            [Default] => 0
+            [Extra] => 
+        )
+
+    [6] => Array
+        (
+            [Field] => role_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => 
+            [Default] => 3
+            [Extra] => 
+        )
+
+    [7] => Array
+        (
+            [Field] => last_login
+            [Type] => timestamp
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [8] => Array
+        (
+            [Field] => created_at
+            [Type] => timestamp
+            [Null] => NO
+            [Key] => 
+            [Default] => current_timestamp()
+            [Extra] => 
+        )
+
+    [9] => Array
+        (
+            [Field] => is_active
+            [Type] => tinyint(1)
+            [Null] => YES
+            [Key] => 
+            [Default] => 1
+            [Extra] => 
+        )
+
+    [10] => Array
+        (
+            [Field] => coun_location
+            [Type] => varchar(255)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [11] => Array
+        (
+            [Field] => coun_specialization
+            [Type] => varchar(255)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[08-Apr-2025 15:34:07 Europe/Berlin] Table structure for advisors: Array
+(
+    [0] => Array
+        (
+            [Field] => adv_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => adv_name
+            [Type] => varchar(100)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => adv_email
+            [Type] => varchar(100)
+            [Null] => NO
+            [Key] => UNI
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => adv_password
+            [Type] => varchar(255)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => phone_number
+            [Type] => varchar(20)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [5] => Array
+        (
+            [Field] => password_updated
+            [Type] => tinyint(1)
+            [Null] => NO
+            [Key] => 
+            [Default] => 0
+            [Extra] => 
+        )
+
+    [6] => Array
+        (
+            [Field] => role_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => 
+            [Default] => 2
+            [Extra] => 
+        )
+
+    [7] => Array
+        (
+            [Field] => last_login
+            [Type] => timestamp
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [8] => Array
+        (
+            [Field] => created_at
+            [Type] => timestamp
+            [Null] => NO
+            [Key] => 
+            [Default] => current_timestamp()
+            [Extra] => 
+        )
+
+    [9] => Array
+        (
+            [Field] => is_active
+            [Type] => tinyint(1)
+            [Null] => YES
+            [Key] => 
+            [Default] => 1
+            [Extra] => 
+        )
+
+    [10] => Array
+        (
+            [Field] => adv_location
+            [Type] => varchar(255)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [11] => Array
+        (
+            [Field] => adv_specialization
+            [Type] => varchar(255)
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[08-Apr-2025 15:34:07 Europe/Berlin] Attempting login with email: cvanandhulal10@gmail.com and password: Cvanandhu@123
+[08-Apr-2025 15:34:07 Europe/Berlin] Checking admin table for cvanandhulal10@gmail.com: Not found
+[08-Apr-2025 15:34:07 Europe/Berlin] Checking advisors table for cvanandhulal10@gmail.com: Found
+[08-Apr-2025 15:34:08 Europe/Berlin] Session data for advisor: Array
+(
+    [user_id] => 10
+    [email] => cvanandhulal10@gmail.com
+    [user_email] => cvanandhulal10@gmail.com
+    [role_id] => 2
+    [adv_id] => 10
+)
+

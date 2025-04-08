@@ -749,10 +749,10 @@ function sendEmergencySMS($pdo, $message, $sentBy, $userEmail = null) {
         // Format message
         $fullMessage = "EMERGENCY ALERT from {$sentBy}: {$message}";
         
-        // Twilio credentials (directly defined, not using environment variables)
-        $account_sid = 'AC0303d1817540e57d2bf2e7ad730764d5'; // Your actual SID
-        $auth_token = '0aebd7ab8dd1441cfcbd7ffec24cafe2';    // Your actual token
-        $twilio_number = '+12184605587';                      // Your Twilio phone number
+        // Twilio credentials from .env
+        $account_sid = getenv('TWILIO_ACCOUNT_SID') ?: getConfig('TWILIO_ACCOUNT_SID');
+        $auth_token = getenv('TWILIO_AUTH_TOKEN') ?: getConfig('TWILIO_AUTH_TOKEN');
+        $twilio_number = getenv('TWILIO_PHONE_NUMBER') ?: getConfig('TWILIO_PHONE_NUMBER');
         
         // Create a new Twilio client
         try {

@@ -7,12 +7,13 @@
 // Required includes
 require_once 'DBS.inc.php'; // Database connection
 require __DIR__ . '/twilio-php-main/src/Twilio/autoload.php';
+require_once __DIR__ . '/config/config.php';
 use Twilio\Rest\Client;
 
 // SMS configuration - replace with your actual credentials
-$twilioAccountSid = 'AC0303d1817540e57d2bf2e7ad730764d5';
-$twilioAuthToken = '0aebd7ab8dd1441cfcbd7ffec24cafe2';
-$twilioPhoneNumber = '+12184605587 ';
+$twilioAccountSid = getConfig('TWILIO_ACCOUNT_SID');
+$twilioAuthToken = getConfig('TWILIO_AUTH_TOKEN');
+$twilioPhoneNumber = getConfig('TWILIO_PHONE_NUMBER');
 
 // Turn off output buffering and disable error display for production
 ob_start();

@@ -1,11 +1,12 @@
 <?php
 require __DIR__ . '/twilio-php-main/src/Twilio/autoload.php';
+require_once __DIR__ . '/config/config.php';
 use Twilio\Rest\Client;
 
 // Your credentials
-$account_sid = 'AC0303d1817540e57d2bf2e7ad730764d5';
-$auth_token = '0aebd7ab8dd1441cfcbd7ffec24cafe2';
-$twilio_number = '+12184605587';
+$account_sid = getConfig('TWILIO_ACCOUNT_SID');
+$auth_token = getConfig('TWILIO_AUTH_TOKEN');
+$twilio_number = getConfig('TWILIO_PHONE_NUMBER');
 $to_number = '+919633394540'; // Your verified number
 
 // Create client

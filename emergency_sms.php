@@ -12,13 +12,13 @@ if (session_status() === PHP_SESSION_NONE) {
 // Required includes
 require_once 'DBS.inc.php'; // Database connection
 require_once __DIR__ . '/twilio-php-main/src/Twilio/autoload.php';
+require_once __DIR__ . '/config/config.php';
 use Twilio\Rest\Client;
 
 // SMS configuration - Twilio credentials
-$twilioConfig = require_once __DIR__ . '/config/twilio_config.php';
-$twilioAccountSid = $twilioConfig['account_sid'];
-$twilioAuthToken = $twilioConfig['auth_token']; 
-$twilioPhoneNumber = $twilioConfig['phone_number'];
+$twilioAccountSid = getConfig('TWILIO_ACCOUNT_SID');
+$twilioAuthToken = getConfig('TWILIO_AUTH_TOKEN');
+$twilioPhoneNumber = getConfig('TWILIO_PHONE_NUMBER');
 
 // Create detailed debugging function
 function smsLogDebug($message) {

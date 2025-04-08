@@ -1,3 +1,4 @@
-/vendor/
 .env
+vendor/
+*.log
 config/twilio_config.php

@@ -1,0 +1,89 @@
+[2025-03-31 16:07:51] Emergency script started
+[2025-03-31 16:07:51] User: anandhulalcv000@gmail.com (User)
+[2025-03-31 16:07:51] Message: help me
+[2025-03-31 16:07:51] Connected to database
+[2025-03-31 16:07:51] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-03-31 16:07:51] Found 4 contacts
+[2025-03-31 16:07:51] Sending to Sandhya Vinod at +9633394540
+[2025-03-31 16:07:53] Twilio Error: Invalid 'To' Phone Number: +963339XXXX
+[2025-03-31 16:07:53] Sending to Sandhya Vinod at +9495394540
+[2025-03-31 16:07:54] Twilio Error: Invalid 'To' Phone Number: +949539XXXX
+[2025-03-31 16:07:54] Sending to Sandhya  R Mani at +9544544215
+[2025-03-31 16:07:55] Twilio Error: Invalid 'To' Phone Number: +954454XXXX
+[2025-03-31 16:07:55] Sending to sandhya vinod at +9786786890
+[2025-03-31 16:07:56] Twilio Error: Invalid 'To' Phone Number: +978678XXXX
+[2025-03-31 16:09:47] Emergency script started
+[2025-03-31 16:09:47] User: anandhulalcv000@gmail.com (User)
+[2025-03-31 16:09:47] Message: help me
+[2025-03-31 16:09:47] Connected to database
+[2025-03-31 16:09:47] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-03-31 16:09:47] Found 4 contacts
+[2025-03-31 16:09:47] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-03-31 16:09:50] Success! SID: SM80a657c41d7cd86aa703eb60acb8500a
+[2025-03-31 16:09:50] Formatted phone number for Sandhya Vinod: 9495394540 → +919495394540
+[2025-03-31 16:09:51] Success! SID: SM5e16c4a264ac7f8c97b01419a6386072
+[2025-03-31 16:09:51] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-03-31 16:09:53] Success! SID: SM08ce7155a9be754548a2f4f9fe3d7473
+[2025-03-31 16:09:53] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-03-31 16:09:54] Twilio Error: The number +91978678XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91978678XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+[2025-03-31 16:09:54] Full response: Array
+(
+    [code] => 21608
+    [message] => The number +91978678XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91978678XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+    [more_info] => https://www.twilio.com/docs/errors/21608
+    [status] => 400
+)
+
+[2025-03-31 16:09:54] Phone number used: +919786786890
+[2025-03-31 16:22:08] Emergency script started
+[2025-03-31 16:22:08] User: anandhulalcv000@gmail.com (User)
+[2025-03-31 16:22:08] Message: send 
+[2025-03-31 16:22:08] Connected to database
+[2025-03-31 16:22:08] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-03-31 16:22:08] Found 4 contacts
+[2025-03-31 16:22:08] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-03-31 16:22:10] Success! SID: SMbf096076fdc9600814b05490e935ecf7
+[2025-03-31 16:22:10] Formatted phone number for Sandhya Vinod: 9495394540 → +919495394540
+[2025-03-31 16:22:11] Success! SID: SM5a0f3364ef22cd7b05fdb207c18259a3
+[2025-03-31 16:22:11] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-03-31 16:22:13] Success! SID: SMd16cfc316e550bc67dae706225058e61
+[2025-03-31 16:22:13] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-03-31 16:22:14] Twilio Error: The number +91978678XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91978678XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+[2025-03-31 16:22:14] Full response: Array
+(
+    [code] => 21608
+    [message] => The number +91978678XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91978678XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+    [more_info] => https://www.twilio.com/docs/errors/21608
+    [status] => 400
+)
+
+[2025-03-31 16:22:14] Phone number used: +919786786890
+[2025-04-06 08:57:46] Emergency script started
+[2025-04-06 08:57:46] User: abin37523@gmail.com (User)
+[2025-04-06 08:57:46] Message: help
+[2025-04-06 08:57:46] Connected to database
+[2025-04-06 08:57:46] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-06 08:57:46] Found 0 contacts
+[2025-04-06 08:58:44] Emergency script started
+[2025-04-06 08:58:44] User: anandhulalcv000@gmail.com (User)
+[2025-04-06 08:58:44] Message: EMERGENCY ALERT! This person needs immediate assistance.
+[2025-04-06 08:58:44] Connected to database
+[2025-04-06 08:58:44] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-06 08:58:44] Found 4 contacts
+[2025-04-06 08:58:44] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-06 08:58:45] Success! SID: SMa38a6320d8c6fc4da6876b1da8fe75f3
+[2025-04-06 08:58:45] Formatted phone number for Sandhya Vinod: 9495394540 → +919495394540
+[2025-04-06 08:58:46] Success! SID: SMfb37c616410d91a82c9af0a87179b79d
+[2025-04-06 08:58:46] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-06 08:58:47] Success! SID: SMa1d09e19b6f3160f043bbc63489ad802
+[2025-04-06 08:58:47] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-06 08:58:47] Twilio Error: The number +91978678XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91978678XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+[2025-04-06 08:58:47] Full response: Array
+(
+    [code] => 21608
+    [message] => The number +91978678XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91978678XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+    [more_info] => https://www.twilio.com/docs/errors/21608
+    [status] => 400
+)
+
+[2025-04-06 08:58:47] Phone number used: +919786786890

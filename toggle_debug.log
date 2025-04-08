@@ -1,0 +1,520 @@
+Request received: 2025-03-25 17:30:45
+GET params: Array
+(
+    [schedule_id] => 41
+    [status] => 0
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=41, status=0
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=41, status=0
+Query executed successfully
+Redirecting to admin.php
+Request received: 2025-03-25 17:30:49
+GET params: Array
+(
+    [schedule_id] => 44
+    [status] => 0
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=44, status=0
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=44, status=0
+Query executed successfully
+Redirecting to admin.php
+Request received: 2025-03-25 17:34:23
+GET params: Array
+(
+    [schedule_id] => 44
+    [status] => 1
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=44, status=1
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=44, status=1
+Request received: 2025-03-25 17:34:25
+GET params: Array
+(
+    [schedule_id] => 41
+    [status] => 1
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=41, status=1
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=41, status=1
+Request received: 2025-03-25 17:34:27
+GET params: Array
+(
+    [schedule_id] => 43
+    [status] => 0
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=43, status=0
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=43, status=0
+Request received: 2025-03-25 17:39:34
+GET params: Array
+(
+    [schedule_id] => 44
+    [status] => 0
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=44, status=0
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=44, status=0
+Request received: 2025-03-25 17:39:36
+GET params: Array
+(
+    [schedule_id] => 44
+    [status] => 1
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=44, status=1
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=44, status=1
+Request received: 2025-03-26 05:14:04
+GET params: Array
+(
+    [schedule_id] => 41
+    [status] => 0
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=41, status=0
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=41, status=0
+Request received: 2025-03-26 05:14:14
+GET params: Array
+(
+    [schedule_id] => 41
+    [status] => 1
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=41, status=1
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=41, status=1
+Request received: 2025-03-26 06:05:53
+GET params: Array
+(
+    [schedule_id] => 43
+    [status] => 1
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=43, status=1
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=43, status=1
+Request received: 2025-03-26 06:06:08
+GET params: Array
+(
+    [schedule_id] => 41
+    [status] => 0
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=41, status=0
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=41, status=0
+Request received: 2025-03-26 06:06:12
+GET params: Array
+(
+    [schedule_id] => 44
+    [status] => 0
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=44, status=0
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=44, status=0
+Request received: 2025-03-26 06:13:52
+GET params: Array
+(
+    [schedule_id] => 43
+    [status] => 0
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=43, status=0
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=43, status=0
+Request received: 2025-03-26 06:14:11
+GET params: Array
+(
+    [schedule_id] => 44
+    [status] => 1
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=44, status=1
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=44, status=1
+Request received: 2025-03-26 06:14:13
+GET params: Array
+(
+    [schedule_id] => 41
+    [status] => 1
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=41, status=1
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=41, status=1
+Request received: 2025-03-26 06:14:14
+GET params: Array
+(
+    [schedule_id] => 43
+    [status] => 1
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=43, status=1
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=43, status=1
+Request received: 2025-03-26 06:14:51
+GET params: Array
+(
+    [schedule_id] => 41
+    [status] => 0
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=41, status=0
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=41, status=0
+Request received: 2025-03-26 07:24:48
+GET params: Array
+(
+    [schedule_id] => 51
+    [status] => 0
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=51, status=0
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=51, status=0
+Request received: 2025-03-26 07:24:50
+GET params: Array
+(
+    [schedule_id] => 41
+    [status] => 1
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=41, status=1
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=41, status=1
+Request received: 2025-03-27 07:33:06
+GET params: Array
+(
+    [schedule_id] => 51
+    [status] => 1
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=51, status=1
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=51, status=1
+Request received: 2025-03-27 07:39:31
+GET params: Array
+(
+    [schedule_id] => 41
+    [status] => 0
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=41, status=0
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=41, status=0
+Request received: 2025-03-27 07:39:34
+GET params: Array
+(
+    [schedule_id] => 43
+    [status] => 0
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=43, status=0
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=43, status=0
+Request received: 2025-03-27 09:14:35
+GET params: Array
+(
+    [schedule_id] => 41
+    [status] => 1
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=41, status=1
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=41, status=1
+Request received: 2025-03-27 09:14:37
+GET params: Array
+(
+    [schedule_id] => 43
+    [status] => 1
+    [ajax] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=43, status=1
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=43, status=1
+Request received: 2025-03-30 08:33:49
+GET params: Array
+(
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=, status=
+Request received: 2025-03-30 08:33:54
+GET params: Array
+(
+)
+
+POST params: Array
+(
+    [scheduleId] => 53
+    [status] => 0
+)
+
+Parsed params: schedule_id=, status=
+Request received: 2025-03-30 08:33:59
+GET params: Array
+(
+)
+
+POST params: Array
+(
+    [scheduleId] => 53
+    [status] => 0
+)
+
+Parsed params: schedule_id=, status=
+Request received: 2025-03-30 08:34:11
+GET params: Array
+(
+)
+
+POST params: Array
+(
+    [scheduleId] => 53
+    [status] => 0
+)
+
+Parsed params: schedule_id=, status=
+Request received: 2025-03-30 08:34:47
+GET params: Array
+(
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=, status=
+Request received: 2025-03-30 08:35:27
+GET params: Array
+(
+)
+
+POST params: Array
+(
+    [scheduleId] => 53
+    [status] => 0
+)
+
+Parsed params: schedule_id=, status=
+Request received: 2025-03-30 10:17:15
+GET params: Array
+(
+)
+
+POST params: Array
+(
+    [id] => 56
+    [status] => 0
+)
+
+Parsed params: schedule_id=, status=
+Request received: 2025-03-30 10:18:08
+GET params: Array
+(
+)
+
+POST params: Array
+(
+    [id] => 56
+    [status] => 0
+)
+
+Parsed params: schedule_id=, status=
+Request received: 2025-04-08 02:28:14
+GET params: Array
+(
+    [schedule_id] => 56
+    [status] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=56, status=1
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=56, status=1
+Query executed successfully
+Redirecting to admin.php
+Request received: 2025-04-08 02:34:19
+GET params: Array
+(
+    [schedule_id] => 53
+    [status] => 0
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=53, status=0
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=53, status=0
+Query executed successfully
+Redirecting to admin.php
+Request received: 2025-04-08 02:37:02
+GET params: Array
+(
+    [schedule_id] => 53
+    [status] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=53, status=1
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=53, status=1
+Query executed successfully
+Redirecting to admin.php
+Request received: 2025-04-08 02:42:59
+GET params: Array
+(
+    [schedule_id] => 54
+    [status] => 0
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=54, status=0
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=54, status=0
+Query executed successfully
+Redirecting to admin.php
+Request received: 2025-04-08 02:45:25
+GET params: Array
+(
+    [schedule_id] => 52
+    [status] => 0
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=52, status=0
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=52, status=0
+Query executed successfully
+Redirecting to admin.php
+Request received: 2025-04-08 02:45:29
+GET params: Array
+(
+    [schedule_id] => 54
+    [status] => 1
+)
+
+POST params: Array
+(
+)
+
+Parsed params: schedule_id=54, status=1
+Executing query: UPDATE schedules SET is_active = :status WHERE id = :id with id=54, status=1
+Query executed successfully
+Redirecting to admin.php

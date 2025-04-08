@@ -1,0 +1,2491 @@
+2025-03-17 18:27:34 - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 09:00
+    [endTime] => 12:30
+    [userType] => supporter
+)
+
+2025-03-17 18:27:34 - Attempting database insert
+2025-03-17 18:31:00 - get_schedules.php called
+2025-03-17 18:31:00 - Retrieved 0 schedules
+2025-03-17 18:31:00 - get_schedules.php called
+2025-03-17 18:31:00 - Retrieved 0 schedules
+2025-03-17 18:31:05 - get_schedules.php called
+2025-03-17 18:31:05 - Retrieved 0 schedules
+2025-03-17 18:31:05 - get_schedules.php called
+2025-03-17 18:31:05 - Retrieved 0 schedules
+2025-03-17 18:31:16 - save_schedule.php called - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 09:00
+    [endTime] => 12:00
+    [userType] => advisor
+)
+
+2025-03-17 18:31:16 - Attempting database insert
+2025-03-17 18:31:16 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-17 18:31:16 - Params: day=Monday, startTime=09:00, endTime=12:00, userType=advisor
+2025-03-17 18:31:16 - Success: New ID = 1
+2025-03-17 18:31:16 - get_schedules.php called
+2025-03-17 18:31:16 - Retrieved 1 schedules
+2025-03-17 18:31:59 - get_schedules.php called
+2025-03-17 18:31:59 - Retrieved 1 schedules
+2025-03-17 18:31:59 - get_schedules.php called
+2025-03-17 18:31:59 - Retrieved 1 schedules
+2025-03-17 18:32:10 - get_schedules.php called
+2025-03-17 18:32:10 - Retrieved 1 schedules
+2025-03-17 18:32:12 - get_schedules.php called
+2025-03-17 18:32:12 - Retrieved 1 schedules
+2025-03-17 18:32:14 - get_schedules.php called
+2025-03-17 18:32:14 - Retrieved 1 schedules
+2025-03-17 18:34:24 - get_schedules.php called
+2025-03-17 18:34:24 - Retrieved 1 schedules
+2025-03-17 18:34:24 - get_schedules.php called
+2025-03-17 18:34:24 - Retrieved 1 schedules
+2025-03-17 18:34:27 - get_schedule.php called with id: 1
+2025-03-17 18:34:27 - Schedule found: Array
+(
+    [id] => 1
+    [day] => Monday
+    [start_time] => 09:00:00
+    [end_time] => 12:00:00
+    [user_type] => advisor
+)
+
+2025-03-17 18:35:24 - delete_schedule.php called with ID: 1
+2025-03-17 18:35:24 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 1
+2025-03-17 18:35:24 - Delete successful
+2025-03-17 18:35:35 - get_schedules.php called
+2025-03-17 18:35:35 - Retrieved 0 schedules
+2025-03-17 18:35:35 - get_schedules.php called
+2025-03-17 18:35:35 - Retrieved 0 schedules
+2025-03-17 18:35:49 - save_schedule.php called - POST data: Array
+(
+    [day] => Tuesday
+    [startTime] => 09:30
+    [endTime] => 12:30
+    [userType] => supporter
+)
+
+2025-03-17 18:35:49 - Attempting database insert
+2025-03-17 18:35:49 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-17 18:35:49 - Params: day=Tuesday, startTime=09:30, endTime=12:30, userType=supporter
+2025-03-17 18:35:49 - Success: New ID = 2
+2025-03-17 18:35:49 - get_schedules.php called
+2025-03-17 18:35:49 - Retrieved 1 schedules
+2025-03-17 18:35:55 - delete_schedule.php called with ID: 2
+2025-03-17 18:35:55 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 2
+2025-03-17 18:35:55 - Delete successful
+2025-03-18 02:13:10 - get_schedules.php called
+2025-03-18 02:13:10 - Retrieved 0 schedules
+2025-03-18 02:13:10 - get_schedules.php called
+2025-03-18 02:13:10 - Retrieved 0 schedules
+2025-03-18 02:13:32 - get_schedules.php called
+2025-03-18 02:13:32 - Retrieved 0 schedules
+2025-03-18 02:13:32 - get_schedules.php called
+2025-03-18 02:13:32 - Retrieved 0 schedules
+2025-03-18 02:13:38 - get_schedules.php called
+2025-03-18 02:13:39 - Retrieved 0 schedules
+2025-03-18 02:13:39 - get_schedules.php called
+2025-03-18 02:13:39 - Retrieved 0 schedules
+2025-03-18 02:13:58 - get_schedules.php called
+2025-03-18 02:13:58 - Retrieved 0 schedules
+2025-03-18 02:13:58 - get_schedules.php called
+2025-03-18 02:13:58 - Retrieved 0 schedules
+2025-03-18 02:15:28 - get_schedules.php called
+2025-03-18 02:15:28 - Retrieved 0 schedules
+2025-03-18 02:15:28 - get_schedules.php called
+2025-03-18 02:15:28 - Retrieved 0 schedules
+2025-03-18 02:15:41 - get_schedules.php called
+2025-03-18 02:15:41 - Retrieved 0 schedules
+2025-03-18 02:15:41 - get_schedules.php called
+2025-03-18 02:15:41 - Retrieved 0 schedules
+2025-03-18 02:34:01 - get_schedules.php called
+2025-03-18 02:34:01 - Retrieved 0 schedules
+2025-03-18 02:34:01 - get_schedules.php called
+2025-03-18 02:34:01 - Retrieved 0 schedules
+2025-03-18 02:34:10 - save_schedule.php called - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 09:00
+    [endTime] => 18:00
+    [userType] => supporter
+)
+
+2025-03-18 02:34:10 - Attempting database insert
+2025-03-18 02:34:10 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-18 02:34:10 - Params: day=Monday, startTime=09:00, endTime=18:00, userType=supporter
+2025-03-18 02:34:10 - Success: New ID = 3
+2025-03-18 02:34:10 - get_schedules.php called
+2025-03-18 02:34:10 - Retrieved 1 schedules
+2025-03-18 02:34:34 - get_schedules.php called
+2025-03-18 02:34:34 - Retrieved 1 schedules
+2025-03-18 02:34:34 - get_schedules.php called
+2025-03-18 02:34:34 - Retrieved 1 schedules
+2025-03-18 02:34:37 - delete_schedule.php called with ID: 3
+2025-03-18 02:34:37 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 3
+2025-03-18 02:34:37 - Delete successful
+2025-03-18 02:37:55 - get_schedules.php called
+2025-03-18 02:37:55 - Retrieved 0 schedules
+2025-03-18 02:37:55 - get_schedules.php called
+2025-03-18 02:37:55 - Retrieved 0 schedules
+2025-03-18 03:03:50 - get_schedules.php called
+2025-03-18 03:03:50 - Retrieved 0 schedules
+2025-03-18 03:03:50 - get_schedules.php called
+2025-03-18 03:03:50 - Retrieved 0 schedules
+2025-03-18 04:39:33 - get_schedules.php called
+2025-03-18 04:39:33 - Retrieved 0 schedules
+2025-03-18 04:39:33 - get_schedules.php called
+2025-03-18 04:39:33 - Retrieved 0 schedules
+2025-03-18 04:39:46 - save_schedule.php called - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 09:30
+    [endTime] => 12:30
+    [userType] => supporter
+)
+
+2025-03-18 04:39:46 - Attempting database insert
+2025-03-18 04:39:46 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-18 04:39:46 - Params: day=Monday, startTime=09:30, endTime=12:30, userType=supporter
+2025-03-18 04:39:46 - Success: New ID = 4
+2025-03-18 04:39:46 - get_schedules.php called
+2025-03-18 04:39:46 - Retrieved 1 schedules
+2025-03-18 04:40:05 - get_schedules.php called
+2025-03-18 04:40:05 - Retrieved 1 schedules
+2025-03-18 04:40:05 - get_schedules.php called
+2025-03-18 04:40:05 - Retrieved 1 schedules
+2025-03-18 04:40:08 - delete_schedule.php called with ID: 4
+2025-03-18 04:40:08 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 4
+2025-03-18 04:40:08 - Delete successful
+2025-03-18 05:03:49 - get_schedules.php called
+2025-03-18 05:03:49 - Retrieved 0 schedules
+2025-03-18 05:03:49 - get_schedules.php called
+2025-03-18 05:03:49 - Retrieved 0 schedules
+2025-03-18 07:44:56 - get_schedules.php called
+2025-03-18 07:44:56 - Retrieved 0 schedules
+2025-03-18 07:44:56 - get_schedules.php called
+2025-03-18 07:44:56 - Retrieved 0 schedules
+2025-03-18 07:45:02 - get_schedules.php called
+2025-03-18 07:45:02 - Retrieved 0 schedules
+2025-03-18 07:45:02 - get_schedules.php called
+2025-03-18 07:45:02 - Retrieved 0 schedules
+2025-03-18 07:45:33 - save_schedule.php called - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 09:00
+    [endTime] => 12:00
+    [userType] => advisor
+)
+
+2025-03-18 07:45:33 - Attempting database insert
+2025-03-18 07:45:33 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-18 07:45:33 - Params: day=Monday, startTime=09:00, endTime=12:00, userType=advisor
+2025-03-18 07:45:33 - Success: New ID = 5
+2025-03-18 07:45:33 - get_schedules.php called
+2025-03-18 07:45:33 - Retrieved 1 schedules
+2025-03-18 08:42:59 - get_schedules.php called
+2025-03-18 08:42:59 - Retrieved 0 schedules
+2025-03-18 08:42:59 - get_schedules.php called
+2025-03-18 08:42:59 - Retrieved 0 schedules
+2025-03-18 08:43:16 - save_schedule.php called - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 09:00
+    [endTime] => 11:00
+    [userType] => supporter
+)
+
+2025-03-18 08:43:16 - Attempting database insert
+2025-03-18 08:43:16 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-18 08:43:16 - Params: day=Monday, startTime=09:00, endTime=11:00, userType=supporter
+2025-03-18 08:43:16 - Success: New ID = 6
+2025-03-18 08:43:16 - get_schedules.php called
+2025-03-18 08:43:16 - Retrieved 1 schedules
+2025-03-18 08:44:49 - get_schedules.php called
+2025-03-18 08:44:49 - Retrieved 1 schedules
+2025-03-18 08:44:49 - get_schedules.php called
+2025-03-18 08:44:49 - Retrieved 1 schedules
+2025-03-18 08:46:04 - save_schedule.php called - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 16:00
+    [endTime] => 17:00
+    [userType] => supporter
+)
+
+2025-03-18 08:46:04 - Attempting database insert
+2025-03-18 08:46:04 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-18 08:46:04 - Params: day=Monday, startTime=16:00, endTime=17:00, userType=supporter
+2025-03-18 08:46:04 - Success: New ID = 7
+2025-03-18 08:46:04 - get_schedules.php called
+2025-03-18 08:46:04 - Retrieved 2 schedules
+2025-03-18 12:06:24 - get_schedules.php called
+2025-03-18 12:06:24 - Retrieved 2 schedules
+2025-03-18 12:06:24 - get_schedules.php called
+2025-03-18 12:06:24 - Retrieved 2 schedules
+2025-03-18 12:06:28 - delete_schedule.php called with ID: 6
+2025-03-18 12:06:28 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 6
+2025-03-18 12:06:28 - Delete successful
+2025-03-18 12:06:34 - delete_schedule.php called with ID: 7
+2025-03-18 12:06:34 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 7
+2025-03-18 12:06:34 - Delete successful
+2025-03-18 12:06:43 - get_schedules.php called
+2025-03-18 12:06:43 - Retrieved 0 schedules
+2025-03-18 12:06:43 - get_schedules.php called
+2025-03-18 12:06:43 - Retrieved 0 schedules
+2025-03-18 12:10:48 - get_schedules.php called
+2025-03-18 12:10:48 - Retrieved 0 schedules
+2025-03-18 12:10:48 - get_schedules.php called
+2025-03-18 12:10:48 - Retrieved 0 schedules
+2025-03-18 15:08:03 - get_schedules.php called
+2025-03-18 15:08:03 - Retrieved 0 schedules
+2025-03-18 15:08:03 - get_schedules.php called
+2025-03-18 15:08:03 - Retrieved 0 schedules
+2025-03-18 15:08:13 - get_schedules.php called
+2025-03-18 15:08:13 - Retrieved 0 schedules
+2025-03-18 15:08:13 - get_schedules.php called
+2025-03-18 15:08:13 - Retrieved 0 schedules
+2025-03-18 15:08:30 - save_schedule.php called - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 08:00
+    [endTime] => 12:30
+    [userType] => counselor
+)
+
+2025-03-18 15:08:30 - Attempting database insert
+2025-03-18 15:08:30 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-18 15:08:30 - Params: day=Monday, startTime=08:00, endTime=12:30, userType=counselor
+2025-03-18 15:08:30 - Success: New ID = 8
+2025-03-18 15:08:30 - get_schedules.php called
+2025-03-18 15:08:30 - Retrieved 1 schedules
+2025-03-18 15:09:34 - get_schedules.php called
+2025-03-18 15:09:34 - Retrieved 1 schedules
+2025-03-18 15:09:34 - get_schedules.php called
+2025-03-18 15:09:34 - Retrieved 1 schedules
+2025-03-18 15:13:41 - get_schedules.php called
+2025-03-18 15:13:41 - Retrieved 1 schedules
+2025-03-18 15:13:41 - get_schedules.php called
+2025-03-18 15:13:41 - Retrieved 1 schedules
+2025-03-18 15:14:24 - save_schedule.php called - POST data: Array
+(
+    [day] => Tuesday
+    [startTime] => 08:00
+    [endTime] => 12:00
+    [userType] => counselor
+)
+
+2025-03-18 15:14:24 - Attempting database insert
+2025-03-18 15:14:24 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-18 15:14:24 - Params: day=Tuesday, startTime=08:00, endTime=12:00, userType=counselor
+2025-03-18 15:14:24 - Success: New ID = 9
+2025-03-18 15:14:24 - get_schedules.php called
+2025-03-18 15:14:24 - Retrieved 2 schedules
+2025-03-18 15:14:46 - get_schedules.php called
+2025-03-18 15:14:46 - Retrieved 2 schedules
+2025-03-18 15:14:46 - get_schedules.php called
+2025-03-18 15:14:46 - Retrieved 2 schedules
+2025-03-18 15:14:49 - get_schedule.php called with id: 8
+2025-03-18 15:14:49 - Schedule found: Array
+(
+    [id] => 8
+    [day] => Monday
+    [start_time] => 08:00:00
+    [end_time] => 12:30:00
+    [user_type] => counselor
+)
+
+2025-03-18 15:15:33 - get_schedules.php called
+2025-03-18 15:15:33 - Retrieved 2 schedules
+2025-03-18 15:15:33 - get_schedules.php called
+2025-03-18 15:15:33 - Retrieved 2 schedules
+2025-03-18 15:15:46 - get_schedules.php called
+2025-03-18 15:15:46 - Retrieved 2 schedules
+2025-03-18 15:15:46 - get_schedules.php called
+2025-03-18 15:15:46 - Retrieved 2 schedules
+2025-03-18 15:21:07 - get_schedules.php called
+2025-03-18 15:21:07 - Retrieved 2 schedules
+2025-03-18 15:21:08 - get_schedules.php called
+2025-03-18 15:21:08 - Retrieved 2 schedules
+2025-03-18 15:21:27 - delete_schedule.php called with ID: 8
+2025-03-18 15:21:27 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 8
+2025-03-18 15:21:27 - Delete successful
+2025-03-18 15:21:27 - get_schedules.php called
+2025-03-18 15:21:27 - Retrieved 1 schedules
+2025-03-18 15:21:31 - delete_schedule.php called with ID: 9
+2025-03-18 15:21:31 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 9
+2025-03-18 15:21:31 - Delete successful
+2025-03-18 15:21:31 - get_schedules.php called
+2025-03-18 15:21:31 - Retrieved 0 schedules
+2025-03-18 15:21:58 - save_schedule.php called - POST data: Array
+(
+    [day] => Wednesday
+    [startTime] => 08:00
+    [endTime] => 12:00
+    [userType] => counselor
+)
+
+2025-03-18 15:21:58 - Attempting database insert
+2025-03-18 15:21:58 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-18 15:21:58 - Params: day=Wednesday, startTime=08:00, endTime=12:00, userType=counselor
+2025-03-18 15:21:58 - Success: New ID = 10
+2025-03-18 15:21:58 - get_schedules.php called
+2025-03-18 15:21:58 - Retrieved 1 schedules
+2025-03-18 15:21:58 - get_schedules.php called
+2025-03-18 15:21:58 - Retrieved 1 schedules
+2025-03-18 15:22:09 - save_schedule.php called - POST data: Array
+(
+    [day] => Wednesday
+    [startTime] => 08:00
+    [endTime] => 12:00
+    [userType] => counselor
+)
+
+2025-03-18 15:22:09 - Attempting database insert
+2025-03-18 15:22:09 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-18 15:22:09 - Params: day=Wednesday, startTime=08:00, endTime=12:00, userType=counselor
+2025-03-18 15:22:09 - Success: New ID = 11
+2025-03-18 15:22:09 - get_schedules.php called
+2025-03-18 15:22:09 - Retrieved 2 schedules
+2025-03-18 15:22:09 - get_schedules.php called
+2025-03-18 15:22:09 - Retrieved 2 schedules
+2025-03-18 15:22:24 - get_schedule.php called with id: 10
+2025-03-18 15:22:24 - Schedule found: Array
+(
+    [id] => 10
+    [day] => Wednesday
+    [start_time] => 08:00:00
+    [end_time] => 12:00:00
+    [user_type] => counselor
+)
+
+2025-03-18 15:22:29 - update_schedule.php called with POST data: Array
+(
+    [day] => Wednesday
+    [startTime] => 08:00
+    [endTime] => 09:00
+    [userType] => counselor
+)
+
+2025-03-18 15:22:29 - Missing required fields
+2025-03-18 15:22:44 - update_schedule.php called with POST data: Array
+(
+    [day] => Wednesday
+    [startTime] => 10:30
+    [endTime] => 15:00
+    [userType] => counselor
+)
+
+2025-03-18 15:22:44 - Missing required fields
+2025-03-18 15:22:47 - update_schedule.php called with POST data: Array
+(
+    [day] => Wednesday
+    [startTime] => 10:30
+    [endTime] => 15:00
+    [userType] => counselor
+)
+
+2025-03-18 15:22:47 - Missing required fields
+2025-03-18 15:24:31 - get_schedules.php called
+2025-03-18 15:24:31 - Retrieved 2 schedules
+2025-03-18 15:24:31 - get_schedules.php called
+2025-03-18 15:24:31 - Retrieved 2 schedules
+2025-03-18 15:24:45 - save_schedule.php called - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 09:00
+    [endTime] => 16:00
+    [userType] => counselor
+)
+
+2025-03-18 15:24:45 - Attempting database insert
+2025-03-18 15:24:45 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-18 15:24:45 - Params: day=Monday, startTime=09:00, endTime=16:00, userType=counselor
+2025-03-18 15:24:45 - Success: New ID = 12
+2025-03-18 15:24:45 - get_schedules.php called
+2025-03-18 15:24:45 - Retrieved 3 schedules
+2025-03-18 15:24:45 - get_schedules.php called
+2025-03-18 15:24:45 - Retrieved 3 schedules
+2025-03-18 15:24:52 - save_schedule.php called - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 09:00
+    [endTime] => 16:00
+    [userType] => supporter
+)
+
+2025-03-18 15:24:52 - Attempting database insert
+2025-03-18 15:24:52 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-18 15:24:52 - Params: day=Monday, startTime=09:00, endTime=16:00, userType=supporter
+2025-03-18 15:24:52 - Success: New ID = 13
+2025-03-18 15:24:52 - get_schedules.php called
+2025-03-18 15:24:52 - Retrieved 4 schedules
+2025-03-18 15:24:52 - get_schedules.php called
+2025-03-18 15:24:52 - Retrieved 4 schedules
+2025-03-18 15:30:39 - get_schedules.php called
+2025-03-18 15:30:39 - Retrieved 4 schedules
+2025-03-18 15:33:21 - get_schedules.php called
+2025-03-18 15:33:21 - Retrieved 4 schedules
+2025-03-18 15:33:30 - get_schedules.php called
+2025-03-18 15:33:30 - Retrieved 4 schedules
+2025-03-18 15:33:30 - get_schedules.php called
+2025-03-18 15:33:30 - Retrieved 4 schedules
+2025-03-18 15:33:48 - save_schedule.php called - POST data: Array
+(
+    [day] => Thursday
+    [startTime] => 08:00
+    [endTime] => 12:00
+    [userType] => supporter
+)
+
+2025-03-18 15:33:48 - Attempting database insert
+2025-03-18 15:33:48 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-18 15:33:48 - Params: day=Thursday, startTime=08:00, endTime=12:00, userType=supporter
+2025-03-18 15:33:48 - Success: New ID = 14
+2025-03-18 15:33:54 - get_schedules.php called
+2025-03-18 15:33:54 - Retrieved 5 schedules
+2025-03-18 15:33:54 - get_schedules.php called
+2025-03-18 15:33:54 - Retrieved 5 schedules
+2025-03-18 15:34:11 - save_schedule.php called - POST data: Array
+(
+    [day] => Saturday
+    [startTime] => 09:00
+    [endTime] => 16:00
+    [userType] => supporter
+)
+
+2025-03-18 15:34:11 - Attempting database insert
+2025-03-18 15:34:11 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-18 15:34:11 - Params: day=Saturday, startTime=09:00, endTime=16:00, userType=supporter
+2025-03-18 15:34:11 - Success: New ID = 15
+2025-03-18 15:34:13 - get_schedules.php called
+2025-03-18 15:34:13 - Retrieved 6 schedules
+2025-03-18 15:34:13 - get_schedules.php called
+2025-03-18 15:34:13 - Retrieved 6 schedules
+2025-03-18 15:34:17 - get_schedules.php called
+2025-03-18 15:34:17 - Retrieved 6 schedules
+2025-03-18 15:34:17 - get_schedules.php called
+2025-03-18 15:34:17 - Retrieved 6 schedules
+2025-03-18 15:36:48 - get_schedules.php called
+2025-03-18 15:36:48 - Retrieved 6 schedules
+2025-03-19 08:58:31 - get_schedules.php called
+2025-03-19 08:58:31 - Retrieved 6 schedules
+2025-03-20 10:50:07 - get_schedules.php called
+2025-03-20 10:50:07 - Retrieved 6 schedules
+2025-03-20 10:51:05 - delete_schedule.php called with ID: 12
+2025-03-20 10:51:05 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 12
+2025-03-20 10:51:05 - Delete successful
+2025-03-20 10:51:05 - get_schedules.php called
+2025-03-20 10:51:05 - Retrieved 5 schedules
+2025-03-20 10:51:09 - delete_schedule.php called with ID: 13
+2025-03-20 10:51:09 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 13
+2025-03-20 10:51:09 - Delete successful
+2025-03-20 10:51:09 - get_schedules.php called
+2025-03-20 10:51:09 - Retrieved 4 schedules
+2025-03-20 17:15:06 - get_schedules.php called
+2025-03-20 17:15:06 - Retrieved 4 schedules
+2025-03-20 17:15:15 - get_schedules.php called
+2025-03-20 17:15:15 - Retrieved 4 schedules
+2025-03-20 17:15:15 - get_schedules.php called
+2025-03-20 17:15:15 - Retrieved 4 schedules
+2025-03-20 17:15:31 - save_schedule.php called - POST data: Array
+(
+    [day] => Saturday
+    [startTime] => 08:00
+    [endTime] => 18:00
+    [userType] => advisor
+)
+
+2025-03-20 17:15:31 - Attempting database insert
+2025-03-20 17:15:31 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-20 17:15:31 - Params: day=Saturday, startTime=08:00, endTime=18:00, userType=advisor
+2025-03-20 17:15:31 - Success: New ID = 16
+2025-03-20 17:15:32 - get_schedules.php called
+2025-03-20 17:15:32 - Retrieved 5 schedules
+2025-03-20 17:15:32 - get_schedules.php called
+2025-03-20 17:15:32 - Retrieved 5 schedules
+2025-03-20 18:26:36 - get_schedules.php called
+2025-03-20 18:26:36 - Retrieved 5 schedules
+2025-03-22 09:31:53 - get_schedules.php called
+2025-03-22 09:31:53 - Retrieved 5 schedules
+2025-03-22 09:31:56 - delete_schedule.php called with ID: 15
+2025-03-22 09:31:56 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 15
+2025-03-22 09:31:56 - Delete successful
+2025-03-22 09:31:56 - get_schedules.php called
+2025-03-22 09:31:56 - Retrieved 4 schedules
+2025-03-22 09:31:58 - delete_schedule.php called with ID: 16
+2025-03-22 09:31:58 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 16
+2025-03-22 09:31:58 - Delete successful
+2025-03-22 09:31:58 - get_schedules.php called
+2025-03-22 09:31:58 - Retrieved 3 schedules
+2025-03-22 09:32:00 - delete_schedule.php called with ID: 14
+2025-03-22 09:32:00 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 14
+2025-03-22 09:32:00 - Delete successful
+2025-03-22 09:32:00 - get_schedules.php called
+2025-03-22 09:32:00 - Retrieved 2 schedules
+2025-03-22 09:32:02 - delete_schedule.php called with ID: 10
+2025-03-22 09:32:02 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 10
+2025-03-22 09:32:02 - Delete successful
+2025-03-22 09:32:02 - get_schedules.php called
+2025-03-22 09:32:02 - Retrieved 1 schedules
+2025-03-22 09:32:04 - delete_schedule.php called with ID: 11
+2025-03-22 09:32:04 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 11
+2025-03-22 09:32:04 - Delete successful
+2025-03-22 09:32:04 - get_schedules.php called
+2025-03-22 09:32:04 - Retrieved 0 schedules
+2025-03-22 09:32:09 - get_schedules.php called
+2025-03-22 09:32:09 - Retrieved 0 schedules
+2025-03-22 09:32:09 - get_schedules.php called
+2025-03-22 09:32:09 - Retrieved 0 schedules
+2025-03-22 09:32:10 - get_schedules.php called
+2025-03-22 09:32:10 - Retrieved 0 schedules
+2025-03-22 09:32:12 - get_schedules.php called
+2025-03-22 09:32:12 - Retrieved 0 schedules
+2025-03-22 09:32:16 - get_schedules.php called
+2025-03-22 09:32:16 - Retrieved 0 schedules
+2025-03-22 14:35:12 - get_schedules.php called
+2025-03-22 14:35:12 - Retrieved 0 schedules
+2025-03-22 14:35:36 - save_schedule.php called - POST data: Array
+(
+    [day] => Saturday
+    [startTime] => 08:30
+    [endTime] => 12:00
+    [userType] => advisor
+)
+
+2025-03-22 14:35:36 - Attempting database insert
+2025-03-22 14:35:36 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-22 14:35:36 - Params: day=Saturday, startTime=08:30, endTime=12:00, userType=advisor
+2025-03-22 14:35:36 - Success: New ID = 17
+2025-03-22 14:35:37 - get_schedules.php called
+2025-03-22 14:35:37 - Retrieved 1 schedules
+2025-03-22 14:35:37 - get_schedules.php called
+2025-03-22 14:35:37 - Retrieved 1 schedules
+2025-03-22 14:47:30 - get_schedules.php called
+2025-03-22 14:47:30 - Retrieved 1 schedules
+2025-03-22 14:47:37 - save_schedule.php called - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 08:00
+    [endTime] => 08:30
+    [userType] => advisor
+)
+
+2025-03-22 14:47:37 - Attempting database insert
+2025-03-22 14:47:37 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-22 14:47:37 - Params: day=Monday, startTime=08:00, endTime=08:30, userType=advisor
+2025-03-22 14:47:37 - Success: New ID = 18
+2025-03-22 14:47:40 - get_schedules.php called
+2025-03-22 14:47:40 - Retrieved 2 schedules
+2025-03-22 14:47:40 - get_schedules.php called
+2025-03-22 14:47:40 - Retrieved 2 schedules
+2025-03-22 15:37:58 - get_schedules.php called
+2025-03-22 15:37:58 - Retrieved 2 schedules
+2025-03-22 15:38:11 - save_schedule.php called - POST data: Array
+(
+    [day] => Tuesday
+    [startTime] => 08:00
+    [endTime] => 13:00
+    [userType] => counselor
+)
+
+2025-03-22 15:38:11 - Attempting database insert
+2025-03-22 15:38:11 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-22 15:38:11 - Params: day=Tuesday, startTime=08:00, endTime=13:00, userType=counselor
+2025-03-22 15:38:11 - Success: New ID = 19
+2025-03-22 15:38:13 - get_schedules.php called
+2025-03-22 15:38:13 - Retrieved 3 schedules
+2025-03-22 15:38:13 - get_schedules.php called
+2025-03-22 15:38:13 - Retrieved 3 schedules
+2025-03-22 15:38:26 - save_schedule.php called - POST data: Array
+(
+    [day] => Thursday
+    [startTime] => 11:00
+    [endTime] => 13:00
+    [userType] => supporter
+)
+
+2025-03-22 15:38:26 - Attempting database insert
+2025-03-22 15:38:26 - SQL: INSERT INTO schedules (day, start_time, end_time, user_type) 
+                VALUES (:day, :startTime, :endTime, :userType)
+2025-03-22 15:38:26 - Params: day=Thursday, startTime=11:00, endTime=13:00, userType=supporter
+2025-03-22 15:38:26 - Success: New ID = 20
+2025-03-22 15:38:27 - get_schedules.php called
+2025-03-22 15:38:27 - Retrieved 4 schedules
+2025-03-22 15:38:27 - get_schedules.php called
+2025-03-22 15:38:27 - Retrieved 4 schedules
+2025-03-23 07:18:31 - get_schedules.php called
+2025-03-23 07:18:31 - Retrieved 4 schedules
+2025-03-23 07:38:18 - get_schedules.php called
+2025-03-23 07:38:18 - Retrieved 4 schedules
+2025-03-23 07:38:30 - get_schedules.php called
+2025-03-23 07:38:30 - Retrieved 4 schedules
+2025-03-23 07:38:34 - get_schedule.php called with id: 20
+2025-03-23 07:38:34 - Schedule found: Array
+(
+    [id] => 20
+    [day] => Thursday
+    [start_time] => 11:00:00
+    [end_time] => 13:00:00
+    [user_type] => supporter
+    [provider_confirmed] => 1
+)
+
+2025-03-23 07:39:50 - get_schedules.php called
+2025-03-23 07:39:50 - Retrieved 4 schedules
+2025-03-23 07:39:50 - get_schedules.php called
+2025-03-23 07:39:50 - Retrieved 4 schedules
+2025-03-23 07:39:51 - get_schedules.php called
+2025-03-23 07:39:51 - Retrieved 4 schedules
+2025-03-23 07:39:51 - get_schedules.php called
+2025-03-23 07:39:51 - Retrieved 4 schedules
+2025-03-23 07:39:53 - get_schedule.php called with id: 20
+2025-03-23 07:39:53 - Schedule found: Array
+(
+    [id] => 20
+    [day] => Thursday
+    [start_time] => 11:00:00
+    [end_time] => 13:00:00
+    [user_type] => supporter
+    [provider_confirmed] => 1
+)
+
+2025-03-23 07:40:00 - get_schedules.php called
+2025-03-23 07:40:00 - Retrieved 4 schedules
+2025-03-23 07:40:05 - get_schedules.php called
+2025-03-23 07:40:05 - Retrieved 4 schedules
+2025-03-23 07:40:17 - get_schedules.php called
+2025-03-23 07:40:17 - Retrieved 4 schedules
+2025-03-23 08:16:49 - get_schedules.php called
+2025-03-23 08:16:49 - Retrieved 4 schedules
+2025-03-23 08:17:11 - save_schedule.php called - POST data: Array
+(
+    [day] => Thursday
+    [startTime] => 11:00
+    [endTime] => 13:00
+    [userType] => advisor
+)
+
+2025-03-23 08:17:21 - save_schedule.php called - POST data: Array
+(
+    [day] => Sunday
+    [startTime] => 11:00
+    [endTime] => 12:00
+    [userType] => counselor
+)
+
+2025-03-23 08:17:25 - save_schedule.php called - POST data: Array
+(
+    [day] => Sunday
+    [startTime] => 11:00
+    [endTime] => 12:00
+    [userType] => counselor
+)
+
+2025-03-23 08:17:29 - get_schedule.php called with id: 19
+2025-03-23 08:17:29 - PDO Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'field list'
+2025-03-23 08:17:30 - update_schedule.php called with POST data: Array
+(
+    [scheduleId] => undefined
+    [startTime] => 08:00
+    [endTime] => 09:00
+    [isActive] => 1
+)
+
+2025-03-23 08:17:30 - Missing required fields
+2025-03-23 08:18:00 - update_schedule.php called with POST data: Array
+(
+    [scheduleId] => undefined
+    [day] => Tuesday
+    [startTime] => 08:00
+    [endTime] => 13:00
+    [userType] => counselor
+    [isActive] => 1
+)
+
+2025-03-23 08:18:00 - Schedule not found
+2025-03-23 09:00:33 - get_schedules.php called
+2025-03-23 09:00:33 - Retrieved 4 schedules
+2025-03-23 09:01:14 - get_schedules.php called
+2025-03-23 09:01:14 - Retrieved 4 schedules
+2025-03-23 09:01:18 - get_schedule.php called with id: 20
+2025-03-23 09:01:18 - PDO Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'field list'
+2025-03-23 09:01:31 - update_schedule.php called with POST data: Array
+(
+    [scheduleId] => undefined
+    [day] => Monday
+    [startTime] => 09:00
+    [endTime] => 10:00
+    [userType] => supporter
+    [isActive] => 1
+)
+
+2025-03-23 09:01:31 - Schedule not found
+2025-03-23 09:07:46 - get_schedules.php called
+2025-03-23 09:07:46 - Retrieved 4 schedules
+2025-03-23 09:21:21 - get_schedules.php called
+2025-03-23 09:21:21 - Retrieved 4 schedules
+2025-03-23 09:36:42 - get_schedules.php called
+2025-03-23 09:36:42 - Retrieved 4 schedules
+2025-03-23 17:25:36 - get_schedules.php called
+2025-03-23 17:25:36 - Retrieved 4 schedules
+2025-03-24 02:30:57 - get_schedules.php called
+2025-03-24 02:30:57 - Retrieved 4 schedules
+2025-03-24 02:31:04 - save_schedule.php called - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 08:00
+    [endTime] => 08:30
+    [userType] => counselor
+)
+
+2025-03-24 02:33:19 - get_schedules.php called
+2025-03-24 02:33:19 - Retrieved 4 schedules
+2025-03-24 02:33:38 - save_schedule.php called - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 08:00
+    [endTime] => 10:00
+    [userType] => advisor
+)
+
+2025-03-24 02:33:54 - save_schedule.php called - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 08:00
+    [endTime] => 08:30
+    [userType] => counselor
+)
+
+2025-03-24 02:36:55 - get_schedules.php called
+2025-03-24 02:36:55 - Retrieved 4 schedules
+2025-03-24 02:37:00 - get_schedule.php called with id: 18
+2025-03-24 02:37:00 - PDO Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'field list'
+2025-03-24 02:37:17 - save_schedule.php called - POST data: Array
+(
+    [day] => Tuesday
+    [startTime] => 08:00
+    [endTime] => 13:00
+    [userType] => advisor
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-24 02:37:23 - save_schedule.php called - POST data: Array
+(
+    [day] => Friday
+    [startTime] => 08:00
+    [endTime] => 13:00
+    [userType] => advisor
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-24 02:37:27 - get_schedule.php called with id: 19
+2025-03-24 02:37:27 - PDO Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'field list'
+2025-03-24 02:37:33 - get_schedules.php called
+2025-03-24 02:37:33 - Retrieved 4 schedules
+2025-03-24 02:45:49 - get_schedules.php called
+2025-03-24 02:45:49 - Retrieved 4 schedules
+2025-03-24 02:46:05 - save_schedule.php called - POST data: Array
+(
+    [day] => Wednesday
+    [startTime] => 09:00
+    [endTime] => 12:00
+    [userType] => advisor
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-24 02:46:05 - Action: add, Schedule ID: 0
+2025-03-24 04:28:31 - get_schedules.php called
+2025-03-24 04:28:31 - Retrieved 4 schedules
+2025-03-24 04:28:31 - get_schedules.php called
+2025-03-24 04:28:31 - Retrieved 4 schedules
+2025-03-24 04:28:43 - save_schedule.php called - POST data: Array
+(
+    [day] => Wednesday
+    [startTime] => 08:00
+    [endTime] => 08:30
+    [userType] => counselor
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-24 04:28:43 - Action: add, Schedule ID: 0
+2025-03-24 04:31:21 - get_schedules.php called
+2025-03-24 04:31:21 - Retrieved 4 schedules
+2025-03-24 04:31:30 - get_schedules.php called
+2025-03-24 04:31:30 - Retrieved 4 schedules
+2025-03-24 04:35:03 - get_schedules.php called
+2025-03-24 04:35:03 - Retrieved 4 schedules
+2025-03-24 04:37:58 - get_schedules.php called
+2025-03-24 04:37:58 - Retrieved 4 schedules
+2025-03-24 04:38:08 - get_schedules.php called
+2025-03-24 04:38:08 - Retrieved 5 schedules
+2025-03-24 04:38:18 - get_schedules.php called
+2025-03-24 04:38:18 - Retrieved 5 schedules
+2025-03-24 04:38:21 - get_schedules.php called
+2025-03-24 04:38:21 - Retrieved 5 schedules
+2025-03-24 04:41:54 - get_schedules.php called
+2025-03-24 04:41:54 - Retrieved 5 schedules
+2025-03-24 04:42:09 - delete_schedule.php called with ID: 18
+2025-03-24 04:42:09 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 18
+2025-03-24 04:42:09 - Delete successful
+2025-03-24 04:42:09 - get_schedules.php called
+2025-03-24 04:42:09 - Retrieved 4 schedules
+2025-03-24 04:42:26 - get_schedules.php called
+2025-03-24 04:42:26 - Retrieved 5 schedules
+2025-03-24 04:42:33 - get_schedules.php called
+2025-03-24 04:42:33 - Retrieved 5 schedules
+2025-03-24 04:45:33 - get_schedules.php called
+2025-03-24 04:45:33 - Retrieved 5 schedules
+2025-03-24 04:46:07 - get_schedule.php called with id: 22
+2025-03-24 04:46:07 - Schedule found: Array
+(
+    [id] => 22
+    [day] => Monday
+    [start_time] => 09:00:00
+    [end_time] => 10:00:00
+    [user_type] => supporter
+    [is_active] => 1
+)
+
+2025-03-24 04:46:12 - delete_schedule.php called with ID: 22
+2025-03-24 04:46:12 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 22
+2025-03-24 04:46:12 - Delete successful
+2025-03-24 04:46:12 - get_schedules.php called
+2025-03-24 04:46:12 - Retrieved 4 schedules
+2025-03-24 04:46:23 - get_schedules.php called
+2025-03-24 04:46:23 - Retrieved 4 schedules
+2025-03-24 04:46:23 - get_schedules.php called
+2025-03-24 04:46:23 - Retrieved 4 schedules
+2025-03-24 04:46:24 - get_schedules.php called
+2025-03-24 04:46:24 - Retrieved 4 schedules
+2025-03-24 04:46:24 - get_schedules.php called
+2025-03-24 04:46:24 - Retrieved 4 schedules
+2025-03-24 04:46:29 - get_schedules.php called
+2025-03-24 04:46:29 - Retrieved 4 schedules
+2025-03-24 04:46:29 - get_schedules.php called
+2025-03-24 04:46:29 - Retrieved 4 schedules
+2025-03-24 04:46:31 - get_schedules.php called
+2025-03-24 04:46:31 - Retrieved 4 schedules
+2025-03-24 04:46:31 - get_schedules.php called
+2025-03-24 04:46:31 - Retrieved 4 schedules
+2025-03-24 04:46:34 - get_schedules.php called
+2025-03-24 04:46:34 - Retrieved 4 schedules
+2025-03-24 04:46:34 - get_schedules.php called
+2025-03-24 04:46:34 - Retrieved 4 schedules
+2025-03-24 04:46:42 - get_schedules.php called
+2025-03-24 04:46:42 - Retrieved 5 schedules
+2025-03-24 04:46:42 - get_schedules.php called
+2025-03-24 04:46:42 - Retrieved 5 schedules
+2025-03-24 04:46:47 - get_schedules.php called
+2025-03-24 04:46:47 - Retrieved 5 schedules
+2025-03-24 04:46:47 - get_schedules.php called
+2025-03-24 04:46:47 - Retrieved 5 schedules
+2025-03-24 04:47:01 - get_schedules.php called
+2025-03-24 04:47:01 - Retrieved 5 schedules
+2025-03-24 04:47:01 - get_schedules.php called
+2025-03-24 04:47:01 - Retrieved 5 schedules
+2025-03-24 04:47:08 - get_schedules.php called
+2025-03-24 04:47:08 - Retrieved 5 schedules
+2025-03-24 04:50:19 - get_schedules.php called
+2025-03-24 04:50:19 - Retrieved 5 schedules
+2025-03-24 04:50:25 - get_schedules.php called
+2025-03-24 04:50:25 - Retrieved 5 schedules
+2025-03-24 04:53:43 - get_schedules.php called
+2025-03-24 04:53:43 - Retrieved 5 schedules
+2025-03-24 04:54:11 - get_schedules.php called
+2025-03-24 04:54:11 - Retrieved 6 schedules
+2025-03-24 04:54:11 - get_schedules.php called
+2025-03-24 04:54:11 - Retrieved 6 schedules
+2025-03-24 04:54:11 - get_schedules.php called
+2025-03-24 04:54:11 - Retrieved 6 schedules
+2025-03-24 04:54:18 - get_schedules.php called
+2025-03-24 04:54:18 - Retrieved 6 schedules
+2025-03-24 04:54:18 - get_schedules.php called
+2025-03-24 04:54:18 - Retrieved 6 schedules
+2025-03-24 04:54:44 - get_schedules.php called
+2025-03-24 04:54:44 - Retrieved 6 schedules
+2025-03-24 04:54:44 - get_schedules.php called
+2025-03-24 04:54:44 - Retrieved 6 schedules
+2025-03-24 04:55:48 - get_schedule.php called with id: 21
+2025-03-24 04:55:48 - Schedule found: Array
+(
+    [id] => 21
+    [day] => Friday
+    [start_time] => 08:00:00
+    [end_time] => 08:30:00
+    [user_type] => counselor
+    [is_active] => 1
+)
+
+2025-03-24 05:00:17 - get_schedules.php called
+2025-03-24 05:00:17 - Retrieved 6 schedules
+2025-03-24 05:00:46 - get_schedules.php called
+2025-03-24 05:00:46 - Retrieved 6 schedules
+2025-03-24 05:01:29 - get_schedules.php called
+2025-03-24 05:01:29 - Retrieved 7 schedules
+2025-03-24 05:01:29 - get_schedules.php called
+2025-03-24 05:01:29 - Retrieved 7 schedules
+2025-03-24 05:01:29 - get_schedules.php called
+2025-03-24 05:01:29 - Retrieved 7 schedules
+2025-03-24 05:14:50 - get_schedules.php called
+2025-03-24 05:14:50 - Retrieved 7 schedules
+2025-03-24 05:15:45 - get_schedules.php called
+2025-03-24 05:15:45 - Retrieved 8 schedules
+2025-03-24 05:15:45 - get_schedules.php called
+2025-03-24 05:15:45 - Retrieved 8 schedules
+2025-03-24 05:15:45 - get_schedules.php called
+2025-03-24 05:15:45 - Retrieved 8 schedules
+2025-03-24 05:17:39 - get_schedules.php called
+2025-03-24 05:17:39 - Retrieved 8 schedules
+2025-03-24 05:17:39 - get_schedules.php called
+2025-03-24 05:17:39 - Retrieved 8 schedules
+2025-03-24 05:17:39 - get_schedules.php called
+2025-03-24 05:17:39 - Retrieved 8 schedules
+2025-03-24 05:17:39 - get_schedules.php called
+2025-03-24 05:17:39 - Retrieved 8 schedules
+2025-03-24 05:17:39 - get_schedules.php called
+2025-03-24 05:17:39 - Retrieved 8 schedules
+2025-03-24 05:17:45 - get_schedules.php called
+2025-03-24 05:17:45 - Retrieved 8 schedules
+2025-03-24 05:17:45 - get_schedules.php called
+2025-03-24 05:17:45 - Retrieved 8 schedules
+2025-03-24 05:17:56 - get_schedules.php called
+2025-03-24 05:17:56 - Retrieved 9 schedules
+2025-03-24 05:17:56 - get_schedules.php called
+2025-03-24 05:17:56 - Retrieved 9 schedules
+2025-03-24 05:17:56 - get_schedules.php called
+2025-03-24 05:17:56 - Retrieved 9 schedules
+2025-03-24 05:18:03 - get_schedule.php called with id: 24
+2025-03-24 05:18:03 - Schedule found: Array
+(
+    [id] => 24
+    [day] => Friday
+    [start_time] => 11:00:00
+    [end_time] => 14:00:00
+    [user_type] => supporter
+    [is_active] => 0
+)
+
+2025-03-24 05:19:30 - get_schedules.php called
+2025-03-24 05:19:30 - Retrieved 9 schedules
+2025-03-24 05:19:30 - get_schedules.php called
+2025-03-24 05:19:30 - Retrieved 9 schedules
+2025-03-24 05:19:30 - get_schedules.php called
+2025-03-24 05:19:30 - Retrieved 9 schedules
+2025-03-24 05:19:36 - get_schedules.php called
+2025-03-24 05:19:36 - Retrieved 9 schedules
+2025-03-24 05:19:36 - get_schedules.php called
+2025-03-24 05:19:36 - Retrieved 9 schedules
+2025-03-24 05:22:14 - get_schedules.php called
+2025-03-24 05:22:14 - Retrieved 9 schedules
+2025-03-24 05:22:14 - get_schedules.php called
+2025-03-24 05:22:14 - Retrieved 9 schedules
+2025-03-24 05:22:14 - get_schedules.php called
+2025-03-24 05:22:14 - Retrieved 9 schedules
+2025-03-24 05:24:08 - get_schedules.php called
+2025-03-24 05:24:08 - Retrieved 9 schedules
+2025-03-24 05:24:08 - get_schedules.php called
+2025-03-24 05:24:08 - Retrieved 9 schedules
+2025-03-24 05:24:08 - get_schedules.php called
+2025-03-24 05:24:08 - Retrieved 9 schedules
+2025-03-24 05:24:14 - get_schedules.php called
+2025-03-24 05:24:14 - Retrieved 9 schedules
+2025-03-24 05:24:14 - get_schedules.php called
+2025-03-24 05:24:14 - Retrieved 9 schedules
+2025-03-24 05:24:17 - get_schedules.php called
+2025-03-24 05:24:17 - Retrieved 9 schedules
+2025-03-24 05:24:17 - get_schedules.php called
+2025-03-24 05:24:17 - Retrieved 9 schedules
+2025-03-24 05:24:29 - get_schedules.php called
+2025-03-24 05:24:29 - Retrieved 9 schedules
+2025-03-24 05:24:29 - get_schedules.php called
+2025-03-24 05:24:29 - Retrieved 9 schedules
+2025-03-24 05:24:35 - get_schedules.php called
+2025-03-24 05:24:35 - Retrieved 9 schedules
+2025-03-24 05:24:35 - get_schedules.php called
+2025-03-24 05:24:35 - Retrieved 9 schedules
+2025-03-24 05:24:38 - get_schedules.php called
+2025-03-24 05:24:38 - Retrieved 9 schedules
+2025-03-24 05:24:38 - get_schedules.php called
+2025-03-24 05:24:38 - Retrieved 9 schedules
+2025-03-24 05:25:10 - get_schedules.php called
+2025-03-24 05:25:10 - Retrieved 9 schedules
+2025-03-24 05:25:10 - get_schedules.php called
+2025-03-24 05:25:10 - Retrieved 9 schedules
+2025-03-24 05:30:57 - get_schedules.php called
+2025-03-24 05:30:57 - Retrieved 9 schedules
+2025-03-24 05:30:57 - get_schedules.php called
+2025-03-24 05:30:57 - Retrieved 9 schedules
+2025-03-24 05:30:57 - get_schedules.php called
+2025-03-24 05:30:57 - Retrieved 9 schedules
+2025-03-24 05:31:04 - get_schedules.php called
+2025-03-24 05:31:04 - Retrieved 9 schedules
+2025-03-24 05:31:04 - get_schedules.php called
+2025-03-24 05:31:04 - Retrieved 9 schedules
+2025-03-24 05:32:41 - get_schedules.php called
+2025-03-24 05:32:41 - Retrieved 9 schedules
+2025-03-24 05:32:41 - get_schedules.php called
+2025-03-24 05:32:41 - Retrieved 9 schedules
+2025-03-24 05:32:41 - get_schedules.php called
+2025-03-24 05:32:41 - Retrieved 9 schedules
+2025-03-24 05:32:48 - get_schedules.php called
+2025-03-24 05:32:48 - Retrieved 9 schedules
+2025-03-24 05:32:48 - get_schedules.php called
+2025-03-24 05:32:48 - Retrieved 9 schedules
+2025-03-24 05:32:48 - get_schedules.php called
+2025-03-24 05:32:48 - Retrieved 9 schedules
+2025-03-24 05:35:01 - get_schedules.php called
+2025-03-24 05:35:01 - Retrieved 9 schedules
+2025-03-24 05:35:01 - get_schedules.php called
+2025-03-24 05:35:01 - Retrieved 9 schedules
+2025-03-24 05:35:01 - get_schedules.php called
+2025-03-24 05:35:01 - Retrieved 9 schedules
+2025-03-24 05:36:48 - get_schedules.php called
+2025-03-24 05:36:48 - Retrieved 9 schedules
+2025-03-24 05:36:48 - get_schedules.php called
+2025-03-24 05:36:48 - Retrieved 9 schedules
+2025-03-24 05:36:48 - get_schedules.php called
+2025-03-24 05:36:48 - Retrieved 9 schedules
+2025-03-24 05:37:51 - get_schedules.php called
+2025-03-24 05:37:51 - Retrieved 9 schedules
+2025-03-24 05:37:51 - get_schedules.php called
+2025-03-24 05:37:51 - Retrieved 9 schedules
+2025-03-24 05:37:51 - get_schedules.php called
+2025-03-24 05:37:51 - Retrieved 9 schedules
+2025-03-24 05:40:35 - get_schedules.php called
+2025-03-24 05:40:35 - Retrieved 9 schedules
+2025-03-24 05:40:35 - get_schedules.php called
+2025-03-24 05:40:35 - Retrieved 9 schedules
+2025-03-24 05:40:35 - get_schedules.php called
+2025-03-24 05:40:35 - Retrieved 9 schedules
+2025-03-24 05:45:12 - get_schedules.php called
+2025-03-24 05:45:12 - Retrieved 9 schedules
+2025-03-24 05:45:12 - get_schedules.php called
+2025-03-24 05:45:12 - Retrieved 9 schedules
+2025-03-24 05:45:12 - get_schedules.php called
+2025-03-24 05:45:12 - Retrieved 9 schedules
+2025-03-24 07:16:35 - get_schedules.php called
+2025-03-24 07:16:35 - Retrieved 9 schedules
+2025-03-24 07:16:35 - get_schedules.php called
+2025-03-24 07:16:35 - Retrieved 9 schedules
+2025-03-24 07:16:35 - get_schedules.php called
+2025-03-24 07:16:35 - Retrieved 9 schedules
+2025-03-24 08:42:25 - get_schedules.php called
+2025-03-24 08:42:25 - Retrieved 9 schedules
+2025-03-24 08:42:25 - get_schedules.php called
+2025-03-24 08:42:25 - Retrieved 9 schedules
+2025-03-24 08:42:25 - get_schedules.php called
+2025-03-24 08:42:25 - Retrieved 9 schedules
+2025-03-24 08:42:35 - get_schedule.php called with id: 24
+2025-03-24 08:42:35 - Schedule found: Array
+(
+    [id] => 24
+    [day] => Friday
+    [start_time] => 11:00:00
+    [end_time] => 14:00:00
+    [user_type] => supporter
+    [is_active] => 1
+)
+
+2025-03-25 06:13:14 - get_schedules.php called
+2025-03-25 06:13:14 - Retrieved 9 schedules
+2025-03-25 06:13:14 - get_schedules.php called
+2025-03-25 06:13:14 - Retrieved 9 schedules
+2025-03-25 06:13:14 - get_schedules.php called
+2025-03-25 06:13:14 - Retrieved 9 schedules
+2025-03-25 06:16:32 - get_schedules.php called
+2025-03-25 06:16:32 - Retrieved 10 schedules
+2025-03-25 06:16:32 - get_schedules.php called
+2025-03-25 06:16:32 - Retrieved 10 schedules
+2025-03-25 06:16:32 - get_schedules.php called
+2025-03-25 06:16:32 - Retrieved 10 schedules
+2025-03-25 06:16:43 - get_schedules.php called
+2025-03-25 06:16:43 - Retrieved 10 schedules
+2025-03-25 06:16:43 - get_schedules.php called
+2025-03-25 06:16:43 - Retrieved 10 schedules
+2025-03-25 06:20:18 - get_schedules.php called
+2025-03-25 06:20:18 - Retrieved 10 schedules
+2025-03-25 06:20:18 - get_schedules.php called
+2025-03-25 06:20:18 - Retrieved 10 schedules
+2025-03-25 06:20:18 - get_schedules.php called
+2025-03-25 06:20:18 - Retrieved 10 schedules
+2025-03-25 06:23:15 - get_schedules.php called
+2025-03-25 06:23:15 - Retrieved 10 schedules
+2025-03-25 06:23:15 - get_schedules.php called
+2025-03-25 06:23:15 - Retrieved 10 schedules
+2025-03-25 06:23:15 - get_schedules.php called
+2025-03-25 06:23:15 - Retrieved 10 schedules
+2025-03-25 06:23:25 - get_schedules.php called
+2025-03-25 06:23:25 - Retrieved 10 schedules
+2025-03-25 06:23:25 - get_schedules.php called
+2025-03-25 06:23:25 - Retrieved 10 schedules
+2025-03-25 07:15:52 - get_schedules.php called
+2025-03-25 07:15:52 - Retrieved 10 schedules
+2025-03-25 07:15:52 - get_schedules.php called
+2025-03-25 07:15:52 - Retrieved 10 schedules
+2025-03-25 07:15:52 - get_schedules.php called
+2025-03-25 07:15:52 - Retrieved 10 schedules
+2025-03-25 07:17:54 - get_schedules.php called
+2025-03-25 07:17:54 - Retrieved 10 schedules
+2025-03-25 07:17:54 - get_schedules.php called
+2025-03-25 07:17:54 - Retrieved 10 schedules
+2025-03-25 07:17:54 - get_schedules.php called
+2025-03-25 07:17:55 - Retrieved 10 schedules
+2025-03-25 07:18:01 - get_schedules.php called
+2025-03-25 07:18:01 - Retrieved 10 schedules
+2025-03-25 07:18:01 - get_schedules.php called
+2025-03-25 07:18:01 - Retrieved 10 schedules
+2025-03-25 07:18:01 - get_schedules.php called
+2025-03-25 07:18:01 - Retrieved 10 schedules
+2025-03-25 07:18:03 - get_schedules.php called
+2025-03-25 07:18:03 - Retrieved 10 schedules
+2025-03-25 07:18:03 - get_schedules.php called
+2025-03-25 07:18:03 - Retrieved 10 schedules
+2025-03-25 07:18:06 - get_schedules.php called
+2025-03-25 07:18:06 - Retrieved 10 schedules
+2025-03-25 07:18:06 - get_schedules.php called
+2025-03-25 07:18:06 - Retrieved 10 schedules
+2025-03-25 07:18:07 - get_schedules.php called
+2025-03-25 07:18:07 - Retrieved 10 schedules
+2025-03-25 07:18:07 - get_schedules.php called
+2025-03-25 07:18:07 - Retrieved 10 schedules
+2025-03-25 07:19:52 - get_schedules.php called
+2025-03-25 07:19:52 - Retrieved 10 schedules
+2025-03-25 07:19:52 - get_schedules.php called
+2025-03-25 07:19:52 - Retrieved 10 schedules
+2025-03-25 07:19:52 - get_schedules.php called
+2025-03-25 07:19:52 - Retrieved 10 schedules
+2025-03-25 07:23:51 - get_schedules.php called
+2025-03-25 07:23:51 - Retrieved 10 schedules
+2025-03-25 07:23:51 - get_schedules.php called
+2025-03-25 07:23:51 - Retrieved 10 schedules
+2025-03-25 07:23:51 - get_schedules.php called
+2025-03-25 07:23:51 - Retrieved 10 schedules
+2025-03-25 07:26:09 - get_schedules.php called
+2025-03-25 07:26:09 - Retrieved 10 schedules
+2025-03-25 07:26:09 - get_schedules.php called
+2025-03-25 07:26:09 - Retrieved 10 schedules
+2025-03-25 07:26:09 - get_schedules.php called
+2025-03-25 07:26:09 - Retrieved 10 schedules
+2025-03-25 07:28:23 - get_schedules.php called
+2025-03-25 07:28:23 - Retrieved 10 schedules
+2025-03-25 07:28:23 - get_schedules.php called
+2025-03-25 07:28:23 - Retrieved 10 schedules
+2025-03-25 07:28:23 - get_schedules.php called
+2025-03-25 07:28:23 - Retrieved 10 schedules
+2025-03-25 07:32:22 - get_schedules.php called
+2025-03-25 07:32:22 - Retrieved 10 schedules
+2025-03-25 07:32:22 - get_schedules.php called
+2025-03-25 07:32:22 - Retrieved 10 schedules
+2025-03-25 07:32:22 - get_schedules.php called
+2025-03-25 07:32:22 - Retrieved 10 schedules
+2025-03-25 07:32:26 - delete_schedule.php called with ID: 21
+2025-03-25 07:32:26 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 21
+2025-03-25 07:32:26 - Delete successful
+2025-03-25 07:32:26 - get_schedules.php called
+2025-03-25 07:32:26 - Retrieved 9 schedules
+2025-03-25 07:32:29 - delete_schedule.php called with ID: 24
+2025-03-25 07:32:29 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 24
+2025-03-25 07:32:29 - Delete successful
+2025-03-25 07:32:29 - get_schedules.php called
+2025-03-25 07:32:29 - Retrieved 8 schedules
+2025-03-25 07:32:30 - delete_schedule.php called with ID: 28
+2025-03-25 07:32:30 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 28
+2025-03-25 07:32:30 - Delete successful
+2025-03-25 07:32:30 - get_schedules.php called
+2025-03-25 07:32:30 - Retrieved 7 schedules
+2025-03-25 07:32:32 - delete_schedule.php called with ID: 23
+2025-03-25 07:32:32 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 23
+2025-03-25 07:32:32 - Delete successful
+2025-03-25 07:32:32 - get_schedules.php called
+2025-03-25 07:32:32 - Retrieved 6 schedules
+2025-03-25 07:32:34 - delete_schedule.php called with ID: 17
+2025-03-25 07:32:34 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 17
+2025-03-25 07:32:34 - Delete successful
+2025-03-25 07:32:34 - get_schedules.php called
+2025-03-25 07:32:34 - Retrieved 5 schedules
+2025-03-25 07:32:36 - delete_schedule.php called with ID: 25
+2025-03-25 07:32:36 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 25
+2025-03-25 07:32:36 - Delete successful
+2025-03-25 07:32:36 - get_schedules.php called
+2025-03-25 07:32:36 - Retrieved 4 schedules
+2025-03-25 07:32:37 - delete_schedule.php called with ID: 27
+2025-03-25 07:32:37 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 27
+2025-03-25 07:32:37 - Delete successful
+2025-03-25 07:32:37 - get_schedules.php called
+2025-03-25 07:32:37 - Retrieved 3 schedules
+2025-03-25 07:32:39 - delete_schedule.php called with ID: 20
+2025-03-25 07:32:39 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 20
+2025-03-25 07:32:39 - Delete successful
+2025-03-25 07:32:39 - get_schedules.php called
+2025-03-25 07:32:39 - Retrieved 2 schedules
+2025-03-25 07:32:41 - delete_schedule.php called with ID: 19
+2025-03-25 07:32:41 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 19
+2025-03-25 07:32:41 - Delete successful
+2025-03-25 07:32:41 - get_schedules.php called
+2025-03-25 07:32:41 - Retrieved 1 schedules
+2025-03-25 07:32:43 - delete_schedule.php called with ID: 26
+2025-03-25 07:32:43 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 26
+2025-03-25 07:32:43 - Delete successful
+2025-03-25 07:32:43 - get_schedules.php called
+2025-03-25 07:32:43 - Retrieved 0 schedules
+2025-03-25 07:36:24 - get_schedules.php called
+2025-03-25 07:36:24 - Retrieved 0 schedules
+2025-03-25 07:36:24 - get_schedules.php called
+2025-03-25 07:36:24 - Retrieved 0 schedules
+2025-03-25 07:39:16 - get_schedules.php called
+2025-03-25 07:39:16 - Retrieved 0 schedules
+2025-03-25 07:39:16 - get_schedules.php called
+2025-03-25 07:39:16 - Retrieved 0 schedules
+2025-03-25 07:40:04 - get_schedules.php called
+2025-03-25 07:40:04 - Retrieved 0 schedules
+2025-03-25 07:40:04 - get_schedules.php called
+2025-03-25 07:40:04 - Retrieved 0 schedules
+2025-03-25 07:41:48 - get_schedules.php called
+2025-03-25 07:41:48 - Retrieved 0 schedules
+2025-03-25 07:41:48 - get_schedules.php called
+2025-03-25 07:41:48 - Retrieved 0 schedules
+2025-03-25 07:41:48 - get_schedules.php called
+2025-03-25 07:41:48 - Retrieved 0 schedules
+2025-03-25 07:42:00 - get_schedules.php called
+2025-03-25 07:42:00 - Retrieved 1 schedules
+2025-03-25 07:42:01 - get_schedules.php called
+2025-03-25 07:42:01 - Retrieved 1 schedules
+2025-03-25 07:45:54 - get_schedules.php called
+2025-03-25 07:45:54 - Retrieved 1 schedules
+2025-03-25 07:45:55 - get_schedules.php called
+2025-03-25 07:45:55 - Retrieved 1 schedules
+2025-03-25 07:45:55 - get_schedules.php called
+2025-03-25 07:45:55 - Retrieved 1 schedules
+2025-03-25 07:45:55 - get_schedules.php called
+2025-03-25 07:45:55 - Retrieved 1 schedules
+2025-03-25 07:45:55 - get_schedules.php called
+2025-03-25 07:45:55 - Retrieved 1 schedules
+2025-03-25 07:45:57 - delete_schedule.php called with ID: 29
+2025-03-25 07:45:57 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 29
+2025-03-25 07:45:57 - Delete successful
+2025-03-25 07:45:57 - get_schedules.php called
+2025-03-25 07:45:57 - Retrieved 0 schedules
+2025-03-25 07:46:22 - get_schedules.php called
+2025-03-25 07:46:22 - Retrieved 1 schedules
+2025-03-25 07:46:24 - get_schedules.php called
+2025-03-25 07:46:24 - Retrieved 1 schedules
+2025-03-25 07:48:09 - get_schedules.php called
+2025-03-25 07:48:09 - Retrieved 1 schedules
+2025-03-25 07:48:09 - get_schedules.php called
+2025-03-25 07:48:09 - Retrieved 1 schedules
+2025-03-25 07:48:09 - get_schedules.php called
+2025-03-25 07:48:09 - Retrieved 1 schedules
+2025-03-25 07:48:09 - get_schedules.php called
+2025-03-25 07:48:09 - Retrieved 1 schedules
+2025-03-25 07:48:09 - get_schedules.php called
+2025-03-25 07:48:09 - Retrieved 1 schedules
+2025-03-25 07:50:56 - get_schedules.php called
+2025-03-25 07:50:56 - Retrieved 1 schedules
+2025-03-25 07:50:56 - get_schedules.php called
+2025-03-25 07:50:56 - Retrieved 1 schedules
+2025-03-25 07:50:56 - get_schedules.php called
+2025-03-25 07:50:56 - Retrieved 1 schedules
+2025-03-25 07:50:56 - get_schedules.php called
+2025-03-25 07:50:56 - Retrieved 1 schedules
+2025-03-25 07:50:56 - get_schedules.php called
+2025-03-25 07:50:56 - Retrieved 1 schedules
+2025-03-25 07:50:56 - get_schedules.php called
+2025-03-25 07:50:56 - Retrieved 1 schedules
+2025-03-25 07:50:56 - get_schedules.php called
+2025-03-25 07:50:56 - Retrieved 1 schedules
+2025-03-25 07:50:56 - get_schedules.php called
+2025-03-25 07:50:56 - Retrieved 1 schedules
+2025-03-25 07:50:56 - get_schedules.php called
+2025-03-25 07:50:56 - Retrieved 1 schedules
+2025-03-25 07:51:37 - get_schedules.php called
+2025-03-25 07:51:37 - Retrieved 2 schedules
+2025-03-25 07:51:38 - get_schedules.php called
+2025-03-25 07:51:38 - Retrieved 2 schedules
+2025-03-25 08:00:19 - get_schedules.php called
+2025-03-25 08:00:19 - Retrieved 2 schedules
+2025-03-25 08:00:19 - get_schedules.php called
+2025-03-25 08:00:19 - Retrieved 2 schedules
+2025-03-25 08:00:19 - get_schedules.php called
+2025-03-25 08:00:19 - Retrieved 2 schedules
+2025-03-25 08:00:26 - get_schedules.php called
+2025-03-25 08:00:26 - Retrieved 2 schedules
+2025-03-25 08:00:26 - get_schedules.php called
+2025-03-25 08:00:26 - Retrieved 2 schedules
+2025-03-25 08:00:26 - get_schedules.php called
+2025-03-25 08:00:26 - Retrieved 2 schedules
+2025-03-25 08:00:34 - get_schedules.php called
+2025-03-25 08:00:34 - Retrieved 2 schedules
+2025-03-25 08:00:34 - get_schedules.php called
+2025-03-25 08:00:34 - Retrieved 2 schedules
+2025-03-25 09:14:06 - get_schedules.php called
+2025-03-25 09:14:06 - get_schedules.php called
+2025-03-25 09:22:27 - get_schedules.php called
+2025-03-25 09:22:27 - get_schedules.php called
+2025-03-25 09:24:23 - get_schedules.php called
+2025-03-25 09:24:23 - get_schedules.php called
+2025-03-25 09:27:49 - get_schedules.php called
+2025-03-25 09:27:49 - get_schedules.php called
+2025-03-25 09:28:19 - get_schedules.php called
+2025-03-25 09:43:32 - get_schedules.php called
+2025-03-25 09:43:32 - get_schedules.php called
+2025-03-25 09:44:32 - get_schedules.php called
+2025-03-25 09:44:42 - get_schedules.php called
+2025-03-25 09:44:42 - get_schedules.php called
+2025-03-25 09:46:57 - get_schedules.php called
+2025-03-25 09:46:57 - get_schedules.php called
+2025-03-25 09:47:03 - get_schedule.php called with id: 33
+2025-03-25 09:47:03 - Schedule found: Array
+(
+    [id] => 33
+    [day] => Saturday
+    [start_time] => 15:00:00
+    [end_time] => 15:30:00
+    [is_active] => 1
+)
+
+2025-03-25 09:47:04 - get_schedule.php called with id: 33
+2025-03-25 09:47:04 - Schedule found: Array
+(
+    [id] => 33
+    [day] => Saturday
+    [start_time] => 15:00:00
+    [end_time] => 15:30:00
+    [is_active] => 1
+)
+
+2025-03-25 09:47:32 - get_schedules.php called
+2025-03-25 09:51:08 - get_schedules.php called
+2025-03-25 09:51:08 - get_schedules.php called
+2025-03-25 09:51:26 - get_schedule.php called with id: 31
+2025-03-25 09:51:26 - Schedule found: Array
+(
+    [id] => 31
+    [day] => Friday
+    [start_time] => 09:00:00
+    [end_time] => 13:00:00
+    [is_active] => 1
+)
+
+2025-03-25 09:51:34 - get_schedule.php called with id: 31
+2025-03-25 09:51:34 - Schedule found: Array
+(
+    [id] => 31
+    [day] => Friday
+    [start_time] => 09:00:00
+    [end_time] => 13:00:00
+    [is_active] => 1
+)
+
+2025-03-25 09:51:35 - get_schedule.php called with id: 31
+2025-03-25 09:51:35 - Schedule found: Array
+(
+    [id] => 31
+    [day] => Friday
+    [start_time] => 09:00:00
+    [end_time] => 13:00:00
+    [is_active] => 1
+)
+
+2025-03-25 09:51:58 - get_schedules.php called
+2025-03-25 09:54:48 - get_schedules.php called
+2025-03-25 09:54:48 - get_schedules.php called
+2025-03-25 09:55:17 - get_schedules.php called
+2025-03-25 09:55:36 - get_schedules.php called
+2025-03-25 09:55:36 - get_schedules.php called
+2025-03-25 09:55:36 - get_schedules.php called
+2025-03-25 10:03:34 - get_schedules.php called
+2025-03-25 10:03:34 - get_schedules.php called
+2025-03-25 10:03:34 - get_schedules.php called
+2025-03-25 10:03:37 - get_schedules.php called
+2025-03-25 10:03:37 - get_schedules.php called
+2025-03-25 10:03:37 - get_schedules.php called
+2025-03-25 10:03:45 - get_schedule.php called with id: 32
+2025-03-25 10:03:45 - Schedule found: Array
+(
+    [id] => 32
+    [day] => Friday
+    [start_time] => 09:00:00
+    [end_time] => 13:00:00
+    [is_active] => 1
+)
+
+2025-03-25 10:03:46 - get_schedule.php called with id: 32
+2025-03-25 10:03:46 - Schedule found: Array
+(
+    [id] => 32
+    [day] => Friday
+    [start_time] => 09:00:00
+    [end_time] => 13:00:00
+    [is_active] => 1
+)
+
+2025-03-25 10:03:49 - get_schedule.php called with id: 35
+2025-03-25 10:03:49 - Schedule found: Array
+(
+    [id] => 35
+    [day] => Saturday
+    [start_time] => 09:00:00
+    [end_time] => 15:30:00
+    [is_active] => 1
+)
+
+2025-03-25 10:03:51 - get_schedule.php called with id: 35
+2025-03-25 10:03:51 - Schedule found: Array
+(
+    [id] => 35
+    [day] => Saturday
+    [start_time] => 09:00:00
+    [end_time] => 15:30:00
+    [is_active] => 1
+)
+
+2025-03-25 10:03:56 - get_schedules.php called
+2025-03-25 10:03:56 - get_schedules.php called
+2025-03-25 10:03:56 - get_schedules.php called
+2025-03-25 10:12:50 - get_schedules.php called
+2025-03-25 10:12:50 - get_schedules.php called
+2025-03-25 10:12:50 - get_schedules.php called
+2025-03-25 10:13:03 - get_schedules.php called
+2025-03-25 10:13:03 - get_schedules.php called
+2025-03-25 10:13:07 - get_schedule.php called with id: 35
+2025-03-25 10:13:07 - Schedule found: Array
+(
+    [id] => 35
+    [day] => Saturday
+    [start_time] => 09:00:00
+    [end_time] => 15:30:00
+    [is_active] => 1
+)
+
+2025-03-25 11:09:06 - get_schedules.php called
+2025-03-25 11:09:20 - get_schedule.php called with id: 31
+2025-03-25 11:09:20 - No schedule found with ID: 31
+2025-03-25 11:09:22 - get_schedule.php called with id: 32
+2025-03-25 11:09:22 - No schedule found with ID: 32
+2025-03-25 11:09:36 - get_schedules.php called
+2025-03-25 11:09:41 - get_schedules.php called
+2025-03-25 11:09:41 - get_schedules.php called
+2025-03-25 11:09:41 - get_schedules.php called
+2025-03-25 11:14:32 - get_schedules.php called
+2025-03-25 11:14:32 - get_schedules.php called
+2025-03-25 11:14:32 - get_schedules.php called
+2025-03-25 11:14:36 - delete_schedule.php called with ID: 37
+2025-03-25 11:14:36 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 37
+2025-03-25 11:14:36 - Delete successful
+2025-03-25 11:14:36 - get_schedules.php called
+2025-03-25 11:14:47 - get_schedules.php called
+2025-03-25 11:17:09 - delete_schedule.php called with ID: 38
+2025-03-25 11:17:09 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 38
+2025-03-25 11:17:09 - Delete successful
+2025-03-25 11:17:09 - get_schedules.php called
+2025-03-25 11:17:11 - get_schedules.php called
+2025-03-25 11:17:11 - get_schedules.php called
+2025-03-25 11:17:11 - get_schedules.php called
+2025-03-25 11:17:20 - get_schedules.php called
+2025-03-25 11:19:38 - get_schedules.php called
+2025-03-25 11:19:38 - get_schedules.php called
+2025-03-25 11:19:38 - get_schedules.php called
+2025-03-25 11:19:40 - delete_schedule.php called with ID: 39
+2025-03-25 11:19:40 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 39
+2025-03-25 11:19:40 - Delete successful
+2025-03-25 11:19:40 - get_schedules.php called
+2025-03-25 11:19:50 - get_schedules.php called
+2025-03-25 11:20:40 - delete_schedule.php called with ID: 40
+2025-03-25 11:20:40 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 40
+2025-03-25 11:20:40 - Delete successful
+2025-03-25 11:20:40 - get_schedules.php called
+2025-03-25 11:23:12 - get_schedules.php called
+2025-03-25 11:23:12 - get_schedules.php called
+2025-03-25 11:23:12 - get_schedules.php called
+2025-03-25 11:23:14 - delete_schedule.php called with ID: 36
+2025-03-25 11:23:14 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 36
+2025-03-25 11:23:14 - Delete successful
+2025-03-25 11:23:14 - get_schedules.php called
+2025-03-25 11:23:24 - get_schedules.php called
+2025-03-25 11:23:24 - get_schedules.php called
+2025-03-25 11:24:13 - get_schedules.php called
+2025-03-25 11:24:13 - get_schedules.php called
+2025-03-25 11:25:25 - get_schedules.php called
+2025-03-25 11:25:25 - get_schedules.php called
+2025-03-25 11:28:14 - get_schedules.php called
+2025-03-25 11:28:14 - get_schedules.php called
+2025-03-25 11:28:14 - get_schedules.php called
+2025-03-25 11:28:17 - get_schedules.php called
+2025-03-25 11:28:17 - get_schedules.php called
+2025-03-25 11:28:17 - get_schedules.php called
+2025-03-25 11:30:29 - get_schedules.php called
+2025-03-25 11:30:29 - get_schedules.php called
+2025-03-25 11:30:29 - get_schedules.php called
+2025-03-25 11:34:07 - get_schedules.php called
+2025-03-25 11:34:07 - get_schedules.php called
+2025-03-25 11:34:07 - get_schedules.php called
+2025-03-25 11:34:20 - get_schedules.php called
+2025-03-25 11:34:20 - get_schedules.php called
+2025-03-25 11:39:18 - get_schedules.php called
+2025-03-25 11:39:18 - get_schedules.php called
+2025-03-25 16:47:13 - get_schedules.php called
+2025-03-25 16:47:13 - get_schedules.php called
+2025-03-25 16:58:55 - get_schedules.php called
+2025-03-25 16:58:55 - get_schedules.php called
+2025-03-25 17:19:58 - get_schedules.php called
+2025-03-25 17:19:58 - get_schedules.php called
+2025-03-25 17:22:06 - get_schedules.php called
+2025-03-25 17:22:06 - get_schedules.php called
+2025-03-25 17:23:12 - get_schedules.php called
+2025-03-25 17:23:12 - get_schedules.php called
+2025-03-25 17:25:19 - get_schedules.php called
+2025-03-25 17:25:19 - get_schedules.php called
+2025-03-25 17:27:03 - get_schedules.php called
+2025-03-25 17:27:03 - get_schedules.php called
+2025-03-25 17:28:34 - get_schedules.php called
+2025-03-25 17:28:34 - get_schedules.php called
+2025-03-25 17:28:48 - delete_schedule.php called with ID: 42
+2025-03-25 17:28:48 - Executing SQL: DELETE FROM schedules WHERE id = :id with ID: 42
+2025-03-25 17:28:48 - Delete successful
+2025-03-25 17:28:48 - get_schedules.php called
+2025-03-25 17:28:53 - get_schedule.php called with id: 43
+2025-03-25 17:28:53 - Schedule found: Array
+(
+    [id] => 43
+    [day] => Friday
+    [start_time] => 14:30:00
+    [end_time] => 18:00:00
+    [is_active] => 1
+)
+
+2025-03-25 17:28:58 - get_schedule.php called with id: 44
+2025-03-25 17:28:58 - Schedule found: Array
+(
+    [id] => 44
+    [day] => Saturday
+    [start_time] => 09:00:00
+    [end_time] => 12:00:00
+    [is_active] => 1
+)
+
+2025-03-25 17:30:44 - get_schedules.php called
+2025-03-25 17:30:44 - get_schedules.php called
+2025-03-25 17:30:48 - get_schedules.php called
+2025-03-25 17:30:48 - get_schedules.php called
+2025-03-25 17:30:51 - get_schedules.php called
+2025-03-25 17:30:51 - get_schedules.php called
+2025-03-25 17:34:20 - get_schedules.php called
+2025-03-25 17:34:20 - get_schedules.php called
+2025-03-25 17:34:44 - get_schedules.php called
+2025-03-25 17:34:44 - get_schedules.php called
+2025-03-25 17:34:46 - get_schedules.php called
+2025-03-25 17:34:46 - get_schedules.php called
+2025-03-25 17:34:48 - get_schedules.php called
+2025-03-25 17:34:48 - get_schedules.php called
+2025-03-25 17:39:17 - get_schedules.php called
+2025-03-25 17:39:17 - get_schedules.php called
+2025-03-25 17:39:30 - get_schedule.php called with id: 44
+2025-03-25 17:39:30 - Schedule found: Array
+(
+    [id] => 44
+    [day] => Saturday
+    [start_time] => 09:00:00
+    [end_time] => 12:00:00
+    [is_active] => 1
+)
+
+2025-03-25 17:39:44 - get_schedules.php called
+2025-03-25 17:39:44 - get_schedules.php called
+2025-03-25 17:40:38 - get_schedule.php called with id: 41
+2025-03-25 17:40:38 - Schedule found: Array
+(
+    [id] => 41
+    [day] => Friday
+    [start_time] => 09:00:00
+    [end_time] => 13:00:00
+    [is_active] => 1
+)
+
+2025-03-25 17:42:25 - get_schedules.php called
+2025-03-25 17:42:25 - get_schedules.php called
+2025-03-25 17:44:28 - get_schedules.php called
+2025-03-25 17:44:28 - get_schedules.php called
+2025-03-25 17:44:36 - get_schedules.php called
+2025-03-25 17:44:36 - get_schedules.php called
+2025-03-25 17:46:47 - get_schedules.php called
+2025-03-25 17:46:47 - get_schedules.php called
+2025-03-25 17:46:50 - get_schedule.php called with id: 41
+2025-03-25 17:46:50 - Schedule found: Array
+(
+    [id] => 41
+    [day] => Friday
+    [start_time] => 09:00:00
+    [end_time] => 13:00:00
+    [is_active] => 1
+)
+
+2025-03-25 17:50:25 - get_schedules.php called
+2025-03-25 17:50:25 - get_schedules.php called
+2025-03-25 17:50:30 - get_schedules.php called
+2025-03-25 17:50:30 - get_schedules.php called
+2025-03-25 17:50:33 - get_schedules.php called
+2025-03-26 05:13:11 - get_schedules.php called
+2025-03-26 05:13:11 - get_schedules.php called
+2025-03-26 05:15:22 - get_schedules.php called
+2025-03-26 05:15:22 - get_schedules.php called
+2025-03-26 05:19:20 - get_schedules.php called
+2025-03-26 05:19:20 - get_schedules.php called
+2025-03-26 06:05:47 - get_schedules.php called
+2025-03-26 06:05:47 - get_schedules.php called
+2025-03-26 06:06:16 - get_schedules.php called
+2025-03-26 06:06:16 - get_schedules.php called
+2025-03-26 06:13:46 - get_schedules.php called
+2025-03-26 06:13:46 - get_schedules.php called
+2025-03-26 06:14:19 - get_schedules.php called
+2025-03-26 06:14:19 - get_schedules.php called
+2025-03-26 06:21:25 - get_schedules.php called
+2025-03-26 06:21:25 - get_schedules.php called
+2025-03-26 06:22:27 - get_schedules.php called
+2025-03-26 06:22:27 - get_schedules.php called
+2025-03-26 06:23:01 - get_schedules.php called
+2025-03-26 06:23:01 - get_schedules.php called
+2025-03-26 06:43:41 - get_schedules.php called
+2025-03-26 06:43:41 - get_schedules.php called
+2025-03-26 06:46:30 - get_schedule.php called with id: 45
+2025-03-26 06:46:30 - Schedule found: Array
+(
+    [id] => 45
+    [day] => Wednesday
+    [start_time] => 09:00:00
+    [end_time] => 12:00:00
+    [is_active] => 1
+)
+
+2025-03-26 06:46:31 - get_schedule.php called with id: 41
+2025-03-26 06:46:31 - Schedule found: Array
+(
+    [id] => 41
+    [day] => Friday
+    [start_time] => 09:00:00
+    [end_time] => 13:00:00
+    [is_active] => 0
+)
+
+2025-03-26 07:03:40 - get_schedules.php called
+2025-03-26 07:03:40 - get_schedules.php called
+2025-03-26 07:05:07 - get_schedules.php called
+2025-03-26 07:05:07 - get_schedules.php called
+2025-03-26 07:05:16 - get_schedules.php called
+2025-03-26 07:05:16 - get_schedules.php called
+2025-03-26 07:10:07 - get_schedules.php called
+2025-03-26 07:10:07 - get_schedules.php called
+2025-03-26 07:10:22 - get_schedules.php called
+2025-03-26 07:10:22 - get_schedules.php called
+2025-03-26 07:10:31 - get_schedules.php called
+2025-03-26 07:10:31 - get_schedules.php called
+2025-03-26 07:10:51 - get_schedules.php called
+2025-03-26 07:10:51 - get_schedules.php called
+2025-03-26 07:11:33 - get_schedules.php called
+2025-03-26 07:11:33 - get_schedules.php called
+2025-03-26 07:15:03 - get_schedules.php called
+2025-03-26 07:15:03 - get_schedules.php called
+2025-03-26 07:15:18 - get_schedules.php called
+2025-03-26 07:15:18 - get_schedules.php called
+2025-03-26 07:15:31 - get_schedules.php called
+2025-03-26 07:15:31 - get_schedules.php called
+2025-03-26 07:21:09 - get_schedules.php called
+2025-03-26 07:21:09 - get_schedules.php called
+2025-03-26 07:21:15 - get_schedules.php called
+2025-03-26 07:21:15 - get_schedules.php called
+2025-03-26 07:24:32 - get_schedules.php called
+2025-03-26 07:24:32 - get_schedules.php called
+2025-03-26 07:24:38 - get_schedules.php called
+2025-03-26 07:24:38 - get_schedules.php called
+2025-03-26 07:29:18 - get_schedules.php called
+2025-03-26 07:29:18 - get_schedules.php called
+2025-03-26 07:32:48 - get_schedules.php called
+2025-03-26 07:32:48 - get_schedules.php called
+2025-03-26 09:42:23 - get_schedules.php called
+2025-03-26 09:42:23 - get_schedules.php called
+2025-03-26 09:42:23 - get_schedules.php called
+2025-03-26 10:00:00 - get_schedules.php called
+2025-03-26 10:00:00 - get_schedules.php called
+2025-03-26 10:00:00 - get_schedules.php called
+2025-03-27 06:24:10 - get_schedules.php called
+2025-03-27 06:24:10 - get_schedules.php called
+2025-03-27 06:32:52 - get_schedules.php called
+2025-03-27 07:22:07 - get_schedules.php called
+2025-03-27 07:22:07 - get_schedules.php called
+2025-03-27 07:33:40 - get_schedules.php called
+2025-03-27 07:33:40 - get_schedules.php called
+2025-03-27 07:33:40 - get_schedules.php called
+2025-03-27 07:39:23 - get_schedules.php called
+2025-03-27 07:39:23 - get_schedules.php called
+2025-03-27 07:39:23 - get_schedules.php called
+2025-03-27 09:14:27 - get_schedules.php called
+2025-03-27 09:14:27 - get_schedules.php called
+2025-03-27 11:20:57 - get_schedules.php called
+2025-03-27 11:20:57 - get_schedules.php called
+2025-03-27 17:45:20 - get_schedules.php called
+2025-03-27 17:45:20 - get_schedules.php called
+2025-03-27 17:45:32 - get_schedules.php called
+2025-03-27 17:45:32 - get_schedules.php called
+2025-03-30 04:56:11 - get_schedules.php called
+2025-03-30 04:56:12 - get_schedules.php called
+2025-03-30 04:56:12 - get_schedules.php called
+2025-03-30 04:56:12 - get_schedules.php called
+2025-03-30 04:56:26 - get_schedules.php called
+2025-03-30 04:56:26 - get_schedules.php called
+2025-03-30 04:56:38 - get_schedules.php called
+2025-03-30 04:56:40 - get_schedules.php called
+2025-03-30 04:56:42 - get_schedules.php called
+2025-03-30 04:56:46 - get_schedules.php called
+2025-03-30 04:58:19 - get_schedules.php called
+2025-03-30 04:58:21 - get_schedules.php called
+2025-03-30 04:58:21 - get_schedules.php called
+2025-03-30 04:58:22 - get_schedules.php called
+2025-03-30 04:58:22 - get_schedules.php called
+2025-03-30 04:58:22 - get_schedules.php called
+2025-03-30 04:58:22 - get_schedules.php called
+2025-03-30 04:58:22 - get_schedules.php called
+2025-03-30 04:58:22 - get_schedules.php called
+2025-03-30 04:58:23 - get_schedules.php called
+2025-03-30 04:59:56 - get_schedules.php called
+2025-03-30 04:59:57 - get_schedules.php called
+2025-03-30 04:59:58 - get_schedules.php called
+2025-03-30 04:59:59 - get_schedules.php called
+2025-03-30 04:59:59 - get_schedules.php called
+2025-03-30 05:00:02 - get_schedules.php called
+2025-03-30 05:00:02 - get_schedules.php called
+2025-03-30 05:00:02 - get_schedules.php called
+2025-03-30 05:04:33 - get_schedules.php called
+2025-03-30 05:04:35 - get_schedules.php called
+2025-03-30 05:04:36 - get_schedules.php called
+2025-03-30 05:04:36 - get_schedules.php called
+2025-03-30 05:04:36 - get_schedules.php called
+2025-03-30 05:04:37 - get_schedules.php called
+2025-03-30 05:04:48 - get_schedules.php called
+2025-03-30 05:11:54 - get_schedules.php called
+2025-03-30 05:11:56 - get_schedules.php called
+2025-03-30 05:11:57 - get_schedules.php called
+2025-03-30 05:11:57 - get_schedules.php called
+2025-03-30 05:11:57 - get_schedules.php called
+2025-03-30 05:11:57 - get_schedules.php called
+2025-03-30 05:11:58 - get_schedules.php called
+2025-03-30 05:11:58 - get_schedules.php called
+2025-03-30 05:11:58 - get_schedules.php called
+2025-03-30 05:11:58 - get_schedules.php called
+2025-03-30 05:11:58 - get_schedules.php called
+2025-03-30 05:11:58 - get_schedules.php called
+2025-03-30 05:11:58 - get_schedules.php called
+2025-03-30 05:25:02 - get_schedules.php called
+2025-03-30 05:25:04 - get_schedules.php called
+2025-03-30 05:25:05 - get_schedules.php called
+2025-03-30 05:25:05 - get_schedules.php called
+2025-03-30 05:25:06 - get_schedules.php called
+2025-03-30 05:25:06 - get_schedules.php called
+2025-03-30 05:25:06 - get_schedules.php called
+2025-03-30 05:25:07 - get_schedules.php called
+2025-03-30 05:25:07 - get_schedules.php called
+2025-03-30 05:25:07 - get_schedules.php called
+2025-03-30 05:25:07 - get_schedules.php called
+2025-03-30 05:25:07 - get_schedules.php called
+2025-03-30 05:25:08 - get_schedules.php called
+2025-03-30 05:25:08 - get_schedules.php called
+2025-03-30 05:25:08 - get_schedules.php called
+2025-03-30 05:25:08 - get_schedules.php called
+2025-03-30 05:25:09 - get_schedules.php called
+2025-03-30 05:25:09 - get_schedules.php called
+2025-03-30 05:25:09 - get_schedules.php called
+2025-03-30 05:25:10 - get_schedules.php called
+2025-03-30 05:25:10 - get_schedules.php called
+2025-03-30 05:50:23 - get_schedules.php called
+2025-03-30 05:50:25 - get_schedules.php called
+2025-03-30 05:54:35 - get_schedules.php called
+2025-03-30 05:54:37 - get_schedules.php called
+2025-03-30 05:54:38 - get_schedules.php called
+2025-03-30 05:54:38 - get_schedules.php called
+2025-03-30 05:54:38 - get_schedules.php called
+2025-03-30 05:54:38 - get_schedules.php called
+2025-03-30 05:54:39 - get_schedules.php called
+2025-03-30 05:54:39 - get_schedules.php called
+2025-03-30 05:54:39 - get_schedules.php called
+2025-03-30 05:54:39 - get_schedules.php called
+2025-03-30 05:58:14 - get_schedules.php called
+2025-03-30 05:59:29 - get_schedules.php called
+2025-03-30 05:59:36 - get_schedules.php called
+2025-03-30 05:59:36 - get_schedules.php called
+2025-03-30 05:59:36 - get_schedules.php called
+2025-03-30 05:59:40 - get_schedules.php called
+2025-03-30 05:59:46 - get_schedules.php called
+2025-03-30 06:13:18 - get_schedules.php called
+2025-03-30 06:15:12 - get_schedules.php called
+2025-03-30 06:19:29 - get_schedules.php called
+2025-03-30 07:31:43 - get_schedules.php called
+2025-03-30 07:40:52 - get_schedules.php called
+2025-03-30 07:42:45 - get_schedules.php called
+2025-03-30 07:46:44 - get_schedules.php called
+2025-03-30 07:46:53 - get_schedules.php called
+2025-03-30 07:48:51 - get_schedules.php called
+2025-03-30 07:50:10 - get_schedules.php called
+2025-03-30 07:52:45 - get_schedules.php called
+2025-03-30 07:52:56 - get_schedules.php called
+2025-03-30 07:53:03 - get_schedules.php called
+2025-03-30 08:03:05 - get_schedules.php called
+2025-03-30 08:06:44 - get_schedules.php called
+2025-03-30 08:07:57 - get_schedules.php called
+2025-03-30 08:09:31 - get_schedules.php called
+2025-03-30 08:11:24 - get_schedules.php called
+2025-03-30 08:13:16 - get_schedules.php called
+2025-03-30 08:13:16 - get_schedules.php called
+2025-03-30 08:13:16 - get_schedules.php called
+2025-03-30 08:13:16 - get_schedules.php called
+2025-03-30 08:13:23 - get_schedules.php called
+2025-03-30 08:13:23 - get_schedules.php called
+2025-03-30 08:13:23 - get_schedules.php called
+2025-03-30 08:13:23 - get_schedules.php called
+2025-03-30 08:25:16 - get_schedules.php called
+2025-03-30 08:25:20 - get_schedules.php called
+2025-03-30 08:25:20 - get_schedules.php called
+2025-03-30 08:25:20 - get_schedules.php called
+2025-03-30 08:25:20 - get_schedules.php called
+2025-03-30 08:25:20 - get_schedules.php called
+2025-03-30 08:28:21 - get_schedules.php called
+2025-03-30 08:28:21 - get_schedules.php called
+2025-03-30 08:28:21 - get_schedules.php called
+2025-03-30 08:28:21 - get_schedules.php called
+2025-03-30 08:28:21 - get_schedules.php called
+2025-03-30 08:30:07 - get_schedules.php called
+2025-03-30 08:30:07 - get_schedules.php called
+2025-03-30 08:30:07 - get_schedules.php called
+2025-03-30 08:30:07 - get_schedules.php called
+2025-03-30 08:30:07 - get_schedules.php called
+2025-03-30 08:32:06 - get_schedules.php called
+2025-03-30 08:32:06 - get_schedules.php called
+2025-03-30 08:32:06 - get_schedules.php called
+2025-03-30 08:32:06 - get_schedules.php called
+2025-03-30 08:32:06 - get_schedules.php called
+2025-03-30 08:32:10 - get_schedules.php called
+2025-03-30 08:33:49 - get_schedules.php called
+2025-03-30 08:33:49 - get_schedules.php called
+2025-03-30 08:33:49 - get_schedules.php called
+2025-03-30 08:33:49 - get_schedules.php called
+2025-03-30 08:33:49 - get_schedules.php called
+2025-03-30 08:34:47 - get_schedules.php called
+2025-03-30 08:34:47 - get_schedules.php called
+2025-03-30 08:37:03 - get_schedules.php called
+2025-03-30 08:37:03 - get_schedules.php called
+2025-03-30 08:37:03 - get_schedules.php called
+2025-03-30 08:37:03 - get_schedules.php called
+2025-03-30 08:37:14 - get_schedules.php called
+2025-03-30 08:37:14 - get_schedules.php called
+2025-03-30 08:38:31 - get_schedules.php called
+2025-03-30 08:38:31 - get_schedules.php called
+2025-03-30 08:38:33 - get_schedules.php called
+2025-03-30 08:38:33 - get_schedules.php called
+2025-03-30 08:38:33 - get_schedules.php called
+2025-03-30 08:38:33 - get_schedules.php called
+2025-03-30 08:53:51 - get_schedules.php called
+2025-03-30 08:53:51 - get_schedules.php called
+2025-03-30 08:53:51 - get_schedules.php called
+2025-03-30 08:53:51 - get_schedules.php called
+2025-03-30 08:56:18 - get_schedules.php called
+2025-03-30 08:56:18 - get_schedules.php called
+2025-03-30 08:56:18 - get_schedules.php called
+2025-03-30 08:56:18 - get_schedules.php called
+2025-03-30 08:58:40 - get_schedules.php called
+2025-03-30 08:58:40 - get_schedules.php called
+2025-03-30 08:58:40 - get_schedules.php called
+2025-03-30 08:58:40 - get_schedules.php called
+2025-03-30 09:01:16 - get_schedules.php called
+2025-03-30 09:01:16 - get_schedules.php called
+2025-03-30 09:01:16 - get_schedules.php called
+2025-03-30 09:01:16 - get_schedules.php called
+2025-03-30 09:03:26 - get_schedules.php called
+2025-03-30 09:03:26 - get_schedules.php called
+2025-03-30 09:03:26 - get_schedules.php called
+2025-03-30 09:03:26 - get_schedules.php called
+2025-03-30 09:05:42 - get_schedules.php called
+2025-03-30 09:05:42 - get_schedules.php called
+2025-03-30 09:05:42 - get_schedules.php called
+2025-03-30 09:05:42 - get_schedules.php called
+2025-03-30 09:07:48 - get_schedules.php called
+2025-03-30 09:07:48 - get_schedules.php called
+2025-03-30 09:07:48 - get_schedules.php called
+2025-03-30 09:07:48 - get_schedules.php called
+2025-03-30 09:10:33 - get_schedules.php called
+2025-03-30 09:10:33 - get_schedules.php called
+2025-03-30 09:10:33 - get_schedules.php called
+2025-03-30 09:10:33 - get_schedules.php called
+2025-03-30 09:11:02 - update_schedule.php called with POST data: Array
+(
+    [day] => Friday
+    [startTime] => 10:00
+    [endTime] => 13:00
+    [isActive] => 1
+    [scheduleId] => 52
+)
+
+2025-03-30 09:11:02 - Missing required fields
+2025-03-30 09:11:08 - update_schedule.php called with POST data: Array
+(
+    [day] => Friday
+    [startTime] => 10:00
+    [endTime] => 13:00
+    [isActive] => 1
+    [scheduleId] => 52
+)
+
+2025-03-30 09:11:08 - Missing required fields
+2025-03-30 09:14:06 - get_schedules.php called
+2025-03-30 09:14:06 - get_schedules.php called
+2025-03-30 09:14:06 - get_schedules.php called
+2025-03-30 09:14:06 - get_schedules.php called
+2025-03-30 09:14:42 - get_schedules.php called
+2025-03-30 09:14:42 - get_schedules.php called
+2025-03-30 09:14:42 - get_schedules.php called
+2025-03-30 09:14:42 - get_schedules.php called
+2025-03-30 09:16:44 - get_schedules.php called
+2025-03-30 09:16:44 - get_schedules.php called
+2025-03-30 09:16:44 - get_schedules.php called
+2025-03-30 09:16:44 - get_schedules.php called
+2025-03-30 09:16:55 - get_schedules.php called
+2025-03-30 09:16:55 - get_schedules.php called
+2025-03-30 09:17:05 - get_schedules.php called
+2025-03-30 09:17:05 - get_schedules.php called
+2025-03-30 09:18:37 - get_schedules.php called
+2025-03-30 09:18:37 - get_schedules.php called
+2025-03-30 09:18:37 - get_schedules.php called
+2025-03-30 09:18:37 - get_schedules.php called
+2025-03-30 09:18:45 - get_schedules.php called
+2025-03-30 09:18:45 - get_schedules.php called
+2025-03-30 09:18:45 - get_schedules.php called
+2025-03-30 09:18:45 - get_schedules.php called
+2025-03-30 09:21:14 - get_schedules.php called
+2025-03-30 09:21:14 - get_schedules.php called
+2025-03-30 09:21:14 - get_schedules.php called
+2025-03-30 09:21:14 - get_schedules.php called
+2025-03-30 09:22:35 - get_schedules.php called
+2025-03-30 09:22:35 - get_schedules.php called
+2025-03-30 09:22:35 - get_schedules.php called
+2025-03-30 09:22:35 - get_schedules.php called
+2025-03-30 09:23:40 - get_schedules.php called
+2025-03-30 09:23:40 - get_schedules.php called
+2025-03-30 09:23:40 - get_schedules.php called
+2025-03-30 09:23:40 - get_schedules.php called
+2025-03-30 09:23:52 - get_schedules.php called
+2025-03-30 09:23:52 - get_schedules.php called
+2025-03-30 09:23:52 - get_schedules.php called
+2025-03-30 09:23:52 - get_schedules.php called
+2025-03-30 09:26:47 - get_schedules.php called
+2025-03-30 09:26:47 - get_schedules.php called
+2025-03-30 09:26:47 - get_schedules.php called
+2025-03-30 09:26:47 - get_schedules.php called
+2025-03-30 09:27:02 - get_schedules.php called
+2025-03-30 09:27:02 - get_schedules.php called
+2025-03-30 09:27:02 - get_schedules.php called
+2025-03-30 09:27:02 - get_schedules.php called
+2025-03-30 09:27:07 - get_schedules.php called
+2025-03-30 09:27:07 - get_schedules.php called
+2025-03-30 09:28:09 - get_schedules.php called
+2025-03-30 09:28:09 - get_schedules.php called
+2025-03-30 09:29:18 - get_schedules.php called
+2025-03-30 09:29:18 - get_schedules.php called
+2025-03-30 09:29:18 - get_schedules.php called
+2025-03-30 09:29:18 - get_schedules.php called
+2025-03-30 09:31:01 - get_schedules.php called
+2025-03-30 09:31:01 - get_schedules.php called
+2025-03-30 09:31:01 - get_schedules.php called
+2025-03-30 09:31:01 - get_schedules.php called
+2025-03-30 09:31:21 - get_schedules.php called
+2025-03-30 09:31:21 - get_schedules.php called
+2025-03-30 09:31:25 - get_schedules.php called
+2025-03-30 09:31:25 - get_schedules.php called
+2025-03-30 09:33:24 - get_schedules.php called
+2025-03-30 09:33:24 - get_schedules.php called
+2025-03-30 09:36:19 - get_schedules.php called
+2025-03-30 09:36:19 - get_schedules.php called
+2025-03-30 09:36:19 - get_schedules.php called
+2025-03-30 09:36:19 - get_schedules.php called
+2025-03-30 09:38:18 - get_schedules.php called
+2025-03-30 09:38:19 - get_schedules.php called
+2025-03-30 09:38:19 - get_schedules.php called
+2025-03-30 09:38:19 - get_schedules.php called
+2025-03-30 09:42:11 - get_schedules.php called
+2025-03-30 09:42:11 - get_schedules.php called
+2025-03-30 09:42:11 - get_schedules.php called
+2025-03-30 09:42:11 - get_schedules.php called
+2025-03-30 09:44:18 - get_schedules.php called
+2025-03-30 09:44:18 - get_schedules.php called
+2025-03-30 09:44:18 - get_schedules.php called
+2025-03-30 09:44:18 - get_schedules.php called
+2025-03-30 09:46:01 - get_schedules.php called
+2025-03-30 09:46:01 - get_schedules.php called
+2025-03-30 09:46:01 - get_schedules.php called
+2025-03-30 09:46:01 - get_schedules.php called
+2025-03-30 09:46:05 - get_schedules.php called
+2025-03-30 09:46:05 - get_schedules.php called
+2025-03-30 09:46:05 - get_schedules.php called
+2025-03-30 09:46:05 - get_schedules.php called
+2025-03-30 09:47:59 - get_schedules.php called
+2025-03-30 09:47:59 - get_schedules.php called
+2025-03-30 09:47:59 - get_schedules.php called
+2025-03-30 09:47:59 - get_schedules.php called
+2025-03-30 09:50:14 - get_schedules.php called
+2025-03-30 09:50:14 - get_schedules.php called
+2025-03-30 09:50:14 - get_schedules.php called
+2025-03-30 09:50:14 - get_schedules.php called
+2025-03-30 09:52:37 - get_schedules.php called
+2025-03-30 09:52:37 - get_schedules.php called
+2025-03-30 09:52:37 - get_schedules.php called
+2025-03-30 09:52:37 - get_schedules.php called
+2025-03-30 09:54:27 - get_schedules.php called
+2025-03-30 09:54:27 - get_schedules.php called
+2025-03-30 09:54:27 - get_schedules.php called
+2025-03-30 09:54:27 - get_schedules.php called
+2025-03-30 10:00:49 - get_schedules.php called
+2025-03-30 10:00:49 - get_schedules.php called
+2025-03-30 10:01:30 - get_schedules.php called
+2025-03-30 10:01:30 - get_schedules.php called
+2025-03-30 10:01:30 - get_schedules.php called
+2025-03-30 10:01:30 - get_schedules.php called
+2025-03-30 10:01:43 - get_schedules.php called
+2025-03-30 10:01:43 - get_schedules.php called
+2025-03-30 10:01:44 - get_schedules.php called
+2025-03-30 10:01:44 - get_schedules.php called
+2025-03-30 10:02:01 - get_schedules.php called
+2025-03-30 10:02:01 - get_schedules.php called
+2025-03-30 10:02:01 - get_schedules.php called
+2025-03-30 10:02:01 - get_schedules.php called
+2025-03-30 10:02:27 - get_schedules.php called
+2025-03-30 10:02:27 - get_schedules.php called
+2025-03-30 10:05:07 - get_schedules.php called
+2025-03-30 10:05:07 - get_schedules.php called
+2025-03-30 10:07:38 - get_schedules.php called
+2025-03-30 10:07:38 - get_schedules.php called
+2025-03-30 10:07:38 - get_schedules.php called
+2025-03-30 10:07:38 - get_schedules.php called
+2025-03-30 10:08:43 - get_schedules.php called
+2025-03-30 10:08:44 - get_schedules.php called
+2025-03-30 10:08:44 - get_schedules.php called
+2025-03-30 10:08:44 - get_schedules.php called
+2025-03-30 10:11:24 - get_schedules.php called
+2025-03-30 10:11:24 - get_schedules.php called
+2025-03-30 10:11:24 - get_schedules.php called
+2025-03-30 10:11:24 - get_schedules.php called
+2025-03-30 10:13:13 - get_schedules.php called
+2025-03-30 10:13:13 - get_schedules.php called
+2025-03-30 10:13:13 - get_schedules.php called
+2025-03-30 10:13:13 - get_schedules.php called
+2025-03-30 10:14:59 - get_schedules.php called
+2025-03-30 10:14:59 - get_schedules.php called
+2025-03-30 10:14:59 - get_schedules.php called
+2025-03-30 10:14:59 - get_schedules.php called
+2025-03-30 10:17:13 - get_schedules.php called
+2025-03-30 10:17:13 - get_schedules.php called
+2025-03-30 10:17:13 - get_schedules.php called
+2025-03-30 10:17:13 - get_schedules.php called
+2025-03-30 10:18:06 - get_schedules.php called
+2025-03-30 10:18:06 - get_schedules.php called
+2025-03-30 10:18:06 - get_schedules.php called
+2025-03-30 10:18:06 - get_schedules.php called
+2025-03-30 10:20:53 - get_schedules.php called
+2025-03-30 10:20:53 - get_schedules.php called
+2025-03-30 10:20:53 - get_schedules.php called
+2025-03-30 10:20:53 - get_schedules.php called
+2025-03-30 10:20:56 - get_schedules.php called
+2025-03-30 10:20:56 - get_schedules.php called
+2025-03-30 10:21:03 - get_schedules.php called
+2025-03-30 10:21:03 - get_schedules.php called
+2025-03-30 10:21:20 - get_schedules.php called
+2025-03-30 10:21:20 - get_schedules.php called
+2025-03-30 10:21:20 - get_schedules.php called
+2025-03-30 10:21:20 - get_schedules.php called
+2025-03-30 10:22:39 - get_schedules.php called
+2025-03-30 10:22:39 - get_schedules.php called
+2025-03-30 10:22:39 - get_schedules.php called
+2025-03-30 10:22:39 - get_schedules.php called
+2025-03-30 10:22:39 - get_schedules.php called
+2025-03-30 10:24:08 - get_schedules.php called
+2025-03-30 10:24:08 - get_schedules.php called
+2025-03-30 10:24:08 - get_schedules.php called
+2025-03-30 10:24:08 - get_schedules.php called
+2025-03-30 10:24:08 - get_schedules.php called
+2025-03-30 10:26:27 - get_schedules.php called
+2025-03-30 10:26:27 - get_schedules.php called
+2025-03-30 10:26:27 - get_schedules.php called
+2025-03-30 10:26:27 - get_schedules.php called
+2025-03-30 10:26:27 - get_schedules.php called
+2025-03-30 10:28:52 - get_schedules.php called
+2025-03-30 10:28:52 - get_schedules.php called
+2025-03-30 10:28:52 - get_schedules.php called
+2025-03-30 10:28:52 - get_schedules.php called
+2025-03-30 10:28:52 - get_schedules.php called
+2025-03-30 10:28:57 - get_schedules.php called
+2025-03-30 10:28:57 - get_schedules.php called
+2025-03-30 10:29:03 - get_schedules.php called
+2025-03-30 10:29:03 - get_schedules.php called
+2025-03-30 10:29:03 - get_schedules.php called
+2025-03-30 10:32:13 - get_schedules.php called
+2025-03-30 10:32:13 - get_schedules.php called
+2025-03-30 10:32:21 - get_schedules.php called
+2025-03-30 10:32:21 - get_schedules.php called
+2025-03-30 10:32:23 - get_schedules.php called
+2025-03-30 10:32:23 - get_schedules.php called
+2025-03-31 02:27:18 - get_schedules.php called
+2025-03-31 02:27:18 - get_schedules.php called
+2025-04-01 06:23:11 - get_schedules.php called
+2025-04-01 06:23:11 - get_schedules.php called
+2025-04-01 09:38:37 - get_schedules.php called
+2025-04-01 09:38:37 - get_schedules.php called
+2025-04-01 09:38:42 - get_schedules.php called
+2025-04-01 09:38:42 - get_schedules.php called
+2025-04-01 17:24:38 - get_schedules.php called
+2025-04-01 17:24:39 - get_schedules.php called
+2025-04-01 18:33:40 - get_schedules.php called
+2025-04-01 18:33:40 - get_schedules.php called
+2025-04-01 18:34:05 - get_schedules.php called
+2025-04-01 18:34:06 - get_schedules.php called
+2025-04-01 18:34:06 - get_schedules.php called
+2025-04-01 18:34:06 - get_schedules.php called
+2025-04-02 01:54:29 - get_schedules.php called
+2025-04-02 01:54:29 - get_schedules.php called
+2025-04-02 01:54:40 - get_schedules.php called
+2025-04-02 01:54:40 - get_schedules.php called
+2025-04-02 03:49:52 - get_schedules.php called
+2025-04-02 03:49:52 - get_schedules.php called
+2025-04-02 10:00:38 - get_schedules.php called
+2025-04-02 10:00:38 - get_schedules.php called
+2025-04-02 10:00:42 - get_schedules.php called
+2025-04-02 10:00:42 - get_schedules.php called
+2025-04-02 10:00:46 - get_schedules.php called
+2025-04-02 10:00:46 - get_schedules.php called
+2025-04-02 10:01:46 - get_schedules.php called
+2025-04-02 10:01:46 - get_schedules.php called
+2025-04-02 10:01:46 - get_schedules.php called
+2025-04-02 10:01:46 - get_schedules.php called
+2025-04-02 12:03:29 - get_schedules.php called
+2025-04-02 12:03:29 - get_schedules.php called
+2025-04-03 03:06:06 - get_schedules.php called
+2025-04-03 03:06:06 - get_schedules.php called
+2025-04-03 07:22:13 - get_schedules.php called
+2025-04-03 07:22:13 - get_schedules.php called
+2025-04-03 08:05:39 - get_schedules.php called
+2025-04-03 08:05:39 - get_schedules.php called
+2025-04-03 08:08:22 - get_schedules.php called
+2025-04-03 08:08:22 - get_schedules.php called
+2025-04-07 19:35:18 - get_schedules.php called
+2025-04-07 19:35:18 - get_schedules.php called
+2025-04-07 19:38:31 - get_schedules.php called
+2025-04-07 19:38:31 - get_schedules.php called
+2025-04-07 19:38:31 - get_schedules.php called
+2025-04-07 19:38:31 - get_schedules.php called
+2025-04-07 19:46:22 - get_schedules.php called
+2025-04-07 19:46:22 - get_schedules.php called
+2025-04-07 19:46:27 - get_schedules.php called
+2025-04-08 01:33:21 - get_schedules.php called
+2025-04-08 01:33:21 - get_schedules.php called
+2025-04-08 01:33:23 - get_schedules.php called
+2025-04-08 01:37:23 - get_schedules.php called
+2025-04-08 01:37:23 - get_schedules.php called
+2025-04-08 01:37:24 - get_schedules.php called
+2025-04-08 01:37:25 - get_schedules.php called
+2025-04-08 01:37:26 - get_schedules.php called
+2025-04-08 01:37:27 - get_schedules.php called
+2025-04-08 01:40:57 - get_schedules.php called
+2025-04-08 01:40:57 - get_schedules.php called
+2025-04-08 01:40:58 - get_schedules.php called
+2025-04-08 01:47:39 - get_schedules.php called
+2025-04-08 01:47:39 - get_schedules.php called
+2025-04-08 01:48:19 - get_schedules.php called
+2025-04-08 01:48:19 - get_schedules.php called
+2025-04-08 01:48:19 - get_schedules.php called
+2025-04-08 01:48:33 - get_schedules.php called
+2025-04-08 01:48:33 - get_schedules.php called
+2025-04-08 01:48:33 - get_schedules.php called
+2025-04-08 01:49:12 - get_schedules.php called
+2025-04-08 01:49:12 - get_schedules.php called
+2025-04-08 01:49:24 - get_schedules.php called
+2025-04-08 01:49:24 - get_schedules.php called
+2025-04-08 01:49:24 - get_schedules.php called
+2025-04-08 01:49:24 - get_schedules.php called
+2025-04-08 01:49:24 - get_schedules.php called
+2025-04-08 01:49:24 - get_schedules.php called
+2025-04-08 01:49:24 - get_schedules.php called
+2025-04-08 01:49:24 - get_schedules.php called
+2025-04-08 01:49:24 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:25 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:26 - get_schedules.php called
+2025-04-08 01:49:27 - get_schedules.php called
+2025-04-08 01:49:27 - get_schedules.php called
+2025-04-08 01:49:27 - get_schedules.php called
+2025-04-08 01:51:40 - get_schedules.php called
+2025-04-08 01:51:40 - get_schedules.php called
+2025-04-08 01:51:40 - get_schedules.php called
+2025-04-08 01:51:42 - get_schedules.php called
+2025-04-08 01:51:42 - get_schedules.php called
+2025-04-08 01:51:42 - get_schedules.php called
+2025-04-08 01:51:48 - get_schedules.php called
+2025-04-08 01:51:48 - get_schedules.php called
+2025-04-08 01:51:48 - get_schedules.php called
+2025-04-08 01:51:49 - get_schedules.php called
+2025-04-08 01:51:49 - get_schedules.php called
+2025-04-08 01:51:49 - get_schedules.php called
+2025-04-08 01:51:49 - get_schedules.php called
+2025-04-08 01:51:49 - get_schedules.php called
+2025-04-08 01:51:49 - get_schedules.php called
+2025-04-08 01:51:49 - get_schedules.php called
+2025-04-08 01:51:49 - get_schedules.php called
+2025-04-08 01:51:49 - get_schedules.php called
+2025-04-08 01:51:49 - get_schedules.php called
+2025-04-08 01:51:49 - get_schedules.php called
+2025-04-08 01:51:49 - get_schedules.php called
+2025-04-08 01:51:50 - get_schedules.php called
+2025-04-08 01:51:50 - get_schedules.php called
+2025-04-08 01:51:50 - get_schedules.php called
+2025-04-08 01:56:04 - get_schedules.php called
+2025-04-08 01:56:04 - get_schedules.php called
+2025-04-08 01:56:04 - get_schedules.php called
+2025-04-08 01:56:07 - get_schedules.php called
+2025-04-08 01:56:07 - get_schedules.php called
+2025-04-08 01:56:07 - get_schedules.php called
+2025-04-08 01:56:07 - get_schedules.php called
+2025-04-08 01:56:07 - get_schedules.php called
+2025-04-08 01:56:07 - get_schedules.php called
+2025-04-08 01:56:08 - get_schedules.php called
+2025-04-08 01:56:08 - get_schedules.php called
+2025-04-08 01:56:08 - get_schedules.php called
+2025-04-08 01:56:09 - get_schedules.php called
+2025-04-08 01:56:09 - get_schedules.php called
+2025-04-08 01:56:09 - get_schedules.php called
+2025-04-08 01:56:10 - get_schedules.php called
+2025-04-08 01:56:10 - get_schedules.php called
+2025-04-08 01:56:10 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:22 - get_schedules.php called
+2025-04-08 01:56:23 - get_schedules.php called
+2025-04-08 01:56:23 - get_schedules.php called
+2025-04-08 01:56:23 - get_schedules.php called
+2025-04-08 01:56:23 - get_schedules.php called
+2025-04-08 01:56:23 - get_schedules.php called
+2025-04-08 01:56:23 - get_schedules.php called
+2025-04-08 01:56:23 - get_schedules.php called
+2025-04-08 01:56:23 - get_schedules.php called
+2025-04-08 01:56:23 - get_schedules.php called
+2025-04-08 02:01:20 - get_schedules.php called
+2025-04-08 02:01:20 - get_schedules.php called
+2025-04-08 02:01:20 - get_schedules.php called
+2025-04-08 02:01:28 - get_schedules.php called
+2025-04-08 02:01:28 - get_schedules.php called
+2025-04-08 02:01:54 - get_schedules.php called
+2025-04-08 02:01:54 - get_schedules.php called
+2025-04-08 02:01:54 - get_schedules.php called
+2025-04-08 02:06:39 - get_schedules.php called
+2025-04-08 02:07:03 - get_schedules.php called
+2025-04-08 02:07:03 - get_schedules.php called
+2025-04-08 02:07:04 - get_schedules.php called
+2025-04-08 02:07:25 - get_schedules.php called
+2025-04-08 02:07:25 - get_schedules.php called
+2025-04-08 02:07:35 - get_schedules.php called
+2025-04-08 02:07:35 - get_schedules.php called
+2025-04-08 02:08:19 - get_schedules.php called
+2025-04-08 02:09:09 - get_schedules.php called
+2025-04-08 02:12:47 - get_schedules.php called
+2025-04-08 02:12:48 - get_schedules.php called
+2025-04-08 02:12:48 - get_schedules.php called
+2025-04-08 02:15:47 - get_schedules.php called
+2025-04-08 02:15:47 - get_schedules.php called
+2025-04-08 02:15:47 - get_schedules.php called
+2025-04-08 02:16:01 - get_schedules.php called
+2025-04-08 02:16:01 - get_schedules.php called
+2025-04-08 02:16:01 - get_schedules.php called
+2025-04-08 02:16:01 - get_schedules.php called
+2025-04-08 02:16:01 - get_schedules.php called
+2025-04-08 02:16:01 - get_schedules.php called
+2025-04-08 02:16:02 - get_schedules.php called
+2025-04-08 02:16:02 - get_schedules.php called
+2025-04-08 02:16:02 - get_schedules.php called
+2025-04-08 02:16:02 - get_schedules.php called
+2025-04-08 02:16:02 - get_schedules.php called
+2025-04-08 02:16:02 - get_schedules.php called
+2025-04-08 02:16:13 - get_schedules.php called
+2025-04-08 02:16:13 - get_schedules.php called
+2025-04-08 02:16:13 - get_schedules.php called
+2025-04-08 02:16:22 - get_schedules.php called
+2025-04-08 02:16:22 - get_schedules.php called
+2025-04-08 02:16:22 - get_schedules.php called
+2025-04-08 02:18:14 - get_schedules.php called
+2025-04-08 02:18:14 - get_schedules.php called
+2025-04-08 02:18:14 - get_schedules.php called
+2025-04-08 02:23:40 - get_schedules.php called
+2025-04-08 02:23:40 - get_schedules.php called
+2025-04-08 02:27:56 - get_schedules.php called
+2025-04-08 02:27:56 - get_schedules.php called
+2025-04-08 02:27:56 - get_schedules.php called
+2025-04-08 02:33:19 - get_schedules.php called
+2025-04-08 02:33:19 - get_schedules.php called
+2025-04-08 02:33:19 - get_schedules.php called
+2025-04-08 02:36:53 - get_schedules.php called
+2025-04-08 02:36:53 - get_schedules.php called
+2025-04-08 02:36:53 - get_schedules.php called
+2025-04-08 02:37:12 - get_schedules.php called
+2025-04-08 02:37:12 - get_schedules.php called
+2025-04-08 02:37:12 - get_schedules.php called
+2025-04-08 02:40:03 - get_schedules.php called
+2025-04-08 02:40:03 - get_schedules.php called
+2025-04-08 02:40:04 - get_schedules.php called
+2025-04-08 02:42:56 - get_schedules.php called
+2025-04-08 02:42:56 - get_schedules.php called
+2025-04-08 02:42:56 - get_schedules.php called
+2025-04-08 02:45:22 - get_schedules.php called
+2025-04-08 02:45:22 - get_schedules.php called
+2025-04-08 02:45:22 - get_schedules.php called
+2025-04-08 02:48:37 - get_schedules.php called
+2025-04-08 02:48:37 - get_schedules.php called
+2025-04-08 02:50:29 - get_schedules.php called
+2025-04-08 02:50:29 - get_schedules.php called
+2025-04-08 03:02:48 - get_schedules.php called
+2025-04-08 03:02:48 - get_schedules.php called
+2025-04-08 03:02:58 - get_schedules.php called
+2025-04-08 03:03:12 - get_schedules.php called
+2025-04-08 03:03:12 - get_schedules.php called
+2025-04-08 03:19:23 - get_schedules.php called
+2025-04-08 03:19:23 - get_schedules.php called
+2025-04-08 03:23:19 - get_schedules.php called
+2025-04-08 03:23:19 - get_schedules.php called
+2025-04-08 03:23:19 - get_schedules.php called
+2025-04-08 03:26:00 - get_schedules.php called
+2025-04-08 03:26:00 - get_schedules.php called
+2025-04-08 03:26:00 - get_schedules.php called
+2025-04-08 03:28:20 - get_schedules.php called
+2025-04-08 03:28:20 - get_schedules.php called
+2025-04-08 03:28:20 - get_schedules.php called
+2025-04-08 03:29:19 - get_schedules.php called
+2025-04-08 03:29:19 - get_schedules.php called
+2025-04-08 03:29:19 - get_schedules.php called
+2025-04-08 03:30:03 - get_schedules.php called
+2025-04-08 03:30:03 - get_schedules.php called
+2025-04-08 03:30:03 - get_schedules.php called
+2025-04-08 03:30:55 - get_schedules.php called
+2025-04-08 03:30:55 - get_schedules.php called
+2025-04-08 03:30:56 - get_schedules.php called
+2025-04-08 03:33:17 - get_schedules.php called
+2025-04-08 03:33:17 - get_schedules.php called
+2025-04-08 03:33:17 - get_schedules.php called
+2025-04-08 03:33:20 - get_schedules.php called
+2025-04-08 03:33:21 - get_schedules.php called
+2025-04-08 03:33:55 - get_schedules.php called
+2025-04-08 03:33:55 - get_schedules.php called
+2025-04-08 03:33:55 - get_schedules.php called
+2025-04-08 03:34:54 - get_schedules.php called
+2025-04-08 03:34:54 - get_schedules.php called
+2025-04-08 03:37:39 - get_schedules.php called
+2025-04-08 03:37:39 - get_schedules.php called
+2025-04-08 03:37:39 - get_schedules.php called
+2025-04-08 03:37:51 - get_schedules.php called
+2025-04-08 03:37:51 - get_schedules.php called
+2025-04-08 03:37:51 - get_schedules.php called
+2025-04-08 03:39:03 - get_schedules.php called
+2025-04-08 03:39:03 - get_schedules.php called
+2025-04-08 03:39:03 - get_schedules.php called
+2025-04-08 03:40:02 - get_schedules.php called
+2025-04-08 03:40:02 - get_schedules.php called
+2025-04-08 03:40:02 - get_schedules.php called
+2025-04-08 03:41:12 - get_schedules.php called
+2025-04-08 03:41:12 - get_schedules.php called
+2025-04-08 03:41:12 - get_schedules.php called
+2025-04-08 03:41:22 - get_schedules.php called
+2025-04-08 03:41:22 - get_schedules.php called
+2025-04-08 03:41:23 - get_schedules.php called
+2025-04-08 03:44:01 - get_schedules.php called
+2025-04-08 03:44:01 - get_schedules.php called
+2025-04-08 03:44:01 - get_schedules.php called
+2025-04-08 03:56:10 - get_schedules.php called
+2025-04-08 03:56:10 - get_schedules.php called
+2025-04-08 03:56:10 - get_schedules.php called
+2025-04-08 04:25:38 - get_schedules.php called
+2025-04-08 04:25:38 - get_schedules.php called
+2025-04-08 04:25:38 - get_schedules.php called
+2025-04-08 09:49:22 - get_schedules.php called
+2025-04-08 09:49:22 - get_schedules.php called
+2025-04-08 09:49:23 - get_schedules.php called

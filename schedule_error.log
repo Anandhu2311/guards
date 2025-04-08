@@ -1,0 +1,522 @@
+2025-03-24 04:28:43 - Request received - Method: POST
+2025-03-24 04:28:43 - POST data: Array
+(
+    [day] => Wednesday
+    [startTime] => 08:00
+    [endTime] => 08:30
+    [userType] => counselor
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-24 04:28:43 - Session data: Array
+(
+    [email] => admin@gmail.com
+    [role_id] => 1
+    [user_id] => 2
+)
+
+2025-03-24 04:28:43 - Database connection successful
+2025-03-24 04:31:36 - Request received - Method: POST
+2025-03-24 04:31:36 - POST data: Array
+(
+    [day] => Wednesday
+    [startTime] => 08:00
+    [endTime] => 08:30
+    [userType] => counselor
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-24 04:31:36 - Database connection successful
+2025-03-24 04:31:36 - Action: add, Schedule ID: 0
+2025-03-24 04:31:36 - Uncaught Exception: SQLSTATE[HY093]: Invalid parameter number
+2025-03-24 04:31:54 - Request received - Method: POST
+2025-03-24 04:31:54 - POST data: Array
+(
+    [day] => Wednesday
+    [startTime] => 08:00
+    [endTime] => 10:00
+    [userType] => advisor
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-24 04:31:54 - Database connection successful
+2025-03-24 04:31:54 - Action: add, Schedule ID: 0
+2025-03-24 04:31:54 - Uncaught Exception: SQLSTATE[HY093]: Invalid parameter number
+2025-03-24 04:35:19 - Request received - Method: POST
+2025-03-24 04:35:19 - POST data: Array
+(
+    [day] => Wednesday
+    [startTime] => 09:00
+    [endTime] => 11:00
+    [userType] => counselor
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-24 04:35:19 - Database connection successful
+2025-03-24 04:35:19 - Action: add, Schedule ID: 0
+2025-03-24 04:35:19 - Conflict check SQL: SELECT * FROM schedules 
+                            WHERE day = :day 
+                            AND ((start_time <= :startTime AND end_time > :startTime) 
+                                OR (start_time < :endTime AND end_time >= :endTime)
+                                OR (start_time >= :startTime AND end_time <= :endTime))
+                            AND user_type != :userType
+2025-03-24 04:35:19 - Conflict check params: Array
+(
+    [:day] => Wednesday
+    [:startTime] => 09:00
+    [:endTime] => 11:00
+    [:userType] => counselor
+)
+
+2025-03-24 04:35:19 - Uncaught Exception: SQLSTATE[HY093]: Invalid parameter number
+2025-03-24 04:38:06 - Request received - Method: POST
+2025-03-24 04:38:06 - POST data: Array
+(
+    [day] => Friday
+    [startTime] => 08:00
+    [endTime] => 08:30
+    [userType] => counselor
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-24 04:38:06 - Database connection successful
+2025-03-24 04:38:06 - Action: add, Schedule ID: 0
+2025-03-24 04:38:06 - INSERT SQL: INSERT INTO schedules (day, start_time, end_time, user_type, is_active) 
+                        VALUES (:day, :startTime, :endTime, :userType, :isActive)
+2025-03-24 04:38:06 - INSERT params: Array
+(
+    [:day] => Friday
+    [:startTime] => 08:00
+    [:endTime] => 08:30
+    [:userType] => counselor
+    [:isActive] => 1
+)
+
+2025-03-24 04:38:06 - Success: New ID = 21
+2025-03-24 04:38:18 - Request received - Method: POST
+2025-03-24 04:38:18 - POST data: Array
+(
+    [scheduleId] => 21
+    [isActive] => 1
+    [action] => updateStatus
+)
+
+2025-03-24 04:38:18 - Database connection successful
+2025-03-24 04:38:18 - Action: updateStatus, Schedule ID: 21
+2025-03-24 04:38:18 - UPDATE STATUS SQL: UPDATE schedules SET is_active = :isActive WHERE id = :scheduleId
+2025-03-24 04:38:18 - Params: Array
+(
+    [:isActive] => 1
+    [:scheduleId] => 21
+)
+
+2025-03-24 04:38:21 - Request received - Method: POST
+2025-03-24 04:38:21 - POST data: Array
+(
+    [scheduleId] => 18
+    [isActive] => 1
+    [action] => updateStatus
+)
+
+2025-03-24 04:38:21 - Database connection successful
+2025-03-24 04:38:21 - Action: updateStatus, Schedule ID: 18
+2025-03-24 04:38:21 - UPDATE STATUS SQL: UPDATE schedules SET is_active = :isActive WHERE id = :scheduleId
+2025-03-24 04:38:21 - Params: Array
+(
+    [:isActive] => 1
+    [:scheduleId] => 18
+)
+
+2025-03-24 04:42:24 - Request received - Method: POST
+2025-03-24 04:42:24 - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 09:00
+    [endTime] => 10:00
+    [userType] => supporter
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-24 04:42:24 - Database connection successful
+2025-03-24 04:42:24 - Action: add, Schedule ID: 0
+2025-03-24 04:42:24 - INSERT SQL: INSERT INTO schedules (day, start_time, end_time, user_type, is_active) 
+                        VALUES (:day, :startTime, :endTime, :userType, :isActive)
+2025-03-24 04:42:24 - INSERT params: Array
+(
+    [:day] => Monday
+    [:startTime] => 09:00
+    [:endTime] => 10:00
+    [:userType] => supporter
+    [:isActive] => 1
+)
+
+2025-03-24 04:42:24 - Success: New ID = 22
+2025-03-24 04:46:40 - Request received - Method: POST
+2025-03-24 04:46:40 - POST data: Array
+(
+    [day] => Monday
+    [startTime] => 08:00
+    [endTime] => 08:30
+    [userType] => counselor
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-24 04:46:40 - Database connection successful
+2025-03-24 04:46:40 - Action: add, Schedule ID: 0
+2025-03-24 04:46:40 - INSERT SQL: INSERT INTO schedules (day, start_time, end_time, user_type, is_active) 
+                        VALUES (:day, :startTime, :endTime, :userType, :isActive)
+2025-03-24 04:46:40 - INSERT params: Array
+(
+    [:day] => Monday
+    [:startTime] => 08:00
+    [:endTime] => 08:30
+    [:userType] => counselor
+    [:isActive] => 1
+)
+
+2025-03-24 04:46:40 - Success: New ID = 23
+2025-03-24 04:47:01 - Request received - Method: POST
+2025-03-24 04:47:01 - POST data: Array
+(
+    [scheduleId] => 23
+    [isActive] => 0
+    [action] => updateStatus
+)
+
+2025-03-24 04:47:01 - Database connection successful
+2025-03-24 04:47:01 - Action: updateStatus, Schedule ID: 23
+2025-03-24 04:47:01 - UPDATE STATUS SQL: UPDATE schedules SET is_active = :isActive WHERE id = :scheduleId
+2025-03-24 04:47:01 - Params: Array
+(
+    [:isActive] => 0
+    [:scheduleId] => 23
+)
+
+2025-03-24 04:54:09 - Request received - Method: POST
+2025-03-24 04:54:09 - POST data: Array
+(
+    [day] => Friday
+    [startTime] => 11:00
+    [endTime] => 14:00
+    [userType] => supporter
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-24 04:54:09 - Database connection successful
+2025-03-24 04:54:09 - Action: add, Schedule ID: 0
+2025-03-24 04:54:09 - INSERT SQL: INSERT INTO schedules (day, start_time, end_time, user_type, is_active) 
+                        VALUES (:day, :startTime, :endTime, :userType, :isActive)
+2025-03-24 04:54:09 - INSERT params: Array
+(
+    [:day] => Friday
+    [:startTime] => 11:00
+    [:endTime] => 14:00
+    [:userType] => supporter
+    [:isActive] => 1
+)
+
+2025-03-24 04:54:09 - Success: New ID = 24
+2025-03-24 04:54:18 - Request received - Method: POST
+2025-03-24 04:54:18 - POST data: Array
+(
+    [scheduleId] => 23
+    [isActive] => 1
+    [action] => updateStatus
+)
+
+2025-03-24 04:54:18 - Database connection successful
+2025-03-24 04:54:18 - Action: updateStatus, Schedule ID: 23
+2025-03-24 04:54:18 - UPDATE STATUS SQL: UPDATE schedules SET is_active = :isActive WHERE id = :scheduleId
+2025-03-24 04:54:18 - Params: Array
+(
+    [:isActive] => 1
+    [:scheduleId] => 23
+)
+
+2025-03-24 04:54:44 - Request received - Method: POST
+2025-03-24 04:54:44 - POST data: Array
+(
+    [scheduleId] => 24
+    [isActive] => 0
+    [action] => updateStatus
+)
+
+2025-03-24 04:54:44 - Database connection successful
+2025-03-24 04:54:44 - Action: updateStatus, Schedule ID: 24
+2025-03-24 04:54:44 - UPDATE STATUS SQL: UPDATE schedules SET is_active = :isActive WHERE id = :scheduleId
+2025-03-24 04:54:44 - Params: Array
+(
+    [:isActive] => 0
+    [:scheduleId] => 24
+)
+
+2025-03-24 05:01:27 - Request received - Method: POST
+2025-03-24 05:01:27 - POST data: Array
+(
+    [day] => Saturday
+    [startTime] => 16:00
+    [endTime] => 18:00
+    [userType] => counselor
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-24 05:01:27 - Database connection successful
+2025-03-24 05:01:27 - Action: add, Schedule ID: 0
+2025-03-24 05:01:27 - INSERT SQL: INSERT INTO schedules (day, start_time, end_time, user_type, is_active) 
+                        VALUES (:day, :startTime, :endTime, :userType, :isActive)
+2025-03-24 05:01:27 - INSERT params: Array
+(
+    [:day] => Saturday
+    [:startTime] => 16:00
+    [:endTime] => 18:00
+    [:userType] => counselor
+    [:isActive] => 1
+)
+
+2025-03-24 05:01:27 - Success: New ID = 25
+2025-03-24 05:15:43 - Request received - Method: POST
+2025-03-24 05:15:43 - POST data: Array
+(
+    [day] => Wednesday
+    [startTime] => 08:00
+    [endTime] => 08:30
+    [userType] => counselor
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-24 05:15:43 - Database connection successful
+2025-03-24 05:15:43 - Action: add, Schedule ID: 0
+2025-03-24 05:15:43 - INSERT SQL: INSERT INTO schedules (day, start_time, end_time, user_type, is_active) 
+                        VALUES (:day, :startTime, :endTime, :userType, :isActive)
+2025-03-24 05:15:43 - INSERT params: Array
+(
+    [:day] => Wednesday
+    [:startTime] => 08:00
+    [:endTime] => 08:30
+    [:userType] => counselor
+    [:isActive] => 1
+)
+
+2025-03-24 05:15:43 - Success: New ID = 26
+2025-03-24 05:17:54 - Request received - Method: POST
+2025-03-24 05:17:54 - POST data: Array
+(
+    [day] => Thursday
+    [startTime] => 08:00
+    [endTime] => 08:30
+    [userType] => counselor
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-24 05:17:54 - Database connection successful
+2025-03-24 05:17:54 - Action: add, Schedule ID: 0
+2025-03-24 05:17:54 - INSERT SQL: INSERT INTO schedules (day, start_time, end_time, user_type, is_active) 
+                        VALUES (:day, :startTime, :endTime, :userType, :isActive)
+2025-03-24 05:17:54 - INSERT params: Array
+(
+    [:day] => Thursday
+    [:startTime] => 08:00
+    [:endTime] => 08:30
+    [:userType] => counselor
+    [:isActive] => 1
+)
+
+2025-03-24 05:17:54 - Success: New ID = 27
+2025-03-24 05:19:36 - Request received - Method: POST
+2025-03-24 05:19:36 - POST data: Array
+(
+    [scheduleId] => 24
+    [isActive] => 1
+    [action] => updateStatus
+)
+
+2025-03-24 05:19:36 - Database connection successful
+2025-03-24 05:19:36 - Action: updateStatus, Schedule ID: 24
+2025-03-24 05:19:36 - UPDATE STATUS SQL: UPDATE schedules SET is_active = :isActive WHERE id = :scheduleId
+2025-03-24 05:19:36 - Params: Array
+(
+    [:isActive] => 1
+    [:scheduleId] => 24
+)
+
+2025-03-25 06:14:16 - Request received - Method: POST
+2025-03-25 06:14:16 - POST data: Array
+(
+    [day] => Friday
+    [startTime] => 16:00
+    [endTime] => 18:00
+    [userType] => supporter
+    [isActive] => 1
+    [action] => add
+)
+
+2025-03-25 06:14:16 - Database connection successful
+2025-03-25 06:14:16 - Action: add, Schedule ID: 0
+2025-03-25 06:14:16 - INSERT SQL: INSERT INTO schedules (day, start_time, end_time, user_type, is_active) 
+                        VALUES (:day, :startTime, :endTime, :userType, :isActive)
+2025-03-25 06:14:16 - INSERT params: Array
+(
+    [:day] => Friday
+    [:startTime] => 16:00
+    [:endTime] => 18:00
+    [:userType] => supporter
+    [:isActive] => 1
+)
+
+2025-03-25 06:14:16 - Success: New ID = 28
+2025-03-25 06:16:43 - Request received - Method: POST
+2025-03-25 06:16:43 - POST data: Array
+(
+    [scheduleId] => 24
+    [isActive] => 0
+    [action] => updateStatus
+)
+
+2025-03-25 06:16:43 - Database connection successful
+2025-03-25 06:16:43 - Action: updateStatus, Schedule ID: 24
+2025-03-25 06:16:43 - UPDATE STATUS SQL: UPDATE schedules SET is_active = :isActive WHERE id = :scheduleId
+2025-03-25 06:16:43 - Params: Array
+(
+    [:isActive] => 0
+    [:scheduleId] => 24
+)
+
+2025-03-25 06:23:25 - Request received - Method: POST
+2025-03-25 06:23:25 - POST data: Array
+(
+    [scheduleId] => 24
+    [isActive] => 1
+    [action] => updateStatus
+)
+
+2025-03-25 06:23:25 - Database connection successful
+2025-03-25 06:23:25 - Action: updateStatus, Schedule ID: 24
+2025-03-25 06:23:25 - UPDATE STATUS SQL: UPDATE schedules SET is_active = :isActive WHERE id = :scheduleId
+2025-03-25 06:23:25 - Params: Array
+(
+    [:isActive] => 1
+    [:scheduleId] => 24
+)
+
+2025-03-25 11:23:23 - Request received - Method: POST
+2025-03-25 11:23:23 - POST data: Array
+(
+    [day] => Friday
+    [startTime] => 09:00
+    [endTime] => 13:00
+    [isActive] => 1
+    [action] => create
+)
+
+2025-03-25 11:23:23 - Database connection successful
+2025-03-25 11:23:23 - Array
+2025-03-25 11:23:23 - create
+2025-03-25 11:23:23 - Array
+2025-03-25 11:23:23 - Array
+2025-03-25 11:23:23 - 0
+2025-03-25 11:23:23 - 
+2025-03-25 11:23:23 - Array
+2025-03-25 11:23:23 - 0
+2025-03-25 11:23:23 - Request received - Method: POST
+2025-03-25 11:23:23 - POST data: Array
+(
+    [day] => Friday
+    [startTime] => 09:00
+    [endTime] => 13:00
+    [isActive] => 1
+    [action] => create
+)
+
+2025-03-25 11:23:23 - Database connection successful
+2025-03-25 11:23:23 - Array
+2025-03-25 11:23:23 - create
+2025-03-25 11:23:23 - Array
+2025-03-25 11:23:23 - Array
+2025-03-25 11:23:23 - 1
+2025-03-25 11:23:23 - 1
+2025-03-25 11:23:23 - Duplicate detected, returning error
+2025-03-25 11:24:12 - Request received - Method: POST
+2025-03-25 11:24:12 - POST data: Array
+(
+    [day] => Friday
+    [startTime] => 13:30
+    [endTime] => 14:00
+    [isActive] => 1
+    [action] => create
+)
+
+2025-03-25 11:24:12 - Database connection successful
+2025-03-25 11:24:12 - Array
+2025-03-25 11:24:12 - create
+2025-03-25 11:24:12 - Array
+2025-03-25 11:24:12 - Array
+2025-03-25 11:24:12 - 0
+2025-03-25 11:24:12 - 
+2025-03-25 11:24:12 - Array
+2025-03-25 11:24:12 - 0
+2025-03-25 11:24:12 - Request received - Method: POST
+2025-03-25 11:24:12 - POST data: Array
+(
+    [day] => Friday
+    [startTime] => 13:30
+    [endTime] => 14:00
+    [isActive] => 1
+    [action] => create
+)
+
+2025-03-25 11:24:12 - Database connection successful
+2025-03-25 11:24:12 - Array
+2025-03-25 11:24:12 - create
+2025-03-25 11:24:12 - Array
+2025-03-25 11:24:12 - Array
+2025-03-25 11:24:12 - 1
+2025-03-25 11:24:12 - 1
+2025-03-25 11:24:12 - Duplicate detected, returning error
+2025-03-25 11:25:24 - Request received - Method: POST
+2025-03-25 11:25:24 - POST data: Array
+(
+    [day] => Friday
+    [startTime] => 14:30
+    [endTime] => 18:00
+    [isActive] => 1
+    [action] => create
+)
+
+2025-03-25 11:25:24 - Database connection successful
+2025-03-25 11:25:24 - Array
+2025-03-25 11:25:24 - create
+2025-03-25 11:25:24 - Array
+2025-03-25 11:25:24 - Array
+2025-03-25 11:25:24 - 0
+2025-03-25 11:25:24 - 
+2025-03-25 11:25:24 - Array
+2025-03-25 11:25:24 - 0
+2025-03-25 11:25:24 - Request received - Method: POST
+2025-03-25 11:25:24 - POST data: Array
+(
+    [day] => Friday
+    [startTime] => 14:30
+    [endTime] => 18:00
+    [isActive] => 1
+    [action] => create
+)
+
+2025-03-25 11:25:24 - Database connection successful
+2025-03-25 11:25:24 - Array
+2025-03-25 11:25:24 - create
+2025-03-25 11:25:24 - Array
+2025-03-25 11:25:24 - Array
+2025-03-25 11:25:24 - 1
+2025-03-25 11:25:24 - 1
+2025-03-25 11:25:24 - Duplicate detected, returning error

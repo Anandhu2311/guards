@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emergency Alert</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; }
+        .btn-danger { background-color: #dc3545; color: white; border: none; padding: 10px 20px; font-size: 18px; cursor: pointer; border-radius: 5px; }
+        .form-control { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Emergency Alert System</h2>
+        <p>Use this form to send emergency SMS alerts to all your contacts.</p>
+        
+        <form action="send_emergency.php" method="post">
+            <textarea name="message" class="form-control" placeholder="Enter emergency message (optional)"></textarea>
+            <button type="submit" class="btn-danger">SEND EMERGENCY ALERT</button>
+        </form>
+    </div>
+</body>
+</html> 

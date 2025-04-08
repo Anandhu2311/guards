@@ -1,0 +1,44 @@
+[2025-03-23 05:25:48] [unknown] Error getting user name: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'first_name' in 'field list'
+[2025-03-23 05:25:48] [sendEmergencySMS] Starting emergency SMS for user: anandhulalcv000@gmail.com
+[2025-03-23 05:25:48] [sendEmergencySMS] Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_email' in 'where clause'
+[2025-03-23 05:29:09] [sendEmergencySMS] Starting emergency SMS for user: anandhulalcv000@gmail.com
+[2025-03-23 05:29:09] [sendEmergencySMS] Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause'
+[2025-03-23 05:30:36] [sendEmergencySMS] Starting emergency SMS for user: anandhulalcv000@gmail.com
+[2025-03-23 05:30:36] [sendEmergencySMS] Found 1 emergency contacts
+[2025-03-23 05:30:36] [sendEmergencySMS] Sending SMS to Sandhya Vinod at +919633394540
+[2025-03-23 05:30:37] [sendEmergencySMS] Twilio SID: SM5c32cef81b9e2920d95aca4d3afa2074, Status: queued
+[2025-03-23 05:30:37] [sendEmergencySMS] Could not log to database: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'twilio_sid' in 'field list'
+[2025-03-23 05:32:39] [sendEmergencySMS] Starting emergency SMS for user: anandhulalcv000@gmail.com
+[2025-03-23 05:32:39] [sendEmergencySMS] Found 1 emergency contacts
+[2025-03-23 05:32:39] [sendEmergencySMS] Sending SMS to Sandhya Vinod at +919633394540
+[2025-03-23 05:32:40] [sendEmergencySMS] Twilio SID: SM2e4532898e5c0b5461e5426edf973f4e, Status: queued
+[2025-03-23 05:32:40] [sendEmergencySMS] Could not log to database: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'twilio_sid' in 'field list'
+[2025-03-23 06:05:06] [sendEmergencySMS] Starting emergency SMS for user: anandhulalcv000@gmail.com
+[2025-03-23 06:05:06] [sendEmergencySMS] Found 2 emergency contacts
+[2025-03-23 06:05:06] [sendEmergencySMS] Sending SMS to Sandhya Vinod at +919633394540
+[2025-03-23 06:05:08] [sendEmergencySMS] Twilio SID: SMed4f913de9bee608dc26c44ce3b6e229, Status: queued
+[2025-03-23 06:05:08] [sendEmergencySMS] Could not log to database: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'twilio_sid' in 'field list'
+[2025-03-23 06:05:08] [sendEmergencySMS] Sending SMS to vinodlal m at +919747088694
+[2025-03-23 06:05:09] [sendEmergencySMS] Failed to send SMS to +919747088694: [HTTP 400] Unable to create record: The number +91974708XXXX is unverified. Trial accounts cannot send messages to unverified numbers; verify +91974708XXXX at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers
+[2025-03-23 06:09:25] [sendEmergencySMS] Starting emergency SMS for user: anandhulalcv000@gmail.com
+[2025-03-23 06:09:25] [sendEmergencySMS] Found 3 emergency contacts
+[2025-03-23 06:09:25] [sendEmergencySMS] Sending SMS to Sandhya Vinod at +919633394540
+[2025-03-23 06:09:26] [sendEmergencySMS] Twilio SID: SMacca22e9511ec1c19153c5366a13c439, Status: queued
+[2025-03-23 06:09:26] [sendEmergencySMS] Could not log to database: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'twilio_sid' in 'field list'
+[2025-03-23 06:09:26] [sendEmergencySMS] Sending SMS to Sandhya Vinod at +919495394540
+[2025-03-23 06:09:27] [sendEmergencySMS] Twilio SID: SMe5270cc24d8f2adbe45da76798797c01, Status: queued
+[2025-03-23 06:09:27] [sendEmergencySMS] Could not log to database: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'twilio_sid' in 'field list'
+[2025-03-23 06:09:27] [sendEmergencySMS] Sending SMS to Sandhya  R Mani at +919544544215
+[2025-03-23 06:09:28] [sendEmergencySMS] Twilio SID: SM72b22cd91c60ed2a81bd38a5317fb9ca, Status: queued
+[2025-03-23 06:09:28] [sendEmergencySMS] Could not log to database: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'twilio_sid' in 'field list'
+[2025-03-25 06:12:04] [sendEmergencySMS] Starting emergency SMS for user: anandhulalcv000@gmail.com
+[2025-03-25 06:12:04] [sendEmergencySMS] Found 3 emergency contacts
+[2025-03-25 06:12:04] [sendEmergencySMS] Sending SMS to Sandhya Vinod at +919633394540
+[2025-03-25 06:12:05] [sendEmergencySMS] Twilio SID: SM2a99e48b2d414eaac6aa20c75a8df0ea, Status: queued
+[2025-03-25 06:12:05] [sendEmergencySMS] Could not log to database: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'twilio_sid' in 'field list'
+[2025-03-25 06:12:05] [sendEmergencySMS] Sending SMS to Sandhya Vinod at +919495394540
+[2025-03-25 06:12:07] [sendEmergencySMS] Twilio SID: SM64362505ec08d5f8eea68f46a7031633, Status: queued
+[2025-03-25 06:12:07] [sendEmergencySMS] Could not log to database: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'twilio_sid' in 'field list'
+[2025-03-25 06:12:07] [sendEmergencySMS] Sending SMS to Sandhya  R Mani at +919544544215
+[2025-03-25 06:12:08] [sendEmergencySMS] Twilio SID: SM58e45229c7e86f4f45696f8e83a7d20f, Status: queued
+[2025-03-25 06:12:08] [sendEmergencySMS] Could not log to database: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'twilio_sid' in 'field list'

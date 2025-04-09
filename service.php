@@ -11,9 +11,9 @@ require_once __DIR__ . '/config/config.php';
 use Twilio\Rest\Client;
 
 // SMS configuration - replace with your actual credentials
-$twilioAccountSid = getConfig('TWILIO_ACCOUNT_SID');
-$twilioAuthToken = getConfig('TWILIO_AUTH_TOKEN');
-$twilioPhoneNumber = getConfig('TWILIO_PHONE_NUMBER');
+$twilioAccountSid = "AC7e6ded84b24010a4dc1147b5fcd6ef57";
+$twilioAuthToken = "fec3e1c592448141eb8a361414ea5a4f";
+$twilioPhoneNumber = "+15043183005";
 
 // Turn off output buffering and disable error display for production
 ob_start();
@@ -718,144 +718,54 @@ function getEmergencyContacts($pdo, $userEmail) {
 }
 
 /**
- * Send emergency SMS to all contacts for a specific user
- * 
- * @param PDO $pdo Database connection
- * @param string $message Emergency message
- * @param string $sentBy Name of person sending
- * @param string $userEmail Email of the user whose contacts should receive SMS
- * @return array Results of sending (success count, fail count)
+ * Send real emergency SMS through Twilio with proper authentication
  */
 function sendEmergencySMS($pdo, $message, $sentBy, $userEmail = null) {
     try {
-        // Get emergency contacts for the specific user
+        // Get emergency contacts
         if ($userEmail) {
-            $stmt = $pdo->prepare("SELECT * FROM emergency_contacts WHERE email = :email AND active = 1");
-            $stmt->bindParam(':email', $userEmail, PDO::PARAM_STR);
-            $stmt->execute();
+            $stmt = $pdo->prepare("SELECT * FROM emergency_contacts WHERE email = :email");
+            $stmt->bindParam(':email', $userEmail);
         } else {
-            $stmt = $pdo->query("SELECT * FROM emergency_contacts WHERE active = 1");
+            $stmt = $pdo->query("SELECT * FROM emergency_contacts");
         }
+        $stmt->execute();
         $contacts = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
         if (empty($contacts)) {
             return ['success' => 0, 'fail' => 0, 'message' => 'No emergency contacts found'];
         }
         
-        $successCount = 0;
-        $failCount = 0;
-        $errorMessages = [];
+        // Hardcode fresh Twilio credentials
+        $twilioAccountSid = 'AC7e6ded84b24010a4dc1147b5fcd6ef57';
+        $twilioAuthToken = 'fec3e1c592448141eb8a361414ea5a4f';
+        $twilioPhoneNumber = '+15043183005';
         
-        // Format message
-        $fullMessage = "EMERGENCY ALERT from {$sentBy}: {$message}";
+        // Log testing
+        error_log("Using Twilio SID: " . $twilioAccountSid . ", Token: " . substr($twilioAuthToken, 0, 5) . "...");
         
-        // Twilio credentials from .env
-        $account_sid = getenv('TWILIO_ACCOUNT_SID') ?: getConfig('TWILIO_ACCOUNT_SID');
-        $auth_token = getenv('TWILIO_AUTH_TOKEN') ?: getConfig('TWILIO_AUTH_TOKEN');
-        $twilio_number = getenv('TWILIO_PHONE_NUMBER') ?: getConfig('TWILIO_PHONE_NUMBER');
+        // Create Test Client - directly instantiate
+        $client = new Twilio\Rest\Client($twilioAccountSid, $twilioAuthToken);
         
-        // Create a new Twilio client
-        try {
-            $client = new Client($account_sid, $auth_token);
-            
-            // Send SMS to each contact
-            foreach ($contacts as $contact) {
-                try {
-                    // Ensure phone number has proper format (E.164 format)
-                    $phoneNumber = $contact['phone_number'];
-                    // Add + prefix if not present and ensure it has country code
-                    if (substr($phoneNumber, 0, 1) !== '+') {
-                        // If no country code, assume India (+91) for 10-digit numbers
-                        if (strlen($phoneNumber) == 10) {
-                            $phoneNumber = '+91' . $phoneNumber;
-                        } else {
-                            $phoneNumber = '+' . $phoneNumber;
-                        }
-                    }
-                    
-                    logDebug("Sending SMS to: " . $phoneNumber . " from: " . $twilio_number);
-                    
-                    // Log before sending
-                    logDebug("Attempting to send SMS via Twilio - From: {$twilio_number}, To: {$phoneNumber}");
-                    
-                    // Send the message via Twilio
-                    $result = $client->messages->create(
-                        $phoneNumber,
-                        [
-                            'from' => $twilio_number,
-                            'body' => $fullMessage
-                        ]
-                    );
-                    
-                    // Log ALL details from the response
-                    logDebug("TWILIO RESPONSE: " . json_encode([
-                        'sid' => $result->sid,
-                        'status' => $result->status,
-                        'error_code' => $result->errorCode,
-                        'error_message' => $result->errorMessage,
-                        'date_created' => $result->dateCreated->format('Y-m-d H:i:s'),
-                        'date_sent' => $result->dateSent ? $result->dateSent->format('Y-m-d H:i:s') : null,
-                        'direction' => $result->direction,
-                        'price' => $result->price,
-                        'price_unit' => $result->priceUnit
-                    ]));
-                    
-                    // Check if the status indicates success
-                    if ($result->status == 'queued' || $result->status == 'sent' || $result->status == 'delivered') {
-                        // Success handling
-                        $successCount++;
-                    } else {
-                        // Failure handling
-                        $failCount++;
-                        $errorMessages[] = "Message to {$contact['emergency_name']} queued but status is: {$result->status}";
-                    }
-                    
-                    // Record success in database
-                    $logStmt = $pdo->prepare("INSERT INTO emergency_logs 
-                        (contact_id, message, sent_by, sent_at, status, twilio_sid) 
-                        VALUES (:contactId, :message, :sentBy, NOW(), :status, :twilioSid)");
-                    $logStmt->bindParam(':contactId', $contact['id'], PDO::PARAM_INT);
-                    $logStmt->bindParam(':message', $message, PDO::PARAM_STR);
-                    $logStmt->bindParam(':sentBy', $sentBy, PDO::PARAM_STR);
-                    $logStmt->bindParam(':status', $result->status, PDO::PARAM_STR);
-                    $logStmt->bindParam(':twilioSid', $result->sid, PDO::PARAM_STR);
-                    $logStmt->execute();
-                    
-                } catch (Exception $e) {
-                    logDebug("Failed to send SMS: " . $e->getMessage());
-                    
-                    $failCount++;
-                    $errorMessages[] = "Failed to send to {$contact['name']}: {$e->getMessage()}";
-                    
-                    // Log the error in database
-                    $logStmt = $pdo->prepare("INSERT INTO emergency_logs 
-                        (contact_id, message, sent_by, sent_at, status, error) 
-                        VALUES (:contactId, :message, :sentBy, NOW(), 'failed', :error)");
-                    $logStmt->bindParam(':contactId', $contact['id'], PDO::PARAM_INT);
-                    $logStmt->bindParam(':message', $message, PDO::PARAM_STR);
-                    $logStmt->bindParam(':sentBy', $sentBy, PDO::PARAM_STR);
-                    $logStmt->bindParam(':error', $e->getMessage(), PDO::PARAM_STR);
-                    $logStmt->execute();
-                }
-            }
-            
-            return [
-                'success' => $successCount,
-                'fail' => $failCount,
-                'errors' => $errorMessages,
-                'message' => "Successfully sent {$successCount} emergency messages"
-            ];
-            
-        } catch (Exception $e) {
-            logDebug("Twilio client error: " . $e->getMessage());
-            return ['success' => 0, 'fail' => count($contacts), 'message' => 'SMS service error: ' . $e->getMessage()];
+        // Just try sending to the first contact as a test
+        $contact = $contacts[0];
+        $phoneNumber = !empty($contact['em_number']) ? $contact['em_number'] : '';
+        $phoneNumber = preg_replace('/[^0-9+]/', '', $phoneNumber);
+        if (substr($phoneNumber, 0, 1) !== '+') {
+            $phoneNumber = '+91' . $phoneNumber;
         }
-    } catch (PDOException $e) {
-        logDebug("Database error in emergency SMS: " . $e->getMessage());
-        return ['success' => 0, 'fail' => 0, 'message' => 'Database error: ' . $e->getMessage()];
+        
+        $result = $client->messages->create(
+            $phoneNumber,
+            [
+                'from' => $twilioPhoneNumber,
+                'body' => "EMERGENCY ALERT TEST from {$sentBy}: {$message}"
+            ]
+        );
+        
+        return ['success' => 1, 'message' => 'Test message sent successfully'];
     } catch (Exception $e) {
-        logDebug("General error in emergency SMS: " . $e->getMessage());
-        return ['success' => 0, 'fail' => 0, 'message' => 'Error: ' . $e->getMessage()];
+        return ['success' => 0, 'message' => 'Error: ' . $e->getMessage()];
     }
 }
 

@@ -5116,3 +5116,1257 @@ Stack trace:
 
 )
 
+[08-Apr-2025 21:03:19 Europe/Berlin] Supporter email from session: abin37523@gmail.com
+[08-Apr-2025 21:03:19 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:03:19 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:03:19 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:03:19 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:03:19 Europe/Berlin] User type: provider
+[08-Apr-2025 21:03:19 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:03:19 Europe/Berlin] Number of bookings found: 1
+[08-Apr-2025 21:03:19 Europe/Berlin] === SUP_DASHBOARD.PHP START ===
+[08-Apr-2025 21:03:19 Europe/Berlin] Session ID: v60f14cv6mr5ejjd9r6uttrf4j
+[08-Apr-2025 21:03:19 Europe/Berlin] Session Data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:03:19 Europe/Berlin] Request Method: GET
+[08-Apr-2025 21:03:19 Europe/Berlin] === SUP_DASHBOARD.PHP END ===
+[08-Apr-2025 21:03:19 Europe/Berlin] Current session data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:03:19 Europe/Berlin] Session data in supporter dashboard: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:03:19 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:03:19 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:03:19 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:03:19 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:03:19 Europe/Berlin] User type: provider
+[08-Apr-2025 21:03:19 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:03:35 Europe/Berlin] Supporter email from session: abin37523@gmail.com
+[08-Apr-2025 21:03:35 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:03:35 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:03:35 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:03:35 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:03:35 Europe/Berlin] User type: provider
+[08-Apr-2025 21:03:35 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:03:35 Europe/Berlin] Number of bookings found: 1
+[08-Apr-2025 21:03:35 Europe/Berlin] === SUP_DASHBOARD.PHP START ===
+[08-Apr-2025 21:03:35 Europe/Berlin] Session ID: v60f14cv6mr5ejjd9r6uttrf4j
+[08-Apr-2025 21:03:35 Europe/Berlin] Session Data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:03:35 Europe/Berlin] Request Method: GET
+[08-Apr-2025 21:03:35 Europe/Berlin] === SUP_DASHBOARD.PHP END ===
+[08-Apr-2025 21:03:35 Europe/Berlin] Current session data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:03:35 Europe/Berlin] Session data in supporter dashboard: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:03:35 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:03:35 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:03:35 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:03:35 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:03:35 Europe/Berlin] User type: provider
+[08-Apr-2025 21:03:35 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:03:46 Europe/Berlin] Supporter email from session: abin37523@gmail.com
+[08-Apr-2025 21:03:46 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:03:46 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:03:46 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:03:46 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:03:46 Europe/Berlin] User type: provider
+[08-Apr-2025 21:03:46 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:03:46 Europe/Berlin] Number of bookings found: 1
+[08-Apr-2025 21:03:46 Europe/Berlin] === SUP_DASHBOARD.PHP START ===
+[08-Apr-2025 21:03:46 Europe/Berlin] Session ID: v60f14cv6mr5ejjd9r6uttrf4j
+[08-Apr-2025 21:03:46 Europe/Berlin] Session Data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:03:46 Europe/Berlin] Request Method: GET
+[08-Apr-2025 21:03:46 Europe/Berlin] === SUP_DASHBOARD.PHP END ===
+[08-Apr-2025 21:03:46 Europe/Berlin] Current session data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:03:46 Europe/Berlin] Session data in supporter dashboard: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:03:46 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:03:46 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:03:46 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:03:46 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:03:46 Europe/Berlin] User type: provider
+[08-Apr-2025 21:03:46 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:04:38 Europe/Berlin] Supporter email from session: abin37523@gmail.com
+[08-Apr-2025 21:04:38 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:04:38 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:04:38 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:04:38 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:04:38 Europe/Berlin] User type: provider
+[08-Apr-2025 21:04:38 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:04:38 Europe/Berlin] Number of bookings found: 1
+[08-Apr-2025 21:04:38 Europe/Berlin] === SUP_DASHBOARD.PHP START ===
+[08-Apr-2025 21:04:38 Europe/Berlin] Session ID: v60f14cv6mr5ejjd9r6uttrf4j
+[08-Apr-2025 21:04:38 Europe/Berlin] Session Data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:04:38 Europe/Berlin] Request Method: GET
+[08-Apr-2025 21:04:38 Europe/Berlin] === SUP_DASHBOARD.PHP END ===
+[08-Apr-2025 21:04:38 Europe/Berlin] Current session data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:04:38 Europe/Berlin] Session data in supporter dashboard: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:04:38 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:04:38 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:04:38 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:04:38 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:04:38 Europe/Berlin] User type: provider
+[08-Apr-2025 21:04:38 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:04:50 Europe/Berlin] Supporter email from session: abin37523@gmail.com
+[08-Apr-2025 21:04:50 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:04:50 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:04:50 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:04:50 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:04:50 Europe/Berlin] User type: provider
+[08-Apr-2025 21:04:50 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:04:50 Europe/Berlin] Number of bookings found: 1
+[08-Apr-2025 21:04:50 Europe/Berlin] === SUP_DASHBOARD.PHP START ===
+[08-Apr-2025 21:04:50 Europe/Berlin] Session ID: v60f14cv6mr5ejjd9r6uttrf4j
+[08-Apr-2025 21:04:50 Europe/Berlin] Session Data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:04:50 Europe/Berlin] Request Method: GET
+[08-Apr-2025 21:04:50 Europe/Berlin] === SUP_DASHBOARD.PHP END ===
+[08-Apr-2025 21:04:50 Europe/Berlin] Current session data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:04:50 Europe/Berlin] Session data in supporter dashboard: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:04:50 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:04:50 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:04:50 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:04:50 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:04:50 Europe/Berlin] User type: provider
+[08-Apr-2025 21:04:50 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:05:56 Europe/Berlin] Supporter email from session: anandhulalcv000@gmail.com
+[08-Apr-2025 21:05:56 Europe/Berlin] Executing booking query for email: anandhulalcv000@gmail.com, userType: provider
+[08-Apr-2025 21:05:56 Europe/Berlin] Found 0 bookings
+[08-Apr-2025 21:05:56 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:05:56 Europe/Berlin] Email parameter: anandhulalcv000@gmail.com
+[08-Apr-2025 21:05:56 Europe/Berlin] User type: provider
+[08-Apr-2025 21:05:56 Europe/Berlin] Results: Array
+(
+)
+
+[08-Apr-2025 21:05:56 Europe/Berlin] Number of bookings found: 0
+[08-Apr-2025 21:05:56 Europe/Berlin] === SUP_DASHBOARD.PHP START ===
+[08-Apr-2025 21:05:56 Europe/Berlin] Session ID: 755fahdvlpta3sg4ato3gupr99
+[08-Apr-2025 21:05:56 Europe/Berlin] Session Data: Array
+(
+    [user_id] => 2
+    [email] => anandhulalcv000@gmail.com
+    [user_email] => anandhulalcv000@gmail.com
+    [role_id] => 5
+)
+
+[08-Apr-2025 21:05:56 Europe/Berlin] Request Method: GET
+[08-Apr-2025 21:05:56 Europe/Berlin] === SUP_DASHBOARD.PHP END ===
+[08-Apr-2025 21:05:56 Europe/Berlin] Current session data: Array
+(
+    [user_id] => 2
+    [email] => anandhulalcv000@gmail.com
+    [user_email] => anandhulalcv000@gmail.com
+    [role_id] => 5
+)
+
+[08-Apr-2025 21:05:56 Europe/Berlin] Authentication failed - Details:
+[08-Apr-2025 21:05:56 Europe/Berlin] Email set: yes
+[08-Apr-2025 21:05:56 Europe/Berlin] Role ID set: yes
+[08-Apr-2025 21:05:56 Europe/Berlin] Role ID value: 5
+[08-Apr-2025 21:05:56 Europe/Berlin] Full session: Array
+(
+    [user_id] => 2
+    [email] => anandhulalcv000@gmail.com
+    [user_email] => anandhulalcv000@gmail.com
+    [role_id] => 5
+)
+
+[08-Apr-2025 21:06:33 Europe/Berlin] Supporter email from session: abin37523@gmail.com
+[08-Apr-2025 21:06:33 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:06:33 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:06:33 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:06:33 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:06:33 Europe/Berlin] User type: provider
+[08-Apr-2025 21:06:33 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:06:33 Europe/Berlin] Number of bookings found: 1
+[08-Apr-2025 21:06:33 Europe/Berlin] === SUP_DASHBOARD.PHP START ===
+[08-Apr-2025 21:06:33 Europe/Berlin] Session ID: 45q83ns4b72ftkiil6vr3t4s7j
+[08-Apr-2025 21:06:33 Europe/Berlin] Session Data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:06:33 Europe/Berlin] Request Method: GET
+[08-Apr-2025 21:06:33 Europe/Berlin] === SUP_DASHBOARD.PHP END ===
+[08-Apr-2025 21:06:33 Europe/Berlin] Current session data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:06:33 Europe/Berlin] Session data in supporter dashboard: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:06:33 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:06:33 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:06:33 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:06:33 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:06:33 Europe/Berlin] User type: provider
+[08-Apr-2025 21:06:33 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:06:41 Europe/Berlin] Supporter email from session: abin37523@gmail.com
+[08-Apr-2025 21:06:41 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:06:41 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:06:41 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:06:41 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:06:41 Europe/Berlin] User type: provider
+[08-Apr-2025 21:06:41 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up_completed
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:06:41 Europe/Berlin] Number of bookings found: 1
+[08-Apr-2025 21:06:41 Europe/Berlin] === SUP_DASHBOARD.PHP START ===
+[08-Apr-2025 21:06:41 Europe/Berlin] Session ID: 45q83ns4b72ftkiil6vr3t4s7j
+[08-Apr-2025 21:06:41 Europe/Berlin] Session Data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:06:41 Europe/Berlin] Request Method: GET
+[08-Apr-2025 21:06:41 Europe/Berlin] === SUP_DASHBOARD.PHP END ===
+[08-Apr-2025 21:06:41 Europe/Berlin] Current session data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:06:41 Europe/Berlin] Session data in supporter dashboard: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:06:41 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:06:41 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:06:41 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:06:41 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:06:41 Europe/Berlin] User type: provider
+[08-Apr-2025 21:06:41 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up_completed
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:06:49 Europe/Berlin] Supporter email from session: abin37523@gmail.com
+[08-Apr-2025 21:06:49 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:06:49 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:06:49 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:06:49 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:06:49 Europe/Berlin] User type: provider
+[08-Apr-2025 21:06:49 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:06:49 Europe/Berlin] Number of bookings found: 1
+[08-Apr-2025 21:06:49 Europe/Berlin] === SUP_DASHBOARD.PHP START ===
+[08-Apr-2025 21:06:49 Europe/Berlin] Session ID: 45q83ns4b72ftkiil6vr3t4s7j
+[08-Apr-2025 21:06:49 Europe/Berlin] Session Data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:06:49 Europe/Berlin] Request Method: GET
+[08-Apr-2025 21:06:49 Europe/Berlin] === SUP_DASHBOARD.PHP END ===
+[08-Apr-2025 21:06:49 Europe/Berlin] Current session data: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:06:49 Europe/Berlin] Session data in supporter dashboard: Array
+(
+    [authenticated] => 1
+    [user_id] => 5
+    [sup_id] => 5
+    [email] => abin37523@gmail.com
+    [user_email] => abin37523@gmail.com
+    [role_id] => 4
+    [role] => supporter
+)
+
+[08-Apr-2025 21:06:49 Europe/Berlin] Executing booking query for email: abin37523@gmail.com, userType: provider
+[08-Apr-2025 21:06:49 Europe/Berlin] Found 1 bookings
+[08-Apr-2025 21:06:49 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:06:49 Europe/Berlin] Email parameter: abin37523@gmail.com
+[08-Apr-2025 21:06:49 Europe/Berlin] User type: provider
+[08-Apr-2025 21:06:49 Europe/Berlin] Results: Array
+(
+    [0] => Array
+        (
+            [booking_id] => 25
+            [user_email] => anandhulalcv000@gmail.com
+            [provider_email] => abin37523@gmail.com
+            [service_type] => Technical Support
+            [booking_date] => 2025-04-05 19:43:24
+            [status] => follow_up
+            [notes] => 
+            [day] => Tuesday
+            [start_time] => 14:00:00
+            [end_time] => 17:00:00
+            [patient_name] => Anandhulal C.V
+            [patient_email] => anandhulalcv000@gmail.com
+        )
+
+)
+
+[08-Apr-2025 21:17:31 Europe/Berlin] Supporter email from session: 
+[08-Apr-2025 21:17:31 Europe/Berlin] Executing booking query for email: , userType: provider
+[08-Apr-2025 21:17:31 Europe/Berlin] Found 0 bookings
+[08-Apr-2025 21:17:31 Europe/Berlin] SQL Query: SELECT 
+                    b.booking_id,
+                    b.user_email,
+                    b.provider_email,
+                    b.service_type,
+                    b.booking_date,
+                    b.status,
+                    b.notes,
+                    s.day, 
+                    s.start_time, 
+                    s.end_time,
+                    u.name as patient_name,
+                    u.email as patient_email
+                FROM bookings b
+                LEFT JOIN schedules s ON b.schedule_id = s.id
+                LEFT JOIN users u ON b.user_email = u.email
+                WHERE b.provider_email = :email 
+                ORDER BY 
+                    CASE b.status
+                        WHEN 'pending' THEN 1
+                        WHEN 'confirmed' THEN 2
+                        WHEN 'follow_up' THEN 3
+                        WHEN 'completed' THEN 4
+                        WHEN 'follow_up_completed' THEN 5
+                        ELSE 6
+                    END,
+                    b.booking_date DESC
+[08-Apr-2025 21:17:31 Europe/Berlin] Email parameter: 
+[08-Apr-2025 21:17:31 Europe/Berlin] User type: provider
+[08-Apr-2025 21:17:31 Europe/Berlin] Results: Array
+(
+)
+
+[08-Apr-2025 21:17:31 Europe/Berlin] Number of bookings found: 0
+[08-Apr-2025 21:17:31 Europe/Berlin] === SUP_DASHBOARD.PHP START ===
+[08-Apr-2025 21:17:31 Europe/Berlin] Session ID: iicdjdkqu7vqre86djneg8qjfs
+[08-Apr-2025 21:17:31 Europe/Berlin] Session Data: Array
+(
+)
+
+[08-Apr-2025 21:17:31 Europe/Berlin] Request Method: GET
+[08-Apr-2025 21:17:31 Europe/Berlin] === SUP_DASHBOARD.PHP END ===
+[08-Apr-2025 21:17:31 Europe/Berlin] Current session data: Array
+(
+)
+
+[08-Apr-2025 21:17:31 Europe/Berlin] Authentication failed - Details:
+[08-Apr-2025 21:17:31 Europe/Berlin] Email set: no
+[08-Apr-2025 21:17:31 Europe/Berlin] Role ID set: no
+[08-Apr-2025 21:17:31 Europe/Berlin] Role ID value: not set
+[08-Apr-2025 21:17:31 Europe/Berlin] Full session: Array
+(
+)
+

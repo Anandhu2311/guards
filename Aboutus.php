@@ -540,7 +540,7 @@ if (!isset($_SESSION['email'])) {
             <a href="Aboutus.php">About Us</a>
             <a href="services.php">Service</a>
             <a href="location.php">Location</a>
-            <a href="#evidence">Evidence</a>
+            
             <div class="profile-section">
                 <div class="notification-icon" onclick="toggleNotifications()">
                     <i class="fas fa-bell"></i>

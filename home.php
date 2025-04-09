@@ -539,7 +539,7 @@ if (!isset($_SESSION['email'])) {
             <a href="Aboutus.php" style="color: #ffffff;">About Us</a>
             <a href="services.php" style="color: #ffffff;">Service</a>
             <a href="location.php" style="color: #ffffff;">Location</a>
-            <a href="#evidence" style="color: #ffffff;">Evidence</a>
+            
             <div class="notification-icon" onclick="toggleNotifications()">
                     <i class="fas fa-bell"></i>
                     <?php if ($notificationCount > 0): ?>

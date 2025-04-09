@@ -553,7 +553,6 @@ if (!isset($_SESSION['email'])) {
             <a href="Aboutus.php" style="color: #ffffff;">About Us</a>
             <a href="services.php" style="color: #ffffff;">Service</a>
             <a href="location.php" style="color: #ffffff;">Location</a>
-            <a href="#evidence" style="color: #ffffff;">Evidence</a>
             <div class="profile-section">
                 <div class="notification-icon" onclick="toggleNotifications()">
                     <i class="fas fa-bell"></i>
@@ -590,6 +589,12 @@ if (!isset($_SESSION['email'])) {
             </button>
             <button id="shareWhatsAppBtn" onclick="shareLocationViaWhatsApp()" style="padding:10px; font-size:16px; background-color:#25D366; color:white; border:none; border-radius:5px; cursor:pointer;">
                 <i class="fab fa-whatsapp"></i> Share via WhatsApp
+            </button>
+        </div>
+        <div id="notification-container" style="display:none; margin-top:15px; padding:15px; border-radius:5px; text-align:center; font-weight:500; transition:all 0.3s ease;">
+            <span id="notification-message"></span>
+            <button onclick="closeNotification()" style="background:transparent; border:none; margin-left:10px; cursor:pointer;">
+                <i class="fas fa-times"></i>
             </button>
         </div>
     </div>
@@ -702,9 +707,56 @@ if (!isset($_SESSION['email'])) {
         .catch(error => console.error("Error updating location:", error));
     }
 
+    function showNotification(message, type = 'success') {
+        const container = document.getElementById('notification-container');
+        const messageEl = document.getElementById('notification-message');
+        
+        // Set styles based on notification type
+        if (type === 'success') {
+            container.style.backgroundColor = '#4CAF50';
+            container.style.color = 'white';
+            container.style.boxShadow = '0 4px 8px rgba(76, 175, 80, 0.3)';
+        } else if (type === 'error') {
+            container.style.backgroundColor = '#f44336';
+            container.style.color = 'white';
+            container.style.boxShadow = '0 4px 8px rgba(244, 67, 54, 0.3)';
+        } else if (type === 'warning') {
+            container.style.backgroundColor = '#ff9800';
+            container.style.color = 'white';
+            container.style.boxShadow = '0 4px 8px rgba(255, 152, 0, 0.3)';
+        } else if (type === 'info') {
+            container.style.backgroundColor = '#2196F3';
+            container.style.color = 'white';
+            container.style.boxShadow = '0 4px 8px rgba(33, 150, 243, 0.3)';
+        }
+        
+        // Set message
+        messageEl.textContent = message;
+        
+        // Show with animation
+        container.style.display = 'block';
+        container.style.opacity = '0';
+        setTimeout(() => {
+            container.style.opacity = '1';
+        }, 10);
+        
+        // Auto-hide after 5 seconds
+        setTimeout(() => {
+            closeNotification();
+        }, 5000);
+    }
+
+    function closeNotification() {
+        const container = document.getElementById('notification-container');
+        container.style.opacity = '0';
+        setTimeout(() => {
+            container.style.display = 'none';
+        }, 300);
+    }
+
     function shareLocationViaEmail() {
         if (!lastClickedLocation) {
-            alert("Please get your current location first!");
+            showNotification("Please get your current location first!", "warning");
             return;
         }
 
@@ -713,6 +765,7 @@ if (!isset($_SESSION['email'])) {
         // Show loading indication
         document.getElementById('shareEmailBtn').disabled = true;
         document.getElementById('shareEmailBtn').innerHTML = 'Sending...';
+        showNotification("Sending location to your emergency contacts...", "info");
 
         // Log the request data
         const requestData = `latitude=${lastClickedLocation.lat}&longitude=${lastClickedLocation.lng}`;
@@ -743,15 +796,15 @@ if (!isset($_SESSION['email'])) {
         .then(data => {
             console.log("Server response (parsed):", data);
             if (data.success) {
-                alert("Location shared successfully with your emergency contacts via email!");
+                showNotification("Location shared successfully with your emergency contacts via email!", "success");
             } else {
-                alert("Failed to share location: " + (data.message || "Unknown error"));
+                showNotification("Failed to share location: " + (data.message || "Unknown error"), "error");
                 console.error("Error details:", data.details || "No details provided");
             }
         })
         .catch(error => {
             console.error("Error sharing location:", error);
-            alert("An error occurred while sharing your location: " + error.message);
+            showNotification("An error occurred while sharing your location: " + error.message, "error");
         })
         .finally(() => {
             // Re-enable the button regardless of outcome
@@ -762,7 +815,7 @@ if (!isset($_SESSION['email'])) {
 
     function shareLocationViaWhatsApp() {
         if (!lastClickedLocation) {
-            alert("Please get your current location first!");
+            showNotification("Please get your current location first!", "warning");
             return;
         }
         
@@ -774,6 +827,8 @@ if (!isset($_SESSION['email'])) {
         
         // Open WhatsApp with the location
         window.open(`https://wa.me/?text=${message}`, '_blank');
+        
+        showNotification("WhatsApp opened with your location. Choose your contacts to share with.", "info");
     }
 
     function getCurrentLocation() {

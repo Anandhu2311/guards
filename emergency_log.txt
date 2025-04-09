@@ -87,3 +87,855 @@
 )
 
 [2025-04-06 08:58:47] Phone number used: +919786786890
+[2025-04-08 21:01:48] Emergency script started
+[2025-04-08 21:01:48] User: anandhulalcv000@gmail.com (User)
+[2025-04-08 21:01:48] Message: help me!
+[2025-04-08 21:01:48] Connected to database
+[2025-04-08 21:01:48] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-08 21:01:48] Found 4 contacts
+[2025-04-08 21:01:48] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-08 21:01:49] Twilio Error: Authenticate
+[2025-04-08 21:01:49] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-08 21:01:49] Phone number used: +919633394540
+[2025-04-08 21:01:49] Formatted phone number for Sandhya Vinod: 9495394540 → +919495394540
+[2025-04-08 21:01:50] Twilio Error: Authenticate
+[2025-04-08 21:01:50] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-08 21:01:50] Phone number used: +919495394540
+[2025-04-08 21:01:50] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-08 21:01:51] Twilio Error: Authenticate
+[2025-04-08 21:01:51] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-08 21:01:51] Phone number used: +919544544215
+[2025-04-08 21:01:51] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-08 21:01:52] Twilio Error: Authenticate
+[2025-04-08 21:01:52] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-08 21:01:52] Phone number used: +919786786890
+[2025-04-08 21:16:17] Emergency script started
+[2025-04-08 21:16:17] Error: User not logged in
+[2025-04-09 01:31:37] Emergency script started
+[2025-04-09 01:31:37] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 01:31:37] Message: help me!
+[2025-04-09 01:31:37] Connected to database
+[2025-04-09 01:31:37] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 01:31:37] Found 4 contacts
+[2025-04-09 01:31:37] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 01:31:38] Twilio Error: Authenticate
+[2025-04-09 01:31:38] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:31:38] Phone number used: +919633394540
+[2025-04-09 01:31:38] Formatted phone number for Sandhya Vinod: 9495394540 → +919495394540
+[2025-04-09 01:31:39] Twilio Error: Authenticate
+[2025-04-09 01:31:39] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:31:39] Phone number used: +919495394540
+[2025-04-09 01:31:39] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 01:31:40] Twilio Error: Authenticate
+[2025-04-09 01:31:40] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:31:40] Phone number used: +919544544215
+[2025-04-09 01:31:40] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-09 01:31:40] Twilio Error: Authenticate
+[2025-04-09 01:31:40] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:31:40] Phone number used: +919786786890
+[2025-04-09 01:33:56] Emergency script started
+[2025-04-09 01:33:56] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 01:33:56] Message: help
+[2025-04-09 01:33:56] Connected to database
+[2025-04-09 01:33:56] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 01:33:56] Found 4 contacts
+[2025-04-09 01:33:56] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 01:33:57] Twilio Error: Authenticate
+[2025-04-09 01:33:57] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:33:57] Phone number used: +919633394540
+[2025-04-09 01:33:57] Formatted phone number for Sandhya Vinod: 9495394540 → +919495394540
+[2025-04-09 01:33:58] Twilio Error: Authenticate
+[2025-04-09 01:33:58] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:33:58] Phone number used: +919495394540
+[2025-04-09 01:33:58] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 01:33:59] Twilio Error: Authenticate
+[2025-04-09 01:33:59] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:33:59] Phone number used: +919544544215
+[2025-04-09 01:33:59] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-09 01:34:00] Twilio Error: Authenticate
+[2025-04-09 01:34:00] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:34:00] Phone number used: +919786786890
+[2025-04-09 01:36:28] Emergency script started
+[2025-04-09 01:36:29] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 01:36:29] Message: h
+[2025-04-09 01:36:29] Connected to database
+[2025-04-09 01:36:29] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 01:36:29] Found 4 contacts
+[2025-04-09 01:36:29] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 01:36:29] Twilio Error: Authenticate
+[2025-04-09 01:36:29] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:36:29] Phone number used: +919633394540
+[2025-04-09 01:36:29] Formatted phone number for Sandhya Vinod: 9495394540 → +919495394540
+[2025-04-09 01:36:30] Twilio Error: Authenticate
+[2025-04-09 01:36:30] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:36:30] Phone number used: +919495394540
+[2025-04-09 01:36:30] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 01:36:31] Twilio Error: Authenticate
+[2025-04-09 01:36:31] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:36:31] Phone number used: +919544544215
+[2025-04-09 01:36:31] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-09 01:36:31] Twilio Error: Authenticate
+[2025-04-09 01:36:31] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:36:31] Phone number used: +919786786890
+[2025-04-09 01:40:29] Emergency script started
+[2025-04-09 01:40:29] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 01:40:29] Message: help me
+[2025-04-09 01:40:29] Connected to database
+[2025-04-09 01:40:29] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 01:40:29] Found 4 contacts
+[2025-04-09 01:40:29] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 01:40:30] Twilio Error: Authenticate
+[2025-04-09 01:40:30] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:40:30] Phone number used: +919633394540
+[2025-04-09 01:40:30] Formatted phone number for Sandhya Vinod: 9495394540 → +919495394540
+[2025-04-09 01:40:31] Twilio Error: Authenticate
+[2025-04-09 01:40:31] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:40:31] Phone number used: +919495394540
+[2025-04-09 01:40:31] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 01:40:31] Twilio Error: Authenticate
+[2025-04-09 01:40:31] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:40:31] Phone number used: +919544544215
+[2025-04-09 01:40:31] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-09 01:40:32] Twilio Error: Authenticate
+[2025-04-09 01:40:32] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:40:32] Phone number used: +919786786890
+[2025-04-09 01:42:52] Emergency script started
+[2025-04-09 01:42:52] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 01:42:52] Message: wsdcsdc
+[2025-04-09 01:42:52] Connected to database
+[2025-04-09 01:42:52] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 01:42:52] Found 4 contacts
+[2025-04-09 01:42:52] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 01:42:53] Twilio Error: Authenticate
+[2025-04-09 01:42:53] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:42:53] Phone number used: +919633394540
+[2025-04-09 01:42:53] Formatted phone number for Sandhya Vinod: 9495394540 → +919495394540
+[2025-04-09 01:42:54] Twilio Error: Authenticate
+[2025-04-09 01:42:54] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:42:54] Phone number used: +919495394540
+[2025-04-09 01:42:54] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 01:42:54] Twilio Error: Authenticate
+[2025-04-09 01:42:54] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:42:54] Phone number used: +919544544215
+[2025-04-09 01:42:54] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-09 01:42:55] Twilio Error: Authenticate
+[2025-04-09 01:42:55] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:42:55] Phone number used: +919786786890
+[2025-04-09 01:46:18] Emergency script started
+[2025-04-09 01:46:18] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 01:46:18] Message: fedd
+[2025-04-09 01:46:18] Connected to database
+[2025-04-09 01:46:18] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 01:46:18] Found 4 contacts
+[2025-04-09 01:46:18] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 01:46:19] Twilio Error: Authenticate
+[2025-04-09 01:46:19] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:46:19] Phone number used: +919633394540
+[2025-04-09 01:46:19] Formatted phone number for Sandhya Vinod: 9495394540 → +919495394540
+[2025-04-09 01:46:20] Twilio Error: Authenticate
+[2025-04-09 01:46:20] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:46:20] Phone number used: +919495394540
+[2025-04-09 01:46:20] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 01:46:21] Twilio Error: Authenticate
+[2025-04-09 01:46:21] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:46:21] Phone number used: +919544544215
+[2025-04-09 01:46:21] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-09 01:46:22] Twilio Error: Authenticate
+[2025-04-09 01:46:22] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:46:22] Phone number used: +919786786890
+[2025-04-09 01:46:46] Emergency script started
+[2025-04-09 01:46:46] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 01:46:46] Message: fedd
+[2025-04-09 01:46:46] Connected to database
+[2025-04-09 01:46:46] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 01:46:46] Found 4 contacts
+[2025-04-09 01:46:46] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 01:46:46] Twilio Error: Authenticate
+[2025-04-09 01:46:46] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:46:46] Phone number used: +919633394540
+[2025-04-09 01:46:46] Formatted phone number for Sandhya Vinod: 9495394540 → +919495394540
+[2025-04-09 01:46:47] Twilio Error: Authenticate
+[2025-04-09 01:46:47] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:46:47] Phone number used: +919495394540
+[2025-04-09 01:46:47] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 01:46:48] Twilio Error: Authenticate
+[2025-04-09 01:46:48] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:46:48] Phone number used: +919544544215
+[2025-04-09 01:46:48] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-09 01:46:48] Twilio Error: Authenticate
+[2025-04-09 01:46:48] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:46:48] Phone number used: +919786786890
+[2025-04-09 01:49:49] Emergency script started
+[2025-04-09 01:49:49] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 01:49:49] Message: help
+[2025-04-09 01:49:49] Connected to database
+[2025-04-09 01:49:49] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 01:49:49] Found 4 contacts
+[2025-04-09 01:49:49] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 01:49:51] Twilio Error: Authenticate
+[2025-04-09 01:49:51] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:49:51] Phone number used: +919633394540
+[2025-04-09 01:49:51] Formatted phone number for Sandhya Vinod: 9495394540 → +919495394540
+[2025-04-09 01:49:51] Twilio Error: Authenticate
+[2025-04-09 01:49:51] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:49:51] Phone number used: +919495394540
+[2025-04-09 01:49:51] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 01:49:52] Twilio Error: Authenticate
+[2025-04-09 01:49:52] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:49:52] Phone number used: +919544544215
+[2025-04-09 01:49:52] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-09 01:49:53] Twilio Error: Authenticate
+[2025-04-09 01:49:53] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:49:53] Phone number used: +919786786890
+[2025-04-09 01:53:32] Emergency script started
+[2025-04-09 01:53:32] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 01:53:32] Message: help
+[2025-04-09 01:53:32] Connected to database
+[2025-04-09 01:53:32] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 01:53:32] Found 4 contacts
+[2025-04-09 01:53:32] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 01:53:33] Twilio Error: Authenticate
+[2025-04-09 01:53:33] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:53:33] Phone number used: +919633394540
+[2025-04-09 01:53:33] Formatted phone number for Sandhya Vinod: 9495394540 → +919495394540
+[2025-04-09 01:53:34] Twilio Error: Authenticate
+[2025-04-09 01:53:34] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:53:34] Phone number used: +919495394540
+[2025-04-09 01:53:34] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 01:53:34] Twilio Error: Authenticate
+[2025-04-09 01:53:34] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:53:34] Phone number used: +919544544215
+[2025-04-09 01:53:34] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-09 01:53:35] Twilio Error: Authenticate
+[2025-04-09 01:53:35] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:53:35] Phone number used: +919786786890
+[2025-04-09 01:53:44] Emergency script started
+[2025-04-09 01:53:44] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 01:53:44] Message: help
+[2025-04-09 01:53:44] Connected to database
+[2025-04-09 01:53:44] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 01:53:44] Found 4 contacts
+[2025-04-09 01:53:44] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 01:53:45] Twilio Error: Authenticate
+[2025-04-09 01:53:45] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:53:45] Phone number used: +919633394540
+[2025-04-09 01:53:45] Formatted phone number for Sandhya Vinod: 9495394540 → +919495394540
+[2025-04-09 01:53:46] Twilio Error: Authenticate
+[2025-04-09 01:53:46] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:53:46] Phone number used: +919495394540
+[2025-04-09 01:53:46] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 01:53:46] Twilio Error: Authenticate
+[2025-04-09 01:53:46] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:53:46] Phone number used: +919544544215
+[2025-04-09 01:53:46] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-09 01:53:47] Twilio Error: Authenticate
+[2025-04-09 01:53:48] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 01:53:48] Phone number used: +919786786890
+[2025-04-09 02:00:54] Emergency script started
+[2025-04-09 02:00:54] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 02:00:54] Message: help
+[2025-04-09 02:00:54] Connected to database
+[2025-04-09 02:00:54] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 02:00:54] Found 4 contacts
+[2025-04-09 02:00:54] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 02:00:55] Twilio Error: Authenticate
+[2025-04-09 02:00:55] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:00:55] Phone number used: +919633394540
+[2025-04-09 02:00:55] Formatted phone number for Sandhya Vinod: 9747088694 → +919747088694
+[2025-04-09 02:00:55] Twilio Error: Authenticate
+[2025-04-09 02:00:55] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:00:55] Phone number used: +919747088694
+[2025-04-09 02:00:55] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 02:00:56] Twilio Error: Authenticate
+[2025-04-09 02:00:56] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:00:56] Phone number used: +919544544215
+[2025-04-09 02:00:56] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-09 02:00:57] Twilio Error: Authenticate
+[2025-04-09 02:00:57] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:00:57] Phone number used: +919786786890
+[2025-04-09 02:03:21] Emergency script started
+[2025-04-09 02:03:21] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 02:03:21] Message: help
+[2025-04-09 02:03:21] Connected to database
+[2025-04-09 02:03:21] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 02:03:21] Found 4 contacts
+[2025-04-09 02:03:21] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 02:03:22] Twilio Error: Authenticate
+[2025-04-09 02:03:22] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:03:22] Phone number used: +919633394540
+[2025-04-09 02:03:22] Formatted phone number for Sandhya Vinod: 9747088694 → +919747088694
+[2025-04-09 02:03:22] Twilio Error: Authenticate
+[2025-04-09 02:03:22] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:03:22] Phone number used: +919747088694
+[2025-04-09 02:03:22] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 02:03:23] Twilio Error: Authenticate
+[2025-04-09 02:03:23] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:03:23] Phone number used: +919544544215
+[2025-04-09 02:03:23] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-09 02:03:24] Twilio Error: Authenticate
+[2025-04-09 02:03:24] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:03:24] Phone number used: +919786786890
+[2025-04-09 02:09:08] Emergency script started
+[2025-04-09 02:09:08] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 02:09:08] Message: help
+[2025-04-09 02:09:08] Connected to database
+[2025-04-09 02:09:08] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 02:09:08] Found 4 contacts
+[2025-04-09 02:09:08] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 02:09:09] Twilio Error: Authenticate
+[2025-04-09 02:09:09] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:09:09] Phone number used: +919633394540
+[2025-04-09 02:09:09] Formatted phone number for Sandhya Vinod: 9747088694 → +919747088694
+[2025-04-09 02:09:10] Twilio Error: Authenticate
+[2025-04-09 02:09:10] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:09:10] Phone number used: +919747088694
+[2025-04-09 02:09:10] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 02:09:10] Twilio Error: Authenticate
+[2025-04-09 02:09:10] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:09:10] Phone number used: +919544544215
+[2025-04-09 02:09:10] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-09 02:09:11] Twilio Error: Authenticate
+[2025-04-09 02:09:11] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:09:11] Phone number used: +919786786890
+[2025-04-09 02:09:24] Emergency script started
+[2025-04-09 02:09:24] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 02:09:24] Message: hgelp
+[2025-04-09 02:09:24] Connected to database
+[2025-04-09 02:09:24] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 02:09:24] Found 4 contacts
+[2025-04-09 02:09:24] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 02:09:25] Twilio Error: Authenticate
+[2025-04-09 02:09:25] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:09:25] Phone number used: +919633394540
+[2025-04-09 02:09:25] Formatted phone number for Sandhya Vinod: 9747088694 → +919747088694
+[2025-04-09 02:09:26] Twilio Error: Authenticate
+[2025-04-09 02:09:26] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:09:26] Phone number used: +919747088694
+[2025-04-09 02:09:26] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 02:09:26] Twilio Error: Authenticate
+[2025-04-09 02:09:26] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:09:26] Phone number used: +919544544215
+[2025-04-09 02:09:26] Formatted phone number for sandhya vinod: 9786786890 → +919786786890
+[2025-04-09 02:09:27] Twilio Error: Authenticate
+[2025-04-09 02:09:27] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:09:27] Phone number used: +919786786890
+[2025-04-09 02:14:19] Emergency script started
+[2025-04-09 02:14:19] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 02:14:19] Message: ddd
+[2025-04-09 02:14:19] Connected to database
+[2025-04-09 02:14:19] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 02:14:19] Found 4 contacts
+[2025-04-09 02:14:19] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 02:14:20] Twilio Error: Authenticate
+[2025-04-09 02:14:20] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:14:20] Phone number used: +919633394540
+[2025-04-09 02:14:20] Formatted phone number for Sandhya Vinod: 9747088694 → +919747088694
+[2025-04-09 02:14:20] Twilio Error: Authenticate
+[2025-04-09 02:14:20] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:14:20] Phone number used: +919747088694
+[2025-04-09 02:14:20] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 02:14:21] Twilio Error: Authenticate
+[2025-04-09 02:14:21] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:14:21] Phone number used: +919544544215
+[2025-04-09 02:14:21] Formatted phone number for Sandhya Vinod: 9747088694 → +919747088694
+[2025-04-09 02:14:22] Twilio Error: Authenticate
+[2025-04-09 02:14:22] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:14:22] Phone number used: +919747088694
+[2025-04-09 02:17:33] Emergency script started
+[2025-04-09 02:17:33] User: anandhulalcv000@gmail.com (User)
+[2025-04-09 02:17:33] Message: help
+[2025-04-09 02:17:33] Connected to database
+[2025-04-09 02:17:33] Table columns: id, email, emergency_name, emergency_email, em_number, relationship, created_at
+[2025-04-09 02:17:33] Found 4 contacts
+[2025-04-09 02:17:33] Formatted phone number for Sandhya Vinod: 9633394540 → +919633394540
+[2025-04-09 02:17:34] Twilio Error: Authenticate
+[2025-04-09 02:17:34] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:17:34] Phone number used: +919633394540
+[2025-04-09 02:17:34] Formatted phone number for Sandhya Vinod: 9747088694 → +919747088694
+[2025-04-09 02:17:35] Twilio Error: Authenticate
+[2025-04-09 02:17:35] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:17:35] Phone number used: +919747088694
+[2025-04-09 02:17:35] Formatted phone number for Sandhya  R Mani: 9544544215 → +919544544215
+[2025-04-09 02:17:36] Twilio Error: Authenticate
+[2025-04-09 02:17:36] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:17:36] Phone number used: +919544544215
+[2025-04-09 02:17:36] Formatted phone number for Sandhya Vinod: 9747088694 → +919747088694
+[2025-04-09 02:17:37] Twilio Error: Authenticate
+[2025-04-09 02:17:37] Full response: Array
+(
+    [code] => 20003
+    [message] => Authenticate
+    [more_info] => https://www.twilio.com/docs/errors/20003
+    [status] => 401
+)
+
+[2025-04-09 02:17:37] Phone number used: +919747088694
